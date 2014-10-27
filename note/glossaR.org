@@ -19,15 +19,16 @@
           nomencl[label = "Nomenclatrues"]
           acro [label = "Acronyms"]
           symbol [label = "Symbols"]
-          
+          bib [label = "Bibtex"]
           //2. set path 
-          {gs, gis, rs, gt} -> study -> {gls}
+          {gs, gis, rs, gt} -> study -> {gls, bib}
           gls -> {nomencl, acro, symbol} -> "gls.tex"
+          
           //3. set rank 
           {rank = same; gs, gis, rs, gt} 
   }
 #+END_SRC
 
-#+RESULTS[09768caeb9d4bab1e8850327454b996977ff8ac9]: fig:glossarWorkflow
+#+RESULTS[a90b858d6e7ea560949c63a181afb7e001f75477]: fig:glossarWorkflow
 [[file:glossarWorkflow.png]]
 
