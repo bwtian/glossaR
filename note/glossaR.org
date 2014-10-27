@@ -1,6 +1,33 @@
-#+NAME: fig: 
+#+NAME: fig:glossarWorkflow 
 #+HEADER: :cache yes :tangle yes :exports none
 #+HEADER: :results output graphics
-#+BEGIN_SRC dot :file ~/Dropbox/3figs/test<2014-07-28 Mon>.png 
-
+#+BEGIN_SRC dot :file glossarWorkflow.png  
+  digraph { 
+          fontname="Times"; 
+          fontsize = 12; 
+          splines = false; 
+          ranksep = 0.5; 
+          nodesep = 0.5; 
+          node [shape = box] 
+          //1. set node 
+          gs [label = "Geostatistics"]
+          rs [label = "Remote Sensing"]
+          gis [label = "Geographic Information Systems"]
+          gt [label = "Geothermal"]
+          study [label = "Research Filed"]
+          gls [label = "Glossaries"]
+          nomencl[label = "Nomenclatrues"]
+          acro [label = "Acronyms"]
+          symbol [label = "Symbols"]
+          
+          //2. set path 
+          {gs, gis, rs, gt} -> study -> {gls}
+          gls -> {nomencl, acro, symbol} -> "gls.tex"
+          //3. set rank 
+          {rank = same; gs, gis, rs, gt} 
+  }
 #+END_SRC
+
+#+RESULTS[09768caeb9d4bab1e8850327454b996977ff8ac9]: fig:glossarWorkflow
+[[file:glossarWorkflow.png]]
+
