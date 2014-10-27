@@ -1,0 +1,6 @@
+#+NAME: fig: 
+#+HEADER: :cache yes :tangle yes :exports none
+#+HEADER: :results output graphics
+#+BEGIN_SRC dot :file ~/Dropbox/3figs/test<2014-07-28 Mon>.png 
+
+#+END_SRC
