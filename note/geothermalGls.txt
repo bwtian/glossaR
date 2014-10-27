@@ -589,38 +589,6 @@ closed-loop heat exchange system in which the heat of the geothermal fluid (the
 or "working" fluid), which is thereby vaporised and used to drive a
 turbine/generator set.
 
- 
-
-binary-cycle plant: a geothermal electricity generating plant employing a
-closed-loop heat exchange system in which the heat of the geothermal fluid (the
-"primary fluid") is transferred to a lower-boiling-point fluid (the "secondary"
-or "working" fluid), which is thereby vaporised and used to drive a
-turbine/generator set.
-
- 
-
-boiling point: temperature at which a single substance, such as water, changes
-from a liquid to a gas (steam) at a given pressure. Some liquids boil at a lower
-temperature than water, a principle utilised in binary power plants. Boiling
-point is also affected by pressure. The greater the pressure, the higher the
-boiling point. This principle is put to work in geothermal (flash) power plants
-when geothermal water is brought up wells. Some of the hot water flashes to
-steam when the pressure is released as it rises to the surface or passes through
-surface equipment. This phenomenon also occurs naturally, resulting in such
-features as geysers.
-
- 
-
-boiling point: temperature at which a single substance, such as water, changes
-from a liquid to a gas (steam) at a given pressure. Some liquids boil at a lower
-temperature than water, a principle utilised in binary power plants. Boiling
-point is also affected by pressure. The greater the pressure, the higher the
-boiling point. This principle is put to work in geothermal (flash) power plants
-when geothermal water is brought up wells. Some of the hot water flashes to
-steam when the pressure is released as it rises to the surface or passes through
-surface equipment. This phenomenon also occurs naturally, resulting in such
-features as geysers.
-
 
 boiling point: temperature at which a single substance, such as water, changes
 from a liquid to a gas (steam) under normal atmospheric pressure. The boiling
@@ -636,29 +604,14 @@ features as geysers.
 brine: a geothermal solution containing appreciable amounts of sodium chloride
 or other salts.
 
-brine: a geothermal solution containing appreciable amounts of sodium chloride
-or other salts.
-
 
 caldera: a bowl-shaped landform, created either by a huge volcanic explosion
 (which destroys the top of a volcano) or by the collapse of a volcano's top.
 
-
-caldera: a bowl-shaped landform, created either by a huge volcanic explosion
-(which destroys the top of a volcano) or by the collapse of a volcano's top.
-
-
-caldera: a bowl-shaped landform, created either by a huge volcanic explosion
-(which destroys the top of a volcano) or by the collapse of a volcano's top.
 
 
 cap rocks: rocks of low permeability that overlie a geothermal reservoir.
-
-cap rocks: rocks of low permeability that overlie a geothermal reservoir.
-
-carbon dioxide (CO2): a gas produced by the combustion of fossil fuels and other
-substances. CO2 also occurs naturally in large amounts in molten magma, which is
-involved in the explosive eruption of volcanoes. See Greenhouse Effect.
+.
 
  
 
@@ -667,13 +620,6 @@ substances. CO2 also occurs naturally in large amounts in molten magma, which is
 involved in the explosive eruption of volcanoes. See Greenhouse Effect.
 
 
-carbon dioxide (CO2): a gas produced by the combustion of fossil fuels and other
-substances. CO2 also occurs naturally in large amounts in molten magma, which is
-involved in the explosive eruption of volcanoes. See Greenhouse Effect.
-
-
-cascading heat: a process that uses a stream of geothermal hot water or steam to
-perform successive tasks requiring lower and lower temperatures.
 
 cascading heat: a process that uses a stream of geothermal hot water or steam to
 perform successive tasks requiring lower and lower temperatures.
@@ -692,17 +638,6 @@ geysers and springs that produce sinter terraces are chloride springs, for
 example those at Orakei Korako and Waiotapu. Chloride springs are vulnerable to
 damage from the extraction of the geothermal fluid for other uses which divert
 the chloride water away from the springs.
-
-
-chloride spring: geothermal springs can be divided into two types based on the
-temperature and composition of the water they produce. Most springs produce
-warm, weakly mineralised water. Chloride springs, produce hot or boiling,
-heavily mineralised alkaline water that is high in chloride and silica. All
-geysers and springs that produce sinter terraces are chloride springs, for
-example those at Orakei Korako and Waiotapu. Chloride springs are vulnerable to
-damage from the extraction of the geothermal fluid for other uses which divert
-the chloride water away from the springs.
-
 
 combustion: the burning of gas, liquid, or solid, in which the fuel is oxidized,
 producing heat and often light.
