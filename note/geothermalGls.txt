@@ -5,20 +5,20 @@ contractors.
 AIR HANDLING UNIT: Equipment with a heating element and/or cooling coil and other
 components in a cabinet or casing.
 
-ARI Air-Conditioning and Refrigeration Institute, a non-profit, voluntary
+ARI: Air-Conditioning and Refrigeration Institute, a non-profit, voluntary
 organization composed of heating, air conditioning and refrigeration
 manufacturers. ARI publishes standards for testing and rating heat pumps and air
 conditioners.
 
-BALANCING or AIR BALANCING Adjusting an air conditioning system so that the
+BALANCING: or AIR BALANCING Adjusting an air conditioning system so that the
 right amount of air is delivered to the right places in your home in order to
 achieve the right heating or cooling effect.
 
-BTU British Thermal Unit, the measurement of heating and air conditioning
+BTU: British Thermal Unit, the measurement of heating and air conditioning
 capacity. A BTU is the amount of heat that must be added to one pound of water
 to raise its temperature one degree Fahrenheit.
 
-CFC Chlorofluorocarbons, used as a refrigerant in air conditioners and heat
+CFC: Chlorofluorocarbons, used as a refrigerant in air conditioners and heat
 pumps, linked to the depletion of the ozone layer.
 
 COP Coefficient of performance, an efficiency ratio that compares the amou nt of
@@ -44,47 +44,7 @@ DOE The U.S. Department of Energy, the federal agency that sets industry
 efficiency standards.
 
 Air source heat pump A device that extracts heat from air, either to heat a
-building in winter or cool a building in summer. Ambient Natural condition of
-the environment at any given time. Aquifer Water-bearing stratum of permeable
-sand, rock, or gravel. B
-
-Air source heat pump:  A heat pump that uses air to extract or expel heat.
-
-B
-
-
-B
-
-Back to Top
-
-
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
-Back to Top
-
+building in winter or cool a building in summer. Ambient 
 Back to Top
 
 Back to Top
@@ -126,7 +86,7 @@ closed-loop heat exchange system in which the heat of the geothermal fluid (the
 "primary fluid") is transferred to a lower-boiling-point fluid (the "secondary"
 or "working" fluid), which is thereby vaporized and used to drive a
 turbine/generator set. Brine A geothermal solution containing appreciable
-amounts of sodium chloride or other salts. 
+amounts of sodium chloride or other salts. C
 
 C
 
