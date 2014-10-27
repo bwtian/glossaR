@@ -1,3 +1,4 @@
+
 #+NAME: fig:glossarWorkflow 
 #+HEADER: :cache yes :tangle yes :exports none
 #+HEADER: :results output graphics
@@ -20,15 +21,17 @@
           acro [label = "Acronyms"]
           symbol [label = "Symbols"]
           bib [label = "Bibtex"]
+          glsfile[label = "Glossaries.tex"]
+          bibfile[label = "Literatures.bib"]
           //2. set path 
           {gs, gis, rs, gt} -> study -> {gls, bib}
-          gls -> {nomencl, acro, symbol} -> "gls.tex"
-          
+          gls -> {nomencl, acro, symbol} -> glsfile -> "glossaR"
+          bib -> {"Papers", "Books", "Software", "Data"} -> bibfile -> "Mendeley"
           //3. set rank 
           {rank = same; gs, gis, rs, gt} 
   }
 #+END_SRC
 
-#+RESULTS[a90b858d6e7ea560949c63a181afb7e001f75477]: fig:glossarWorkflow
+#+RESULTS[b3335ff5f8d1ed02af3cc0db1560ac1d8e3a7b7d]: fig:glossarWorkflow
 [[file:glossarWorkflow.png]]
 

@@ -1,0 +1,1608 @@
+ACCA: The Air Conditioning Contractors of America, a national trade association
+that represents heating, ventilation, air conditioning, and refrigeration
+contractors.
+
+AIR HANDLING UNIT: Equipment with a heating element and/or cooling coil and other
+components in a cabinet or casing.
+
+ARI Air-Conditioning and Refrigeration Institute, a non-profit, voluntary
+organization composed of heating, air conditioning and refrigeration
+manufacturers. ARI publishes standards for testing and rating heat pumps and air
+conditioners.
+
+BALANCING or AIR BALANCING Adjusting an air conditioning system so that the
+right amount of air is delivered to the right places in your home in order to
+achieve the right heating or cooling effect.
+
+BTU British Thermal Unit, the measurement of heating and air conditioning
+capacity. A BTU is the amount of heat that must be added to one pound of water
+to raise its temperature one degree Fahrenheit.
+
+CFC Chlorofluorocarbons, used as a refrigerant in air conditioners and heat
+pumps, linked to the depletion of the ozone layer.
+
+COP Coefficient of performance, an efficiency ratio that compares the amou nt of
+heat delivered to the amount of energy used. As with MPG on a car, the higher
+the score the more energy efficient the equipment is. Also, see HSPF
+
+COIL A heating or cooling element made of pipe or tubing, usually with plates or
+fins.
+
+COMMISSIONING The final step in installing a heating or air conditioning system.
+Every component is checked and tested for compliance with codes, ACCA manuals,
+manufacturer requirements, and occupant needs. After commissioning, the
+technician will: provide documentation of testing, provide all equipment
+manuals, and show the homeowner how to operate the system.
+
+CONDENSER (HEAT EXCHANGER) The outside unit of a heating or air conditioning
+system. Here the refrigerant condenses from a gas to a liquid and hot or cold
+air from the building is released to the outside.
+
+DEHUMIDIFIER A device that removes excess moisture from the air.
+
+DOE The U.S. Department of Energy, the federal agency that sets industry
+efficiency standards.
+
+Air source heat pump A device that extracts heat from air, either to heat a
+building in winter or cool a building in summer. Ambient Natural condition of
+the environment at any given time. Aquifer Water-bearing stratum of permeable
+sand, rock, or gravel. B
+
+Air source heat pump:  A heat pump that uses air to extract or expel heat.
+
+B
+
+
+B
+
+Back to Top
+
+
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Back to Top
+
+Binary-cycle plant A geothermal electricity generating plant employing a
+closed-loop heat exchange system in which the heat of the geothermal fluid (the
+"primary fluid") is transferred to a lower-boiling-point fluid (the "secondary"
+or "working" fluid), which is thereby vaporized and used to drive a
+turbine/generator set. Brine A geothermal solution containing appreciable
+amounts of sodium chloride or other salts. 
+
+C
+
+C
+
+COP (Coefficient of Performance) The ratio of heating provided by a heat pump to
+the energy it consumes. Higher COP equals higher efficiency.
+
+Cap rock Impermeable rocks such as shale, that overlies the reservoir rock and
+traps natural gas and crude oil in the reservoir. Also, impermeable rock
+overlying a geothermal reservoir. Also called sealing rock. Cascading heat A
+process that uses a stream of geothermal hot water or steam to perform
+successive tasks requiring lower and lower temperatures. Condensate Water formed
+by condensation of steam. Condenser Equipment that condenses turbine exhaust
+steam into condensate. Cooling tower A structure in which heat is removed from
+hot condensate. Crust Earth's outer layer of rock. D
+
+Check out our Regional Policy Statement definition of geothermal water.
+
+Check out our Regional Policy Statement definition.
+
+Check out our Waikato Regional Plan definition.
+
+Chloride springs Geothermal springs can be divided into two types, based on the
+temperature and composition of the water they produce. Most springs produce
+warm, weakly mineralised water.
+
+Chloride springs are rare throughout the Waikato, throughout New Zealand, and
+throughout the world. They are very vulnerable to damage from the extraction of
+the geothermal fluid for other uses which divert the chloride water away from
+the springs.
+
+Compressor The compressor increases the pressure and temperature of the
+refrigerant and simultaneously reduces its volume while causing the refrigerant
+to move through the geothermal heat pump to facilitate heat transfer between the
+air in your home and the heat pump. ClimateMaster offers geothermal heat pumps
+with compressors that are either 1 or 2-stage. 2-stage compressors are more
+efficient than their 1-stage counterparts.
+
+D
+
+D
+
+DUCT Conduits used to carry air. They can be round or rectangular, sheet metal
+or fiberglass or vinyl tubes. In air conditioning systems they carry air from
+the home to the air conditioning system or furnace and back to the home.
+
+Desuperheater:  A partial heat recovery system that captures heat from the
+refrigerant system as it leaves the compressor and transfers it to the domestic
+hot water. The process only provides hot water while the heat pump is operating.
+Direct use Use of geothermal heat without first converting it to electricity,
+such as for space heating and cooling, food preparation or industrial processes.
+District heating A type of direct energy use in which a utility system supplies
+multiple users with hot water or steam from a central plant or well field. Dry
+steam Very hot steam that does not occur with liquid. E
+
+E
+
+E
+
+EER (Energy Efficiency Ratio) The ratio of cooling provided by a geothermal heat
+pump to the energy it consumes. Higher EER equals higher efficiency.
+
+EER Energy Efficiency Ratio. Measurement of cooling efficiency typically applied
+when considering geothermal heat pump applications where the source temperature
+is relatively constant. (See SEER where declining an/or decreasing air
+temperature affects system efficiency.
+
+
+ENERGY STAR® A government supported branding used to identify energy efficient
+products. The branding was developed by the US Department of Energy and the US
+Environmental Protection Agency.
+
+EPA The U.S. Environmental Protection Agency.
+
+ERV Energy Recovery Ventilator, a machine that draws fresh air into the home and
+exhausts stale air from the home. It uses a process to preheat or pre-cool
+(depending on the season) to reduce energy costs associated with conditioning
+the air.
+
+
+Ecosystems Ecosystems are communities of living things that interact with each
+other and their physical environment.
+
+ 
+
+Efficiency The ratio of the useful energy output of a machine or other
+energy-converting plant to the energy input. Enhanced geothermal systems Rock
+fracturing, water injection, and water circulation technologies to sweep heat
+from the unproductive areas of existing geothermal fields or new fields lacking
+sufficient production capacity. F
+
+
+Electronic Controls The electronic controls are the brains of a ClimateMaster
+geothermal heat pump. They control all aspects of unit operation and receive and
+translate information from the thermostat. ClimateMaster geothermal heat pumps
+are currently offered with two types of electronic controls:
+
+
+Endemic Plants and animals that occur naturally only in a specified area or
+locality.
+
+Environmental Protection Agency (EPA): Federal government agency that makes and
+enforces standards for pollution control; designed to protect the environment.
+
+External Fixed-Speed Water Flow Control This is the traditional method of water
+flow control in which fixed (single-speed) pumps are housed outside of the heat
+pump. This method of water flow control requires a bit more space to install and
+is not as efficient as vFlow™.
+
+ 
+
+F
+
+ 
+
+F
+
+ 
+
+FAN COIL See AIR HANDLING UNIT
+
+ 
+
+FURNACE A self-contained heating unit that is designed to deliver heated air to
+a home.
+
+ 
+
+Fault A fracture or fracture zone in the Earth's crust along which displacement
+of one side relative to the other has occurred at some time. Flash steam Steam
+produced when the pressure on a geothermal liquid is reduced. Also called
+flashing. Fumarole A vent or hole in the Earth's surface, usually in a volcanic
+region, from which steam, gaseous vapors, or hot gases issue. G
+
+ 
+
+Fumeroles A fumerole (or fumarole) is a hole from which superheated gas and
+steam discharge under pressure.
+
+ 
+
+G
+
+ 
+
+G
+
+
+GAMA Gas Appliance Manufacturing Association is a national trade association
+serving the interests of manufacturers of gas, oil, and electric appliances and
+equipment, components and related products used in residential, commercial, and
+industrial applications.
+
+Geothermal Of or relating to the Earth's interior heat. Geothermal energy Energy
+available in the ground and rocks beneath the Earth’s crust. Geothermal energy
+resources include hot temperature sources such as hot rock, molten rock and
+geysers and lower temperature sources in the ground one or two metres below the
+surface. Geothermal gradient The rate of temperature increase in the Earth as a
+function of depth. Temperature increases an average of 25° C for every kilometre
+of descent (1° Fahrenheit for every 75 feet). Geothermal heat pumps Devices that
+take advantage of the relatively constant temperature of the Earth's interior,
+using it as a source and sink of heat for both heating and cooling. When
+cooling, heat is extracted from the space and dissipated into the Earth; when
+heating, heat is extracted from the Earth and pumped into the space. Geyser A
+spring that shoots jets of hot water and steam into the air. Ground source heat
+pumps Ground source heat pumps are similar to air source heat pumps except
+instead of absorbing heat from air, they absorb it from the earth. (Also known
+as or earth energy systems) H
+
+Geothermal heat pump:  A heat pump that uses the earth as a heat source and heat
+sink that uses a loop of buried plastic pipe as a heat exchanger.
+
+
+H
+
+
+H
+
+
+HCFC Hydrochlorofluorocarbons, used as a refrigerant in air conditioners and
+heat pumps. Older types of refrigerants containing HCFCs were thought to
+contribute to the depletion of the earth's ozone layer.
+
+
+HDR (hot dry rock): subsurface geologic formations of abnormally high heat
+content that contain little or no water.
+
+HDR (hot dry rock): subsurface geologic formations of abnormally high heat
+content that contain little or no water.
+
+HDR Hot dry rock. Subsurface geologic formations of abnormally high heat content
+that contain little or no water. Heat exchanger A device such as a coiled copper
+tube immersed in a tank of water that is used to transfer heat from one fluid to
+another through a separating wall. Heat flow Movement of heat from within the
+Earth to the surface, where it is dissipated into the atmosphere, surface water,
+and space by radiation. Hydrothermal resource Underground systems of heat, hot
+water and/or steam. Originally used to describe high-temperature water and steam
+reseources such as geysers and deep hot water reservoirs, the term now includes
+lower temperature earth energy resources. I
+
+ 
+
+HEAT EXCHANGER 1.The part of a furnace that transfers heat from burning fuel to
+the air used to heat your home. Also, from a boiler to water for hydronic
+heating. Or water from the earth water to air or water in the building for
+geothermal. 2. A device, such as a condenser or evaporator, in which heat is
+added or removed in order to heat or cool your home.
+
+
+HEAT PUMP A single refrigeration system designed to provide both heating and
+cooling. Compare to a furnace and an air conditioner, separate units that only
+heat or cool.
+
+
+HFC Hydroflorocarbon, used as a refrigerant in air conditioners and heat pumps.
+It has little or no effect on the ozone layer.
+
+HRV Heat Recovery Ventilator, a machine that brings fresh air into a home
+through a process that preheats the air so it has less impact on your utility
+bill.
+
+HSPF Heating Seasonal Performance Factor, an equipment efficiency rating. As
+with MPG on a car, the higher the rating the more fuel-efficient the equipment
+is. Also, see COP.
+
+ 
+
+HUMIDIFIER A device that adds moisture to warm air for your home.
+
+
+HVAC Heating, ventilating, and air conditioning
+
+
+HVACR Heating, ventilating, air conditioning, and refrigeration
+
+
+Heat pump:  A mechanical device used for heating and cooling that operates by
+pumping heat from a cooler to a warmer location. Heat pumps can extract heat
+from air, water, or the earth. They are classified as either air-source or
+ground-source (geothermal) units.
+
+
+Heat sink:  The medium – air, water or earth – which receives heat rejected from
+a heat pump.
+
+Heat source:  The medium (air, water or earth) from which heat is extracted by a
+heat pump.
+
+I
+
+
+I
+
+
+IAQ Indoor air quality
+
+
+INFILTRATION Air that enters your home through holes, gaps, and cracks, (e.g.,
+plumbing or electrical holes, the heating and air conditioning system, doors,
+and windows).
+
+ 
+
+Indoor Fan The indoor fan is responsible for circulating conditioned air
+throughout a home’s air conditioning ductwork and is housed inside of the heat
+pump. ClimateMaster heat pumps are currently offered with 2 types of indoor
+fans:
+
+
+Injection (geothermal) The process of returning spent geothermal fluids to the
+subsurface. Sometimes referred to as reinjection. M
+
+
+K
+
+
+K
+
+
+L
+
+
+L
+
+LATENT HEAT The energy that suspends moisture vapor in the air.
+
+LOAD CALCULATION A mathematical determination of how much cooling and heating
+(BTUs) an HVAC system must deliver for occupant safety and comfort. It is based
+on a variety of factors: square footage, building orientation, number of
+occupants, size and placement of rooms, number and size of windows and doors,
+amount of insulation, number of floors, and climate.
+
+
+M
+
+
+M
+
+
+MANUAL D® An ACCA procedure covering the proper design, installation,
+maintenance, and repair of ductwork.
+
+
+MANUAL J® An ACCA procedure covering the method for calculating heating and
+cooling requirements (load calculation) for single-family detached homes and
+mobile homes.
+
+
+MANUAL RS® An ACCA publication covering the design, installation, and
+commissioning of a residential HVAC system.
+
+MATCHED SYSTEM An air conditioner or heat pump system composed of equipment that
+has been certified by ARI to work together to deliver the specified heating and
+cooling capacity at the stated efficiency rating.
+
+MOLD A natural byproduct of the fungi family that thrives when organic
+substances and water combine under certain circumstances. Mold reproduces via
+spores that can remain dormant, yet viable, for years. Many molds are
+beneficial. For example, they are the "bleu" in bleu cheese, and we use them to
+make wine, penicillin, and antibiotics. However, some molds can cause health
+problems.
+
+
+Magma Molten rock within the Earth, from which igneous rock is formed by
+cooling. Mantle The layer of the Earth lying beneath the Earth's crust and above
+the Earth's molten outer core of iron and nickel. The mantle can be divided into
+two parts, an upper solid but ductile upper mantle and a more rigid lower
+mantle. P
+
+
+Megawatts (MW) A watt is a unit of power or how much energy was produced in a
+certain time (one watt equals one joule per second). A megawatt is 106 watts.
+
+
+Micro-organisms Very small living organisms which can usually only be seen
+through a microscope (includes bacteria, viruses, fungi and protozoa).
+
+Mineralised fluids Water and steam containing minerals such as silica, lithium
+and boron. Also called geothermal water or geothermal fluids.
+
+NATE North American Technician Excellence, the nonprofit organization that tests
+and certifies HVACR technicians.
+
+
+Non-Communicating Controls These are traditional electronic controls that do not
+support 2-way communication. These will get the job done but are not able to
+control geothermal system operation as efficiently as iGate™ communicating
+controls.
+
+
+O
+
+O
+
+Open-loop heat pump:  A heat pump system that uses groundwater from a well. The
+water is then returned to the environment.
+
+
+Other springs, known as chloride springs, produce hot or boiling, heavily
+mineralised alkaline water that is high in chloride and silica. All geysers and
+springs that produce sinter terraces are chloride springs, for example those at
+Orakeikorako and Waiotapu.
+
+P
+
+P
+
+
+PMA Planned maintenance agreement, which provides regular maintenance of your
+HVACR system. Most ACCA member contractors offer PMAs, although they may use
+different names for them, such as Maintenance Inspection Agreement, Planned
+Service Agreement, Energy Service Plan, etc.
+
+
+Pangaea: the huge supercontinent which scientists think may have existed 250
+million years ago. All of the continents may have at one time been joined
+together to make this huge land mass.
+
+
+Payback:  A method of calculating how long it will take to recover the
+difference in costs of two different heating and cooling systems by using the
+energy and maintenance cost savings from the more efficient system.
+
+
+Permeability The capacity of a substance (such as rock) to transmit a fluid,
+such as crude oil, natural gas, or water. The degree of permeability depends on
+the number, size, and shape of the pores and/or fractures in the rock and their
+interconnections. It is measured by the time it takes a fluid of standard
+viscosity to move a given distance. The unit of permeability is the Darcy. Plate
+tectonics A theory of global-scale dynamics involving the movement of the many
+rigid plates that make up the Earth's crust. Tectonic activity is evident along
+the margins of the plates where buckling, grinding, faulting, and vulcanism
+occur as the plates are propelled by the forces of deep-seated mantle convection
+currents. Geothermal resources are often associated with tectonic activity,
+since it allows groundwater to come in contact with deep subsurface heat
+sources. Porosity The capacity od a reservoir to store fluids. The ratio of the
+aggregate volume of pore spaces in rock or soil to its total volume, usually
+stated as a per cent. R
+
+
+Petajoules (PJ) A joule is a unit of energy. A petajoule is 1015 joules.
+
+R-22 A refrigerant containing chlorine used in air conditioning systems. The EPA
+has mandated that R-22 cannot be manufactured after 2010 because it has been
+linked to the depletion of the ozone layer and global warming. Most commonly
+referred to by its trademarked name, Freon.
+
+R-410A The refrigerant that replaces R-22. It does not contain chlorine and is
+not hazardous to the environment.
+
+
+REFRIGERANT A fluid that absorbs heat at low temperatures and rejects heat at
+higher temperatures.
+
+REFRIGERANT CHARGE (or, "charging the refrigerant") The procedure an HVACR
+technician performs to ensure that the system has enough of the right kind
+refrigerant for peak operating performance.
+
+RELATIVE HUMIDITY (RH) The percent of moisture actually in the air compared to
+the maximum amount of moisture the air can hold at that temperature.
+
+
+RETURN, RETURN AIR, RETURN SIDE The path the air takes to get to an air-handling
+unit or furnace so it can be cooled or heated. It is the "return" path. The
+return side should be "balanced" with the supply side to ensure proper air flow
+and comfort.
+
+
+Reservoir (Geothermal) A porous and permeable underground rock formation
+containing a natural accumulation of high-temperature water that is confined by
+impermeable rock or water barriers, and is separate from other reservoirs. S
+
+
+Ring of Fire: a belt of intense volcanic, geothermal and earthquake activity
+found all around the Pacific Rim caused by plate tectonic activity.
+
+
+S
+
+
+S
+
+SEER Seasonal Energy Efficiency Ratio, an equipment efficiency rating that
+measures how much energy it takes to cool the air. As with MPG on a car, the
+higher the number the more efficient the unit.
+
+SENSIBLE HEAT The temperature of the air. This type of heat is measured with a
+thermometer.
+
+ 
+
+SPLIT SYSTEM A two-component heating and cooling (heat pump) or cooling only
+(air conditioner) system. The condensing unit is installed outside, the air
+handling unit is installed inside (preferably in conditioned space). Refrigerant
+lines and wiring connect them together.
+
+
+SUPPLY or SUPPLY SIDE The part of an HVAC system that takes (supplies) the
+conditioned air from the air-handling unit or furnace to your home. The supply
+side should be "balanced" with the return side to ensure proper air flow and
+comfort.
+
+
+Salinity A measure of the quantity or concentration of dissolved salts in water.
+Subsidence Sinking of an area of the Earth's crust due to fluid withdrawal and
+pressure decline. T
+
+ 
+
+Single Speed Indoor Fan The single speed indoor fan operates at only one speed.
+It gets the job done but is not as energy efficient as the variable speed fan.
+
+
+Sinter A mineral crust or deposit formed from the minerals (mainly silica) in
+geothermal water, especially from geysers.
+
+
+T
+
+T
+
+TDS Total dissolved solids. Used to describe the amount of solid materials in
+water. Thermal gradient The rate of increase or decrease in the Earth's
+temperature relative to depth. Transmission line Structures and conductors that
+carry bulk supplies of electrical energy from power-generating units. Turbine A
+rotary engine that converts the energy of a moving stream of water, steam or gas
+into mechanical energy. Turbines are classified as hydraulic (water) turbines,
+steam turbines or gas turbines. Turbine-power generators produce most of the
+world's electricity. Windmills that generate electicity are known as wind
+turbines. V
+
+
+Vapour-dominated A geothermal reservoir system in which subsurface pressures are
+controlled by vapour rather than by liquid. Sometimes referred to as a dry-steam
+reservoir. W
+
+Variable Speed Indoor Fan ClimateMaster’s variable-speed indoor fan
+intelligently varies fan speed to minimize energy consumption. This is
+ClimateMaster’s most efficient indoor fan option.
+
+W
+
+W
+
+
+Water Flow Control In order for a geothermal heating and cooling system to
+ exchange heat via its underground loop, water must be continuously circulated
+ between the ground and the heat pump. This is the job of the water flow
+ control. ClimateMaster offers 2 different water flow control methods in its
+ geothermal heat pumps:
+
+Watt (W): the measure of the amount of current flowing through a wire at a given
+time.
+
+Well logging Assessing the geologic, engineering, and physical properties and
+characteristics of geothermal reservoirs with instruments placed in the
+wellbore.
+
+
+ZONES, ZONED SYSTEM, ZONING A single HVAC system that can meet different heating
+and cooling needs in different areas (zones). Each zone of a home has its own
+thermostat with which it can regulate the temperature and humidity in its area.
+One "zoned air conditioner" could be set for a high temperature in one zone and
+for a lower temperature in the other zone. Zone systems have two or more zones A
+
+ 
+
+acid rain: common name for any precipitation (rain, snow, sleet, hail, fog)
+having a high amount of sulfuric acid and/or nitric acid or having a pH lower
+than 5.6. Normal rain has a pH of 5.6 - 5.7. Accumulation of acids in lakes and
+rivers damages or kills plant and animal life. Acid rain also dissolves building
+materials and leaches nutrients out of soil resulting in crop damage. Fossil
+fuel power plants are a major source of acid rain.
+
+
+agriculture: the growing (farming) of plants, flowers, trees, grains, and other
+crops. Greenhouses can be heated with hot water from geothermal reservoirs. In
+some places pipes of hot water are buried under the soil. Geothermal heat is
+also used to dry crops.
+
+
+aquaculture: the farming of fish and other water-dwelling organisms in
+freshwater or seawater. Geothermal water is used to help speed the growth of
+fish, prawns and alligators. China is probably has more aquaculture operations
+than any other country.
+
+aquifer: a large permeable body of underground rock capable of yielding
+quantities of water to springs or wells. Aquifers provide about 60 percent of
+American drinking water. Underground aquifers of hot water and steam are called
+geothermal reservoirs.
+
+aquifer: a large permeable body of underground rock capable of yielding
+quantities of water to springs or wells. Underground aquifers of hot water and
+steam form geothermal reservoirs.
+
+ 
+
+aquifer: a large permeable body of underground rock capable of yielding
+quantities of water to springs or wells. Underground aquifers of hot water and
+steam form geothermal reservoirs.
+
+ 
+
+balneology: using hot spring mineral water for therapy. This is perhaps the
+oldest use of natural geothermal waters.
+
+ 
+
+baseload plants: electricity-generating units that are operated to meet the
+minimum load on the supply system.
+
+ 
+
+baseload plants: electricity-generating units that are operated to meet the
+minimum load on the supply system.
+
+ 
+
+binary-cycle plant: a geothermal electricity generating plant employing a
+closed-loop heat exchange system in which the heat of the geothermal fluid (the
+"primary fluid") is transferred to a lower-boiling-point fluid (the "secondary"
+or "working" fluid), which is thereby vaporised and used to drive a
+turbine/generator set.
+
+ 
+
+binary-cycle plant: a geothermal electricity generating plant employing a
+closed-loop heat exchange system in which the heat of the geothermal fluid (the
+"primary fluid") is transferred to a lower-boiling-point fluid (the "secondary"
+or "working" fluid), which is thereby vaporised and used to drive a
+turbine/generator set.
+
+ 
+
+boiling point: temperature at which a single substance, such as water, changes
+from a liquid to a gas (steam) at a given pressure. Some liquids boil at a lower
+temperature than water, a principle utilised in binary power plants. Boiling
+point is also affected by pressure. The greater the pressure, the higher the
+boiling point. This principle is put to work in geothermal (flash) power plants
+when geothermal water is brought up wells. Some of the hot water flashes to
+steam when the pressure is released as it rises to the surface or passes through
+surface equipment. This phenomenon also occurs naturally, resulting in such
+features as geysers.
+
+ 
+
+boiling point: temperature at which a single substance, such as water, changes
+from a liquid to a gas (steam) at a given pressure. Some liquids boil at a lower
+temperature than water, a principle utilised in binary power plants. Boiling
+point is also affected by pressure. The greater the pressure, the higher the
+boiling point. This principle is put to work in geothermal (flash) power plants
+when geothermal water is brought up wells. Some of the hot water flashes to
+steam when the pressure is released as it rises to the surface or passes through
+surface equipment. This phenomenon also occurs naturally, resulting in such
+features as geysers.
+
+
+boiling point: temperature at which a single substance, such as water, changes
+from a liquid to a gas (steam) under normal atmospheric pressure. The boiling
+point at which water transitions to steam is 212°F (100°C). Some liquids boil at
+a lower temperature than water -- a principle utilized in binary power plants.
+Boiling point is also affected by pressure. The greater the pressure, the higher
+the boiling point. This principle is put to work in geothermal (flash) power
+plants when superheated (hotter than boiling) geothermal water is brought up
+wells. The hot water flashes to steam when the pressure is released as it
+reaches the surface. This phenomenon also occurs naturally, resulting in such
+features as geysers.
+
+brine: a geothermal solution containing appreciable amounts of sodium chloride
+or other salts.
+
+brine: a geothermal solution containing appreciable amounts of sodium chloride
+or other salts.
+
+
+caldera: a bowl-shaped landform, created either by a huge volcanic explosion
+(which destroys the top of a volcano) or by the collapse of a volcano's top.
+
+
+caldera: a bowl-shaped landform, created either by a huge volcanic explosion
+(which destroys the top of a volcano) or by the collapse of a volcano's top.
+
+
+caldera: a bowl-shaped landform, created either by a huge volcanic explosion
+(which destroys the top of a volcano) or by the collapse of a volcano's top.
+
+
+cap rocks: rocks of low permeability that overlie a geothermal reservoir.
+
+cap rocks: rocks of low permeability that overlie a geothermal reservoir.
+
+carbon dioxide (CO2): a gas produced by the combustion of fossil fuels and other
+substances. CO2 also occurs naturally in large amounts in molten magma, which is
+involved in the explosive eruption of volcanoes. See Greenhouse Effect.
+
+ 
+
+carbon dioxide (CO2): a gas produced by the combustion of fossil fuels and other
+substances. CO2 also occurs naturally in large amounts in molten magma, which is
+involved in the explosive eruption of volcanoes. See Greenhouse Effect.
+
+
+carbon dioxide (CO2): a gas produced by the combustion of fossil fuels and other
+substances. CO2 also occurs naturally in large amounts in molten magma, which is
+involved in the explosive eruption of volcanoes. See Greenhouse Effect.
+
+
+cascading heat: a process that uses a stream of geothermal hot water or steam to
+perform successive tasks requiring lower and lower temperatures.
+
+cascading heat: a process that uses a stream of geothermal hot water or steam to
+perform successive tasks requiring lower and lower temperatures.
+
+chemical energy: energy inherent in the chemical bonds which hold molecules
+together. Examples are coal and oil, which have energy potential that is
+released upon combustion.
+
+ 
+
+chloride spring: geothermal springs can be divided into two types based on the
+temperature and composition of the water they produce. Most springs produce
+warm, weakly mineralised water. Chloride springs, produce hot or boiling,
+heavily mineralised alkaline water that is high in chloride and silica. All
+geysers and springs that produce sinter terraces are chloride springs, for
+example those at Orakei Korako and Waiotapu. Chloride springs are vulnerable to
+damage from the extraction of the geothermal fluid for other uses which divert
+the chloride water away from the springs.
+
+
+chloride spring: geothermal springs can be divided into two types based on the
+temperature and composition of the water they produce. Most springs produce
+warm, weakly mineralised water. Chloride springs, produce hot or boiling,
+heavily mineralised alkaline water that is high in chloride and silica. All
+geysers and springs that produce sinter terraces are chloride springs, for
+example those at Orakei Korako and Waiotapu. Chloride springs are vulnerable to
+damage from the extraction of the geothermal fluid for other uses which divert
+the chloride water away from the springs.
+
+
+combustion: the burning of gas, liquid, or solid, in which the fuel is oxidized,
+producing heat and often light.
+
+
+condensate: liquid water formed by condensation of steam.
+
+
+condensate: liquid water formed by condensation of steam.
+
+condense: to change from a gas to drops of liquid. Water-cooled geothermal power
+plants use cooling towers to cool the used steam and condense it back to water
+for injection back to the edge of the reservoir. In binary power plants, an
+organic liquid is first vaporized (with heat from geothermal water) to drive a
+turbine, then cooled and condensed back to a liquid and recycled again and again
+in a closed loop.
+
+condense: to change from a gas to liquid. In conventional condensing geothermal
+power plants, steam is vented from turbines into a condenser where cooled water
+is sprayed on the steam to condense it. The condensate can be recycled using a
+cooling tower to extract more heat. An equivalent system exists for binary power
+plants, but with the organic liquid being recycled in a closed loop.
+
+
+condense: to change from a gas to liquid. In conventional condensing geothermal
+power plants, steam is vented from turbines into a condenser where cooled water
+is sprayed on the steam to condense it. The condensate can be recycled using a
+cooling tower to extract more heat. An equivalent system exists for binary power
+plants, but with the organic liquid being recycled in a closed loop.
+
+
+condenser: equipment that condenses turbine exhaust steam into condensate.
+
+
+condenser: equipment that condenses turbine exhaust steam into condensate.
+
+ 
+
+conduction: the transfer of heat as a result of the direct contact of rapidly
+moving molecules through a medium or from one medium to another, without
+movement of the media. The heat from geothermal water, for instance can be
+conducted through metal plates or pipes to heat other water for district heating
+systems or a second organic liquid for use in binary power plants.
+
+
+continental drift: the theory that the continents have drifted apart when a
+supercontinent, Pangaea, broke apart. See Plate Tectonics.
+
+
+convection currents: the currents caused by hot air or fluid rising and falling.
+Hot air or fluid expands and is therefore less dense than its cooler
+surroundings, thus it rises; as it cools it contracts, becomes more dense and
+sinks down creating something of a rolling motion. These motions are thought to
+be party of the dynamic geologic processes that drive the movement of crustal
+plates. See Plate Tectonics
+
+
+cooling tower: a structure in which heat is removed from hot condensate through
+heat exchange with air.
+
+
+cooling tower: a structure in which heat is removed from hot condensate through
+heat exchange with air.
+
+
+core (outer and inner): the extremely hot center of the Earth. The outer core is
+probably molten rock and is located about 3,200 miles (5,100) kilometers down
+from the earth’s surface; the inner core may be solid iron and is found a the
+very center of the Earth- about 4,000 miles (6,400 kilometers) down.
+
+crust: the solid outermost layer of the Earth, mostly consisting of rock, and
+ranging from 3 - 35 miles (4.8 - 56 kilometers) thick, comprises the topmost
+portion of the lithosphere (see lithospheric plates). Earth's crust insulates us
+from the hot interior.
+
+cultivate: to grow and tend (plants or crops), farm.
+
+
+dehydrate: to free from moisture in order to preserve; to dry fruits, vegetables
+or lumber, for instance. A factory in in Nevada, for example uses geothermal
+heat to dehydrate onions and garlic for restaurants.
+
+
+density: the amount of mass in a given volume of something. Two objects can be
+the same size, but have different densities because one of the objects has more
+mass "packed" into the same amount of space. Objects are smaller when they are
+cold, larger when hot.
+
+
+direct use: use of geothermal heat without first converting it to electricity,
+such as for space heating and cooling, food preparation, industrial processes,
+or bathing.
+
+
+direct use: use of geothermal heat without first converting it to electricity,
+such as for space heating and cooling, food preparation, industrial processes,
+or bathing.
+
+
+direct use: use of geothermal water and it's heat to grow fish, dry vegetable,
+fruit and wood products, heat greenhouses and city buildings, or provide hot
+water for spas.
+
+district heating system: a heating system that provides heat to a large number
+of buildings all from a central facility. In geothermal district heating
+systems, one or more wells can serve entire districts.
+
+drilling: boring into the Earth to access geothermal resources, usually with oil
+and gas drilling equipment that has been modified to meet geothermal
+requirements.
+
+
+drilling: boring into the Earth to access geothermal resources, usually with oil
+and gas drilling equipment that has been modified to meet geothermal
+requirements.
+
+
+dry steam: superheated steam without a water phase.
+
+
+dry steam: superheated steam without a water phase.
+
+dry-steam reservoir: a geothermal reservoir system in which subsurface pressures
+are controlled by steam rather than by water.
+
+dry-steam reservoir: a geothermal reservoir system in which subsurface pressures
+are controlled by steam rather than by water.
+
+
+earthquake: the vibration or movement of the ground caused by a sudden shift
+along faults (cracks) in the earth's crust; most earthquakes occur at the places
+where tectonic plates edges meet.
+
+
+efficiency: the ratio of the useful energy output of a machine or other
+energy-converting plant to the energy input. Technology with a higher energy
+efficiency will require less energy to do the same amount of work.
+
+efficiency: the ratio of the useful energy output of a machine or other
+energy-converting plant to the energy input. Technology with a higher energy
+efficiency will require less energy to do the same amount of work.
+
+electric current: the continuous flow of electrons; often referred to as
+electricity.
+
+
+electrical energy: energy of electric charges or electric currents.
+
+electron: the smallest part of an atom (atoms are the tiny particles of which
+all substances are made). Electrons may be freed from atoms to produce an
+electric current.
+
+emission: the release or discharge of a substance into the environment;
+generally refers to the release of gases or particulates into the air.
+
+
+emission: the release or discharge of a substance into the environment;
+generally refers to the release of gases or particulates into the air.
+
+
+energy conversion the changing of energy from one form to another. One of the
+many examples are heat energy being converted into mechanical energy, and then
+mechanical energy into electrical energy, as is done in steam-driven electric
+power plants.
+
+
+energy efficiency: the measure of the amount of energy which any technology can
+convert to useful work; technology with a higher energy efficiency will require
+less energy to do the same amount of work.
+
+
+energy resource: a source of useable power which can be drawn on when needed.
+Energy resources are often classified as renewable or non-renewable.
+
+
+energy: the ability to do work, such as making things move and heating them up.
+Energy can take many forms, including electrical, chemical, radiant, mechanical
+and heat.
+
+enhanced geothermal systems: rock fracturing, water injection, and water
+circulation technologies used to sweep heat from the unproductive areas of
+existing geothermal fields or new fields lacking sufficient production capacity.
+
+enhanced geothermal systems: rock fracturing, water injection, and water
+circulation technologies used to sweep heat from the unproductive areas of
+existing geothermal fields or new fields lacking sufficient production capacity.
+
+
+eruption: the explosive discharge of material such as molten rock and gases, or
+hot water (as from volcanoes or geysers).
+
+fault: a crack or break in the Earth’s crust along which movement has occurred,
+often resulting in earthquakes.
+
+fault: a fracture or fracture zone in the Earth's crust along which slippage of
+adjacent rocks has occurred.
+
+
+fault: a fracture or fracture zone in the Earth's crust along which slippage of
+adjacent rocks has occurred.
+
+
+flash plant: pressure vessels designed to effectively separate flash steam from
+the liquid phase.
+
+
+flash plant: pressure vessels designed to effectively separate flash steam from
+the liquid phase.
+
+
+flash steam: steam produced when the pressure on a geothermal liquid is reduced.
+Also called flashing.
+
+
+flash steam: steam produced when the pressure on a geothermal liquid is reduced.
+Also called flashing.
+
+fracture: a crack in the Earth's crust along which no movement has occurred.
+
+fracture: a crack in the Earth's crust along which no movement has occurred.
+
+ 
+
+fracture: a crack in the Earth’s crust along which no movement has occurred.
+
+
+fumarole: a hole or vent from which superheated gas and steam discharges under
+pressure.
+
+
+fumarole: a hole or vent from which superheated gas and steam discharges under
+pressure.
+
+ 
+
+fumarole: a small hole or vent in the Earth's surface, found near volcanic
+areas, from which steam or gases shoot out.
+
+
+generator: a machine that converts mechanical power into electricity by spinning
+copper wires (conductors) within a magnetic field.
+
+
+geothermal (ground source) heat pump: a space heating/cooling system which moves
+heat from and to the earth, as opposed to making heat using a fuel source.
+Geothermal heat pumps take advantage of the almost constant temperature just a
+few feet underground -- usually warmer than the air in winter and cooler than
+the air in summer.
+
+geothermal energy: the Earth's interior heat made available by extraction of
+geothermal fluids.
+
+geothermal energy: the Earth's interior heat made available by extraction of
+geothermal fluids.
+
+
+geothermal gradient: the rate of temperature increase in the Earth as a function
+of depth.
+
+geothermal gradient: the rate of temperature increase in the Earth as a function
+of depth.
+
+geothermal heat pumps: devices that take advantage of the relatively constant
+temperature of the Earth's subsurface, using it as a source and sink of heat for
+both heating and cooling. When cooling, heat is extracted from the space and
+dissipated into the Earth; when heating, heat is extracted from the Earth and
+pumped into the space.
+
+geothermal heat pumps: devices that take advantage of the relatively constant
+temperature of the Earth's subsurface, using it as a source and sink of heat for
+both heating and cooling. When cooling, heat is extracted from the space and
+dissipated into the Earth; when heating, heat is extracted from the Earth and
+pumped into the space.
+
+geothermal phenomena: an observable event at the surface, whose occurrence is
+the result of the Earth’s internal heat; includes volcanoes, geysers, hot
+springs, mud pots and fumaroles.
+
+geothermal power plant: a facility which uses geothermal steam or heat to drive
+turbine-generators to produce electricity. Three different types make use of the
+various temperature ranges of geothermal resources: dry steam, flash and binary.
+
+geothermal power plant: a facility which uses geothermal steam or heat to drive
+turbine-generators to produce electricity. Three different types make use of the
+various temperature ranges of geothermal resources: dry steam, flash and binary.
+
+geothermal power plant: a facility which uses geothermal steam or heat to drive
+turbine-generators to produce electricity. Three different types make use of the
+various temperature ranges of geothermal resources: dry steam, flash and binary.
+
+geothermal reservoir: a large volume of underground hot water and steam in
+porous and fractured hot rock. The hot water in geothermal reservoirs occupies
+only 2 to 5% of the volume of rock, but if the reservoir is large enough and hot
+enough, it can be a powerful source of energy. Geothermal reservoirs are
+sometimes overlain by a layer of impermeable rock. While geothermal reservoirs
+usually have surface manifestations such as hot springs or fumaroles, some do
+not.
+
+geothermal reservoir: a large volume of underground hot water and steam in
+porous and fractured hot rock. The hot water in geothermal reservoirs occupies
+only 2 to 5% of the volume of rock, but if the reservoir is large enough and hot
+enough, it can be a powerful source of energy. Geothermal reservoirs are
+sometimes overlain by a layer of impermeable rock. While geothermal reservoirs
+usually have surface manifestations such as hot springs or fumaroles, some do
+not.
+
+geothermal reservoir: a large volume of underground hot water and steam in
+porous and fractured hot rock. The hot water in geothermal reservoirs occupies
+only 2 to 5% of the volume of rock, but if the reservoir is large enough and hot
+enough, it can be a powerful source of energy. Geothermal reservoirs are
+sometimes overlain by a layer of impermeable rock. While geothermal reservoirs
+usually have surface manifestations such as hot springs or fumaroles, some do
+not.
+
+geothermal resource: the natural heat, hot water, and steam within the Earth
+
+geothermal water: water heated by the natural heat inside the Earth.
+
+geothermal: of or relating to the Earth's interior heat.
+
+geothermal: of or relating to the Earth's interior heat.
+
+geyser: a natural hot spring that sends up a fountain of water and steam into
+the air; some geysers "spout" at regular intervals and some are unpredictable.
+
+geyser: a natural hot spring that sends up a fountain of water and steam into
+the air; some geysers "spout" at regular intervals and some are unpredictable.
+
+geyser: a natural hot spring that sends up a fountain of water and steam into
+the air; some geysers "spout" at regular intervals and some are unpredictable.
+
+global warming/greenhouse effect: the trapping of heat in the atmosphere.
+Incoming solar radiation goes through the atmosphere to the Earth's surface, but
+outgoing radiation (heat) is absorbed by water vapor, carbon dioxide, and ozone
+in the atmosphere. At certain levels this is beneficial because it keeps the
+planet warm enough for life as we know it. However, an increase in the normal
+amount of carbon dioxide and other gases may contribute to a human-caused
+warming trend that could have serious effects on global climate, the global
+ecosystem, and food supplies.
+
+global warming/greenhouse effect: the trapping of heat in the atmosphere.
+Incoming solar radiation goes through the atmosphere to the Earth's surface, but
+outgoing radiation (heat) is absorbed by water vapour, carbon dioxide, and ozone
+in the atmosphere. At certain levels this is beneficial because it keeps the
+planet warm enough for life as we know it. However, an increase in the normal
+amount of carbon dioxide and other gases may contribute to a human-caused
+warming trend that could have serious effects on global climate, the global
+ecosystem, and food supplies.
+
+global warming/greenhouse effect: the trapping of heat in the atmosphere.
+Incoming solar radiation goes through the atmosphere to the Earth's surface, but
+outgoing radiation (heat) is absorbed by water vapour, carbon dioxide, and ozone
+in the atmosphere. At certain levels this is beneficial because it keeps the
+planet warm enough for life as we know it. However, an increase in the normal
+amount of carbon dioxide and other gases may contribute to a human-caused
+warming trend that could have serious effects on global climate, the global
+ecosystem, and food supplies.
+
+greenhouse effect: the presence of trace atmospheric gases make the earth warmer
+than would direct sunlight alone. These gases (carbon dioxide [CO2], methane
+[CH4], nitrous oxide [N2O], tropospheric ozone [O3], and water vapour [H2O])
+allow visible light and ultraviolet light (shortwave radiation) to pass through
+the atmosphere and heat the earth's surface. This heat is re-radiated from the
+earth in the form of infrared energy (longwave radiation). The greenhouse gases
+absorb part of that energy before it escapes into space. This process of
+trapping the longwave radiation is known as the greenhouse effect.
+
+greenhouse effect: the presence of trace atmospheric gases make the earth warmer
+than would direct sunlight alone. These gases (carbon dioxide [CO2], methane
+[CH4], nitrous oxide [N2O], tropospheric ozone [O3], and water vapour [H2O])
+allow visible light and ultraviolet light (shortwave radiation) to pass through
+the atmosphere and heat the earth's surface. This heat is re-radiated from the
+earth in the form of infrared energy (longwave radiation). The greenhouse gases
+absorb part of that energy before it escapes into space. This process of
+trapping the longwave radiation is known as the greenhouse effect.
+
+health spa: an establishment (often commercial) which is visited by guests
+seeking therapy and relaxation; many center around hot mineral springs or use
+hot water from geothermal wells.
+
+heat exchanger: a device for transferring thermal energy from one fluid to
+another.
+
+heat exchanger: a device for transferring thermal energy from one fluid to
+another.
+
+heat exchanger: a device in which heat is transferred by conduction through a
+metal barrier from a hotter liquid or gas, to warm a cooler liquid or gas on the
+other side of the metal barrier. Types of heat exchangers include "shell and
+tube," and "plate."
+
+heat flow: movement of heat from within the Earth to the surface, where it is
+dissipated into the atmosphere, surface water, and space by radiation.
+
+heat flow: movement of heat from within the Earth to the surface, where it is
+dissipated into the atmosphere, surface water, and space by radiation.
+| a -c | d-g | h-n | p-r | s-z |
+
+heat transfer: the transmission of heat. There are three forms of heat transfer:
+"conduction," "convection," and "radiation." See these terms.
+
+hot spot: areas of volcanic activity found in the middle of lithospheric plates,
+caused from an upwelling of concentrated heat in the mantle. Hot spots remain
+stationary while the plates move over them, often leaving a chain of extinct
+volcanoes as the plate moves away from the hot spot; examples include the
+Hawaiian Islands and Yellowstone National Park.
+
+hot springs: a natural spring that puts out water warmer than body temperature
+and therefore feels hot; may collect in pools or flow into streams an lakes. A
+geothermal phenomenon.
+
+hot springs: a natural spring that puts out water warmer than body temperature
+and therefore feels hot; may collect in pools or flow into streams and lakes. A
+geothermal phenomenon.
+
+hot springs: a natural spring that puts out water warmer than body temperature
+and therefore feels hot; may collect in pools or flow into streams and lakes. A
+geothermal phenomenon.
+
+hydrothermal: hydro means water and thermal means heat. Literally hydrothermal
+means hot water. Steam and hot water reservoirs are hydrothermal reservoirs. Hot
+dry rock resources and magma resources are not considered to be hydrothermal
+resources.
+
+hydrothermal: hydro means water and thermal means heat. Literally hydrothermal
+means hot water. Steam and hot water reservoirs are hydrothermal reservoirs. Hot
+dry rock resources and magma resources are not considered to be hydrothermal
+resources.
+
+hydrothermal: hydro means water and thermal means heat. Literally hydrothermal
+means hot water. Steam and hot water reservoirs are hydrothermal reservoirs. Hot
+dry rock resources and magma resources are not considered to be hydrothermal
+resources.
+
+iGate™ Communicating Controls iGate™ Communicating Controls allow for 2-way
+communication between the thermostat and heat pump and analyzes the status of
+sensors and other 2-way communicating components to determine how best to
+operate your system for optimal comfort, efficiency, and long term reliability.
+iGate™ technology represents the next generation in intelligent controls and
+will allow for future accessories to access and control your system via internet
+devices. iGate™ controls are available only in the Tranquility® Digital Series.
+
+impermeable: does not allow liquids to pass through easily -- certain rock types
+and clay soil are impermeable.
+
+impermeable: does not allow liquids to pass through easily -- certain rock types
+and clay soil are impermeable.
+
+impermeable: does not allow liquids to pass through easily -- certain rock types
+and clay soil are impermeable.
+
+injection well: a well through which geothermal water is returned to an
+underground reservoir after use. Geothermal production and injection wells are
+constructed of pipes layered inside one another and cemented into the earth and
+to each other. This protects any shallow drinking water aquifers from mixing
+with deeper geothermal water.
+
+injection well: a well through which geothermal water is returned to an
+underground reservoir after use. Geothermal production and injection wells are
+constructed of pipes layered inside one another and cemented into the earth and
+to each other. This protects any shallow drinking water aquifers from mixing
+with deeper geothermal water.
+
+injection well: a well through which geothermal water is returned to an
+underground reservoir after use. Geothermal production and injection wells are
+constructed of pipes layered inside one another and cemented into the earth and
+to each other. This protects any shallow drinking water aquifers from mixing
+with deeper geothermal water.
+
+injection: the process of returning spent geothermal fluids to the subsurface;
+also referred to as reinjection.
+
+injection: the process of returning spent geothermal fluids to the subsurface;
+also referred to as reinjection.
+
+| a -c | d-g | h-n | p-r | s-z |
+
+kilowatt (kW): one thousand watts of electricity.
+
+kilowatt (kW): one thousand watts of electricity.
+
+kilowatt hour (kWh): one thousand watthours.
+
+kilowatt hour (kWh): one thousand watthours.
+
+lava: molten magma that has reached the Earth's surface.
+
+lava: molten magma that has reached the Earth's surface.
+
+lava: molten magma that has reached the Earth's surface.
+
+magma: hot, thick, molten (liquid) rock found beneath the Earth’s surface;
+formed mainly in the mantle.
+
+magma: molten rock within the Earth, from which igneous rock is formed by
+cooling.
+
+magma: molten rock within the Earth, from which igneous rock is formed by
+cooling.
+
+mantle: the Earth's inner layer of molten rock, lying beneath the crust and
+above the core of liquid iron and nickel.
+
+mantle: the Earth's inner layer of molten rock, lying beneath the crust and
+above the core of liquid iron and nickel.
+
+mantle: the semi-molten interior of the Earth that lies between the core and the
+crust making up nearly 80% of the Earth’s total volume; extends down to a depth
+of about 1800 miles (2,900 kilometers) from the surface.
+
+mechanical energy: the energy an object has because of its motion or position
+and the forces acting on it.
+
+megawatt (MW): a unit of power, equal to a thousand kilowatts (kW) or one
+million watts(W). The watt is a unit of power (energy/time), the rate energy is
+consumed or converted to electricity.
+
+megawatt (MW): a unit of power, equal to a thousand kilowatts (kW) or one
+million watts(W). The watt is a unit of power (energy/time), the rate energy is
+consumed or converted to electricity. Assessment of the energy in geothermal
+systems is commonly in terms of equivalent electrical power or MWe, which takes
+into account the efficiency of conversion.
+
+megawatt (MW): a unit of power, equal to a thousand kilowatts (kW) or one
+million watts(W). The watt is a unit of power (energy/time), the rate energy is
+consumed or converted to electricity. Assessment of the energy in geothermal
+systems is commonly in terms of equivalent electrical power or MWe, which takes
+into account the efficiency of conversion.
+
+mineralised fluids: water and steam containing minerals such as silica, lithium
+and boron. Also called geothermal water or geothermal fluids.
+
+mineralised fluids: water and steam containing minerals such as silica, lithium
+and boron. Also called geothermal water or geothermal fluids.
+
+mineralized: containing minerals; for example, mineralized geothermal water
+contains dissolved minerals from inside the Earth.
+
+molecules: extremely tiny particles of which all materials are made .
+
+mud pool: thermal surface feature which occurs where there is not enough water
+to support a geyser or hot spring even though there may be some hot water below.
+Steam and gas vapours bubble up through mud formed by the interaction of gases
+with rock.
+
+mud pool: thermal surface feature which occurs where there is not enough water
+to support a geyser or hot spring even though there may be some hot water below.
+Steam and gas vapours bubble up through mud formed by the interaction of gases
+with rock.
+
+mud pot (paint pot): thermal surface feature which occurs where there is not
+enough water to support a geyser or hot spring even though there may be some hot
+water below. Steam and gas vapors bubble up through mud formed by the
+interaction of gases with rock.
+
+natural gas: a gas mixture (mostly methane) trapped underground in many places
+near the surface of the Earth; a fossil fuel.
+
+nitrogen oxides (Nox): formed in combustion; appear as yellowish-brown clouds;
+can irritate lungs, cause lung diseases, lead to formation of ozone (which is
+harmful in the lower atmosphere, but necessary as protection from UV rays in the
+upper atmosphere).
+
+| a -c | d-g | h-n | p-r | s-z |
+
+nonrenewable resource: resources that are not replaced or regenerated naturally
+within a period of time that is useful; this includes fossil fuels, uranium and
+other minerals.
+
+operations and maintenance (O&M) cost: operating expenses are associated with
+operating a facility (e.g. engineering costs). Maintenance expenses are that
+portion of expenses consisting of labour, materials, and other direct and
+indirect expenses incurred for preserving the operating efficiency or physical
+condition of utility plants that are used for power production, transmission,
+and distribution of energy.
+
+operations and maintenance (O&M) cost: operating expenses are associated with
+operating a facility (e.g. engineering costs). Maintenance expenses are that
+portion of expenses consisting of labour, materials, and other direct and
+indirect expenses incurred for preserving the operating efficiency or physical
+condition of utility plants that are used for power production, transmission,
+and distribution of energy.
+
+particulates (particulate matter): dust, soot, smoke and other suspended matter;
+can be respiratory irritants. Particulate matter smaller than 10 microns (pm10)
+has been found to be particularly harmful to health.
+
+pasteurize: to use high temperatures to destroy disease-causing bacteria.
+
+peaking plants: electricity generating plants that are operated to meet the peak
+or maximum load on the system. The cost of energy from such plants is usually
+higher than from baseload plants.
+
+peaking plants: electricity generating plants that are operated to meet the peak
+or maximum load on the system. The cost of energy from such plants is usually
+higher than from baseload plants.
+
+permeability: the capacity of a substance (such as rock) to transmit a fluid.
+The degree of permeability depends on the number, size, and shape of the pores
+and/or fractures in the rock and their interconnections. It is measured by the
+time it takes a fluid of standard viscosity to move a given distance. The unit
+of permeability is the Darcy.
+
+permeability: the capacity of a substance (such as rock) to transmit a fluid.
+The degree of permeability depends on the number, size, and shape of the pores
+and/or fractures in the rock and their interconnections. It is measured by the
+time it takes a fluid of standard viscosity to move a given distance. The unit
+of permeability is the Darcy.
+
+permeable: able to transmit water or other liquids; for example, rock with tiny
+passageways between holes, fractured rock, and gravel are permeable.
+
+petajoule (PJ): a joule is a unit of energy. A petajoule is 1015 joules.
+
+petajoule (PJ): a joule is a unit of energy. A petajoule is 1015 joules.
+
+plate tectonics: the study of the movement of large crustal plates (lithospheric
+plates) of the Earth’s shell. The earth's shell is broken into several pieces
+(12 large ones and several smaller ones). These plates move toward and away from
+one another at about the rate our fingernails grow. The process that creates the
+dynamic movement of the plates includes the convection of magma in the mantle
+and lithosphere. Plate tectonics helps to explain continental drift, seafloor
+spreading, volcanic eruptions and other geothermal phenomena, earthquakes,
+mountain formation and the distribution of some plant and animal species.
+
+porosity: the ratio of the aggregate volume of pore spaces in rock or soil to
+its total volume, usually stated as a percentage.
+
+porosity: the ratio of the aggregate volume of pore spaces in rock or soil to
+its total volume, usually stated as a percentage.
+
+porous: full of small holes (pores); able to be filled (permeated) by water,
+air, or other materials.
+
+porous: full of small holes (pores); able to be filled (permeated) by water,
+air, or other materials.
+
+porous: full of small holes (pores); able to be filled (permeated) by water,
+air, or other materials.
+
+power plant: a central station where electricity is produced using turbines and
+generators.
+
+| a -c | d-g | h-n | p-r | s-z |
+
+pressure: the force exerted over a certain area. Our atmosphere exerts pressure
+on the surface of the earth, and layers of rock exert pressure on those below
+them.
+
+radiant energy: energy (heat) that is transferred by rays or waves, especially
+electromagnetic waves, through space or another medium. Radiation.
+
+renewable resource: a resource that can be used continuously without being used
+up (because it regenerates itself within a useful amount of
+
+rift zone: long narrow fractures in the crust found along ocean floor or on
+land, from which lava flows out; often associated with spreading centers from
+which tectonic plates are diverging, such as the mid-Atlantic Ridge.
+
+salinity: a measure of the quantity or concentration of dissolved salts in
+water.
+
+salinity: a measure of the quantity or concentration of dissolved salts in
+water.
+
+separated water: water discharged from a separator.
+
+separated water: water discharged from a separator.
+
+separator: a pressure vessel used to separate water and steam, normally by
+centrifugal action.
+
+separator: a pressure vessel used to separate water and steam, normally by
+centrifugal action.
+
+sinter: a mineral crust or deposit formed from the minerals (mainly silica) in
+geothermal water, especially from geysers.
+
+sinter: a mineral crust or deposit formed from the minerals (mainly silica) in
+geothermal water, especially from geysers.
+
+steam: the vapor form of water that develops when water boils. Steam is made of
+very tiny heated water particles (molecules) which are bouncing around and
+bumping into each other at very high speeds. These heated water molecules are
+also spreading out and expanding in every direction they can. If we confine or
+trap water in a container, with a pipe as an opening, and heat the water to
+steam, it will create great pressure in the container and will rush out the pipe
+with a great deal of force. This force (the "power" of steam) can be put to work
+turning a turbine connected to an electricity generator.
+
+| a -c | d-g | h-n | p-r | s-z |
+
+steam: the vapour form of water that develops when water boils. Steam is made of
+very tiny heated water particles (molecules) which are bouncing around and
+bumping into each other at very high speeds. These heated water molecules are
+also spreading out and expanding in every direction they can. If we confine or
+trap water in a container, with a pipe as an opening, and heat the water to
+steam, it will create great pressure in the container and will rush out the pipe
+with a great deal of force. This force can be put to work turning a turbine
+connected to an electricity generator.
+
+steam: the vapour form of water that develops when water boils. Steam is made of
+very tiny heated water particles (molecules) which are bouncing around and
+bumping into each other at very high speeds. These heated water molecules are
+also spreading out and expanding in every direction they can. If we confine or
+trap water in a container, with a pipe as an opening, and heat the water to
+steam, it will create great pressure in the container and will rush out the pipe
+with a great deal of force. This force can be put to work turning a turbine
+connected to an electricity generator.
+
+subduction boundary: one of two types of converging plate boundaries which
+occurs when one plate plunges under another overriding plate.
+
+subsidence: a sinking of an area of the Earth's crust due to fluid withdrawal
+and pressure decline.
+
+subsidence: a sinking of an area of the Earth's crust due to fluid withdrawal
+and pressure decline.
+
+sulfur oxides (Sox): pungent, colorless gases (including sulfur dioxide (SO2);
+formed primarily by the combustion of fossil fuels; may damage the respiratory
+tract, as well as plants and trees.
+
+sustainable: material or energy sources which, if managed carefully, will
+provide the needs of a community or society indefinitely, without depriving
+future generations of their needs.
+
+therapeutic: the treatment of disease or other disorder; something that may
+benefit health. (Geothermal) hot springs are often thought of as therapeutic.
+
+time). Examples include water (small hydro) and wind power, solar energy, and
+geothermal energy.
+
+transmission lines: wires that transport electricity over long distances.
+
+turbine: a machine for generating rotary mechanical power from the energy of a
+stream of fluid (such as water, steam, or hot gas). Turbines convert the kinetic
+energy of fluids to mechanical energy through the principles of impulse and
+reaction, or a mixture of the two.
+
+turbine: a machine for generating rotary mechanical power from the energy of a
+stream of fluid (such as water, steam, or hot gas). Turbines convert the kinetic
+energy of fluids to mechanical energy through the principles of impulse and
+reaction, or a mixture of the two.
+
+turbine: a machine with blades that are rotated by the forceful movement of
+liquid or gas, such as air, steam or water or a combination.
+
+vFlow™ Internal Variable-Speed Water Flow Control vFlow™ builds the major water
+circulation components into the heat pump for a cleaner, smaller installation
+and intelligently varies water flow to minimize pump energy consumption. This is
+ClimateMaster’s most energy efficient water flow option and is currently
+available only in the Tranquility® Digital Series.
+
+vaporize: to change into the gas form anything which is normally a liquid or a
+solid; the term is most commonly is used in reference to water (which vaporizes
+to steam).
+
+volcano: an opening in the Earth's crust from which lava, steam, and/or ashes
+erupt (or flow), either continuously or at intervals.
+
+voltage: the measure of the amount of force that "pushes" an electric current..
+
+water phases: the change of water from one state to another. The change from ice
+to liquid is melting; the reverse process is freezing. The change from liquid to
+gas is evaporation and the product is water vapor; the change from water vapor
+to liquid is called condensation. Evaporation and condensation are both
+important functions in geothermal phenomena and in geothermal technology.
+
+water phases: the change of water from one state to another. The change from ice
+to liquid is melting; the reverse process is freezing. The change from liquid to
+gas is evaporation and the product is water vapour or steam; the change from
+water vapour to liquid is called condensation. Evaporation and condensation are
+both important functions in geothermal phenomena and in geothermal technology.
+
+water phases: the change of water from one state to another. The change from ice
+to liquid is melting; the reverse process is freezing. The change from liquid to
+gas is evaporation and the product is water vapour or steam; the change from
+water vapour to liquid is called condensation. Evaporation and condensation are
+both important functions in geothermal phenomena and in geothermal technology.
