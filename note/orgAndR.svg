@@ -70,7 +70,7 @@
 <g id="edge7" class="edge"><title>df1&#45;&gt;org2</title>
 <path fill="none" stroke="black" d="M217,-69.7458C217,-63.2853 217,-55.7612 217,-48.55"/>
 <polygon fill="black" stroke="black" points="220.5,-48.3689 217,-38.369 213.5,-48.369 220.5,-48.3689"/>
-<text text-anchor="middle" x="237" y="-50.3" font-family="Times,serif" font-size="14.00">Editing</text>
+<text text-anchor="middle" x="239" y="-50.3" font-family="Times,serif" font-size="14.00"> Editing</text>
 </g>
 <!-- df2 -->
 <g id="node5" class="node"><title>df2</title>
