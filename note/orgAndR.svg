@@ -148,15 +148,15 @@
 <g id="edge12" class="edge"><title>orgTable1&#45;&gt;orgTable2</title>
 <path fill="none" stroke="black" d="M91,-181.567C91,-167.103 91,-146.724 91,-130.211"/>
 <polygon fill="black" stroke="black" points="94.5001,-130.019 91,-120.019 87.5001,-130.019 94.5001,-130.019"/>
-<text text-anchor="middle" x="130.5" y="-162.3" font-family="Times,serif" font-size="14.00"> Editing </text>
+<text text-anchor="middle" x="130.5" y="-162.3" font-family="Times,serif" font-size="14.00"> unique Label </text>
 <text text-anchor="middle" x="130.5" y="-147.3" font-family="Times,serif" font-size="14.00"> format Latex </text>
-<text text-anchor="middle" x="130.5" y="-132.3" font-family="Times,serif" font-size="14.00"> remove error </text>
+<text text-anchor="middle" x="130.5" y="-132.3" font-family="Times,serif" font-size="14.00"> remove Error</text>
 </g>
 <!-- orgTable2&#45;&gt;df2 -->
 <g id="edge13" class="edge"><title>orgTable2&#45;&gt;df2</title>
 <path fill="none" stroke="black" d="M125.363,-101C143.549,-101 166.209,-101 186.278,-101"/>
 <polygon fill="black" stroke="black" points="186.499,-104.5 196.499,-101 186.499,-97.5001 186.499,-104.5"/>
-<text text-anchor="middle" x="160.75" y="-107.8" font-family="Times,serif" font-size="14.00">:var</text>
+<text text-anchor="middle" x="160.75" y="-107.8" font-family="Times,serif" font-size="14.00">:var, </text>
 </g>
 </g>
 </svg>
