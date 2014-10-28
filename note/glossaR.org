@@ -53,13 +53,13 @@
   acro [label = "Acronyms"]
   symbol [label = "Symbols"]
   xml [label = "XML", shape = circle]
-  df0 [label = "data.frame \n raw", color = blue]
-  df1 [label = "data.frame \n unduplicated", color = blue]
-  df2 [label = "data.frame \n latex",color = blue]
-  orgTable0 [label = "org table \n raw "]
-  orgTable1 [label = "org table \n unduplicated"]
-  orgTable2 [label = "org table \n latex"]
-  glsfile [label = "Glossaries.tex \n keep Update", color = red, fill=gray]
+  df0 [label = "data.frame \n (raw)", color = blue]
+  df1 [label = "data.frame \n (unduplicated)", color = blue]
+  df2 [label = "data.frame \n (latex)",color = blue]
+  orgTable0 [label = "org table \n (raw) "]
+  orgTable1 [label = "org table \n (unduplicated)"]
+  orgTable2 [label = "org table \n (latex)"]
+  glsfile [label = "Glossaries.tex \n( keep Update)", color = red, fill=gray]
   //2. set path 
   gls -> {acro, nomencl, symbol} -> xml
   xml -> df0 [label = " web scrape"]
@@ -77,7 +77,7 @@
   }
 #+END_SRC
 
-#+RESULTS[8e4d5661d1ad3e74a0abe1a9b8b60046f2ce2e7d]: fig:orgAndR
+#+RESULTS[4a8ec4801cdc1d4fb12d0177f6d05ab7f2864aac]: fig:orgAndR
 [[file:orgAndR.svg]]
 
 

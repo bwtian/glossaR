@@ -109,9 +109,9 @@
 </g>
 <!-- glsfile -->
 <g id="node12" class="node"><title>glsfile</title>
-<polygon fill="none" stroke="red" points="275.25,-38 178.75,-38 178.75,-0 275.25,-0 275.25,-38"/>
+<polygon fill="none" stroke="red" points="275.5,-38 178.5,-38 178.5,-0 275.5,-0 275.5,-38"/>
 <text text-anchor="middle" x="227" y="-22.8" font-family="Times,serif" font-size="14.00">Glossaries.tex </text>
-<text text-anchor="middle" x="227" y="-7.8" font-family="Times,serif" font-size="14.00"> keep Update</text>
+<text text-anchor="middle" x="227" y="-7.8" font-family="Times,serif" font-size="14.00">( keep Update)</text>
 </g>
 <!-- df2&#45;&gt;glsfile -->
 <g id="edge14" class="edge"><title>df2&#45;&gt;glsfile</title>
