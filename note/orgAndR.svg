@@ -109,7 +109,7 @@
 </g>
 <!-- glsfile -->
 <g id="node12" class="node"><title>glsfile</title>
-<polygon fill="none" stroke="black" points="284.25,-38 187.75,-38 187.75,-0 284.25,-0 284.25,-38"/>
+<polygon fill="none" stroke="red" points="284.25,-38 187.75,-38 187.75,-0 284.25,-0 284.25,-38"/>
 <text text-anchor="middle" x="236" y="-22.8" font-family="Times,serif" font-size="14.00">Glossaries.tex </text>
 <text text-anchor="middle" x="236" y="-7.8" font-family="Times,serif" font-size="14.00"> keep Update</text>
 </g>
