@@ -33,7 +33,7 @@
 <g id="edge1" class="edge"><title>xml&#45;&gt;df</title>
 <path fill="none" stroke="black" d="M157.074,-161.889C165.778,-148.832 176,-133.5 176,-133.5 176,-133.5 163.501,-115.197 152.139,-98.5613"/>
 <polygon fill="black" stroke="black" points="154.904,-96.4035 146.374,-90.1194 149.124,-100.351 154.904,-96.4035"/>
-<text text-anchor="middle" x="203.5" y="-122.3" font-family="Times,serif" font-size="14.00">web scrap</text>
+<text text-anchor="middle" x="206.5" y="-122.3" font-family="Times,serif" font-size="14.00">web scrape</text>
 </g>
 <!-- df1 -->
 <g id="node2" class="node"><title>df1</title>
