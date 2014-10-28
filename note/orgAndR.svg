@@ -156,7 +156,7 @@
 <g id="edge13" class="edge"><title>orgTable2&#45;&gt;df2</title>
 <path fill="none" stroke="black" d="M125.363,-101C143.549,-101 166.209,-101 186.278,-101"/>
 <polygon fill="black" stroke="black" points="186.499,-104.5 196.499,-101 186.499,-97.5001 186.499,-104.5"/>
-<text text-anchor="middle" x="160.75" y="-107.8" font-family="Times,serif" font-size="14.00">:var, </text>
+<text text-anchor="middle" x="160.75" y="-107.8" font-family="Times,serif" font-size="14.00">:var </text>
 </g>
 </g>
 </svg>
