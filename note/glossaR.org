@@ -50,7 +50,7 @@
   //1. set node 
   xml [label = "XML"]
   df [label = "data.frame"]
-  org
+  orgTable[label = "org-mode Table"]
   //2. set path 
   xml -> df -> orgTable -> df -> tex
   //3. set rank 
