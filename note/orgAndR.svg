@@ -40,7 +40,7 @@
 <g id="node5" class="node"><title>orgTable</title>
 <polygon fill="none" stroke="black" points="269,-38.6559 165,-38.6559 165,-0.655936 269,-0.655936 269,-38.6559"/>
 <text text-anchor="middle" x="217" y="-23.4559" font-family="Times,serif" font-size="14.00">org&#45;mode table </text>
-<text text-anchor="middle" x="217" y="-8.45594" font-family="Times,serif" font-size="14.00"> sort: </text>
+<text text-anchor="middle" x="217" y="-8.45594" font-family="Times,serif" font-size="14.00"> sort:C&#45;c ^ </text>
 </g>
 <!-- xml&#45;&gt;orgTable -->
 <g id="edge3" class="edge"><title>xml&#45;&gt;orgTable</title>
