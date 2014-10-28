@@ -31,8 +31,11 @@ df.l  <- lapply(url.l, glsXML)
 df.d  <- as.data.frame(do.call(rbind, df.l))
 
 org  <- paste0("** ", df.d[,1],": ", df.d[,2])
-org
+orgTable  <- paste0("|", df.d[,1],"|", df.d[,2],"|")
 write.table(org,
              "test.org", sep = "\n", append = T,quote = F,
                 row.names = F, col.names = F)
+write.table(orgTable,
+            "restecTable.org", sep = "\n", append = T,quote = F,
+            row.names = F, col.names = F)
 
