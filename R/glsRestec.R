@@ -11,15 +11,21 @@ glsRestec  <- function(url, short = "//dt", long = "//dd"){
                 unname(xmlSApply(x, xmlValue))}
         )
         long <- l[!(is.na(l) | l=="" | l=="\n")]
-        gls.d  <- as.data.frame(cbind(short, long))
-        return(gls.d)
+        if(length(long == short)){
+                gls.d  <- data.frame(cbind(short, long))
+                return(gls.d)
+        } else {
+                stop("the length of short and long is diff, please check")
+        }
+
+
 }
 url  <- c("http://www.restec.or.jp/english/knowledge/glossary.html")
-http://www.restec.or.jp/english/knowledge/glossary-bc.html
 x  <- glsRestec(url)
 pre  <- "http://www.restec.or.jp/english/knowledge/glossary"
 suf  <- c("","-bc","-de","-fh","-ik","-ln","-oq","-rs","-tu","-vz","-09")
 url.l  <- paste0(pre, suf, ".html")
 
 df.l  <- sapply(url.l, gls.restec)
-
+df.d  <- do.call(rbind, df.l)
+d2  <- df.l[[2]]
