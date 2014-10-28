@@ -75,7 +75,7 @@
 <g id="edge6" class="edge"><title>orgTable&#45;&gt;df1</title>
 <path fill="none" stroke="black" d="M217,-67.692C217,-61.1319 217,-53.5859 217,-46.4233"/>
 <polygon fill="black" stroke="black" points="220.5,-46.3631 217,-36.3631 213.5,-46.3631 220.5,-46.3631"/>
-<text text-anchor="middle" x="228" y="-48.3" font-family="Times,serif" font-size="14.00"> var</text>
+<text text-anchor="middle" x="262.5" y="-48.3" font-family="Times,serif" font-size="14.00"> R:!duplicate(df)</text>
 </g>
 <!-- edit -->
 <g id="node7" class="node"><title>edit</title>
