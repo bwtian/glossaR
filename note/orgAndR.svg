@@ -68,7 +68,7 @@
 <g id="node6" class="node"><title>df0</title>
 <polygon fill="none" stroke="blue" points="147.25,-306 68.75,-306 68.75,-268 147.25,-268 147.25,-306"/>
 <text text-anchor="middle" x="108" y="-290.8" font-family="Times,serif" font-size="14.00">data.frame </text>
-<text text-anchor="middle" x="108" y="-275.8" font-family="Times,serif" font-size="14.00"> raw</text>
+<text text-anchor="middle" x="108" y="-275.8" font-family="Times,serif" font-size="14.00"> (raw)</text>
 </g>
 <!-- xml&#45;&gt;df0 -->
 <g id="edge7" class="edge"><title>xml&#45;&gt;df0</title>
@@ -80,7 +80,7 @@
 <g id="node9" class="node"><title>orgTable0</title>
 <polygon fill="none" stroke="black" points="294,-306 226,-306 226,-268 294,-268 294,-306"/>
 <text text-anchor="middle" x="260" y="-290.8" font-family="Times,serif" font-size="14.00">org table </text>
-<text text-anchor="middle" x="260" y="-275.8" font-family="Times,serif" font-size="14.00"> raw </text>
+<text text-anchor="middle" x="260" y="-275.8" font-family="Times,serif" font-size="14.00"> (raw) </text>
 </g>
 <!-- xml&#45;&gt;orgTable0 -->
 <g id="edge8" class="edge"><title>xml&#45;&gt;orgTable0</title>
@@ -97,28 +97,28 @@
 </g>
 <!-- df1 -->
 <g id="node7" class="node"><title>df1</title>
-<polygon fill="none" stroke="blue" points="305,-222 215,-222 215,-184 305,-184 305,-222"/>
+<polygon fill="none" stroke="blue" points="309.25,-222 210.75,-222 210.75,-184 309.25,-184 309.25,-222"/>
 <text text-anchor="middle" x="260" y="-206.8" font-family="Times,serif" font-size="14.00">data.frame </text>
-<text text-anchor="middle" x="260" y="-191.8" font-family="Times,serif" font-size="14.00"> unduplicated</text>
+<text text-anchor="middle" x="260" y="-191.8" font-family="Times,serif" font-size="14.00"> (unduplicated)</text>
 </g>
 <!-- df2 -->
 <g id="node8" class="node"><title>df2</title>
-<polygon fill="none" stroke="blue" points="275.25,-122 196.75,-122 196.75,-84 275.25,-84 275.25,-122"/>
-<text text-anchor="middle" x="236" y="-106.8" font-family="Times,serif" font-size="14.00">data.frame </text>
-<text text-anchor="middle" x="236" y="-91.8" font-family="Times,serif" font-size="14.00"> latex</text>
+<polygon fill="none" stroke="blue" points="266.25,-122 187.75,-122 187.75,-84 266.25,-84 266.25,-122"/>
+<text text-anchor="middle" x="227" y="-106.8" font-family="Times,serif" font-size="14.00">data.frame </text>
+<text text-anchor="middle" x="227" y="-91.8" font-family="Times,serif" font-size="14.00"> (latex)</text>
 </g>
 <!-- glsfile -->
 <g id="node12" class="node"><title>glsfile</title>
-<polygon fill="none" stroke="red" points="284.25,-38 187.75,-38 187.75,-0 284.25,-0 284.25,-38"/>
-<text text-anchor="middle" x="236" y="-22.8" font-family="Times,serif" font-size="14.00">Glossaries.tex </text>
-<text text-anchor="middle" x="236" y="-7.8" font-family="Times,serif" font-size="14.00"> keep Update</text>
+<polygon fill="none" stroke="red" points="275.25,-38 178.75,-38 178.75,-0 275.25,-0 275.25,-38"/>
+<text text-anchor="middle" x="227" y="-22.8" font-family="Times,serif" font-size="14.00">Glossaries.tex </text>
+<text text-anchor="middle" x="227" y="-7.8" font-family="Times,serif" font-size="14.00"> keep Update</text>
 </g>
 <!-- df2&#45;&gt;glsfile -->
 <g id="edge14" class="edge"><title>df2&#45;&gt;glsfile</title>
-<path fill="none" stroke="black" d="M236,-83.8015C236,-73.3976 236,-60.1215 236,-48.3768"/>
-<polygon fill="black" stroke="black" points="239.5,-48.1476 236,-38.1476 232.5,-48.1476 239.5,-48.1476"/>
-<text text-anchor="middle" x="267" y="-64.8" font-family="Times,serif" font-size="14.00"> paste</text>
-<text text-anchor="middle" x="267" y="-49.8" font-family="Times,serif" font-size="14.00"> write.table</text>
+<path fill="none" stroke="black" d="M227,-83.8015C227,-73.3976 227,-60.1215 227,-48.3768"/>
+<polygon fill="black" stroke="black" points="230.5,-48.1476 227,-38.1476 223.5,-48.1476 230.5,-48.1476"/>
+<text text-anchor="middle" x="258" y="-64.8" font-family="Times,serif" font-size="14.00"> paste</text>
+<text text-anchor="middle" x="258" y="-49.8" font-family="Times,serif" font-size="14.00"> write.table</text>
 </g>
 <!-- orgTable0&#45;&gt;df1 -->
 <g id="edge10" class="edge"><title>orgTable0&#45;&gt;df1</title>
@@ -129,35 +129,35 @@
 </g>
 <!-- orgTable1 -->
 <g id="node10" class="node"><title>orgTable1</title>
-<polygon fill="none" stroke="black" points="136,-222 46,-222 46,-184 136,-184 136,-222"/>
-<text text-anchor="middle" x="91" y="-206.8" font-family="Times,serif" font-size="14.00">org table </text>
-<text text-anchor="middle" x="91" y="-191.8" font-family="Times,serif" font-size="14.00"> unduplicated</text>
+<polygon fill="none" stroke="black" points="131.25,-222 32.75,-222 32.75,-184 131.25,-184 131.25,-222"/>
+<text text-anchor="middle" x="82" y="-206.8" font-family="Times,serif" font-size="14.00">org table </text>
+<text text-anchor="middle" x="82" y="-191.8" font-family="Times,serif" font-size="14.00"> (unduplicated)</text>
 </g>
 <!-- orgTable1&#45;&gt;df1 -->
 <g id="edge11" class="edge"><title>orgTable1&#45;&gt;df1</title>
-<path fill="none" stroke="black" d="M146.559,-203C168.712,-203 193.885,-203 214.879,-203"/>
-<polygon fill="black" stroke="black" points="146.289,-199.5 136.289,-203 146.289,-206.5 146.289,-199.5"/>
-<text text-anchor="middle" x="175.5" y="-209.8" font-family="Times,serif" font-size="14.00"> R:print</text>
+<path fill="none" stroke="black" d="M141.664,-203C164.086,-203 189.305,-203 210.683,-203"/>
+<polygon fill="black" stroke="black" points="141.583,-199.5 131.583,-203 141.583,-206.5 141.583,-199.5"/>
+<text text-anchor="middle" x="170.75" y="-209.8" font-family="Times,serif" font-size="14.00"> R:print</text>
 </g>
 <!-- orgTable2 -->
 <g id="node11" class="node"><title>orgTable2</title>
-<polygon fill="none" stroke="black" points="125,-122 57,-122 57,-84 125,-84 125,-122"/>
-<text text-anchor="middle" x="91" y="-106.8" font-family="Times,serif" font-size="14.00">org table </text>
-<text text-anchor="middle" x="91" y="-91.8" font-family="Times,serif" font-size="14.00"> latex</text>
+<polygon fill="none" stroke="black" points="116,-122 48,-122 48,-84 116,-84 116,-122"/>
+<text text-anchor="middle" x="82" y="-106.8" font-family="Times,serif" font-size="14.00">org table </text>
+<text text-anchor="middle" x="82" y="-91.8" font-family="Times,serif" font-size="14.00"> (latex)</text>
 </g>
 <!-- orgTable1&#45;&gt;orgTable2 -->
 <g id="edge12" class="edge"><title>orgTable1&#45;&gt;orgTable2</title>
-<path fill="none" stroke="black" d="M91,-183.567C91,-169.103 91,-148.724 91,-132.211"/>
-<polygon fill="black" stroke="black" points="94.5001,-132.019 91,-122.019 87.5001,-132.019 94.5001,-132.019"/>
-<text text-anchor="middle" x="130.5" y="-164.3" font-family="Times,serif" font-size="14.00"> unique Label </text>
-<text text-anchor="middle" x="130.5" y="-149.3" font-family="Times,serif" font-size="14.00"> format Latex </text>
-<text text-anchor="middle" x="130.5" y="-134.3" font-family="Times,serif" font-size="14.00"> remove Error</text>
+<path fill="none" stroke="black" d="M82,-183.567C82,-169.103 82,-148.724 82,-132.211"/>
+<polygon fill="black" stroke="black" points="85.5001,-132.019 82,-122.019 78.5001,-132.019 85.5001,-132.019"/>
+<text text-anchor="middle" x="121.5" y="-164.3" font-family="Times,serif" font-size="14.00"> unique Label </text>
+<text text-anchor="middle" x="121.5" y="-149.3" font-family="Times,serif" font-size="14.00"> format Latex </text>
+<text text-anchor="middle" x="121.5" y="-134.3" font-family="Times,serif" font-size="14.00"> remove Error</text>
 </g>
 <!-- orgTable2&#45;&gt;df2 -->
 <g id="edge13" class="edge"><title>orgTable2&#45;&gt;df2</title>
-<path fill="none" stroke="black" d="M125.363,-103C143.549,-103 166.209,-103 186.278,-103"/>
-<polygon fill="black" stroke="black" points="186.499,-106.5 196.499,-103 186.499,-99.5001 186.499,-106.5"/>
-<text text-anchor="middle" x="160.75" y="-109.8" font-family="Times,serif" font-size="14.00">:var </text>
+<path fill="none" stroke="black" d="M116.363,-103C134.549,-103 157.209,-103 177.278,-103"/>
+<polygon fill="black" stroke="black" points="177.499,-106.5 187.499,-103 177.499,-99.5001 177.499,-106.5"/>
+<text text-anchor="middle" x="151.75" y="-109.8" font-family="Times,serif" font-size="14.00">:var </text>
 </g>
 </g>
 </svg>
