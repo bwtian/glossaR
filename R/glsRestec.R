@@ -1,4 +1,4 @@
-gls.restec  <- function(url, short = "//dt", long = "//dd"){
+glsRestec  <- function(url, short = "//dt", long = "//dd"){
         require(XML)
         doc  <- htmlParse(url)
         short.l  <- XML::xpathApply(doc, short)
@@ -14,3 +14,4 @@ gls.restec  <- function(url, short = "//dt", long = "//dd"){
         gls.d  <- cbind(short, long)
         return(gls.d)
 }
+
