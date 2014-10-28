@@ -48,21 +48,36 @@
   nodesep = 0.5; 
   node [shape = box] 
   //1. set node 
-  xml [label = "XML"]
-  df0, df1 [label = "data.frame"]
-  orgTable[label = "org-mode table \n sort: "]
-  edit[label = "Editing"]
+  gls [label = "Glossaries"]
+  nomencl[label = "Nomenclatrues"]
+  acro [label = "Acronyms"]
+  symbol [label = "Symbols"]
+  xml [label = "XML", shape = circle]
+  df0 [label = "data.frame \n raw", color = blue]
+  df1 [label = "data.frame \n unduplicated", color = blue]
+  df2 [label = "data.frame \n latex",color = blue]
+  orgTable0 [label = "org table \n raw "]
+  orgTable1 [label = "org table \n unduplicated"]
+  orgTable2 [label = "org table \n latex"]
+  glsfile [label = "Glossaries.tex"]
   //2. set path 
+  gls -> {acro, nomencl, symbol} -> xml
   xml -> df0 [label = " web scrape"]
-  xml -> orgTable [label = " paste \n& convert"]
-  df0 -> orgTable [label = " R:print"]
-  orgTable -> df0 [label = " babel:var"]
+  xml -> orgTable0 [label = " paste \n& convert"]
+  df0 -> orgTable0 [label = " R:print"]
+  orgTable0 -> df1 [label = " R:!duplicate(df) \l babel:var"]
+  orgTable1 -> df1 [label = " R:print", dir = back]
+  orgTable1 -> orgTable2 [label = " Self Editing"]
+  orgTable2 -> df2 [label = ":var"]
+  df2 -> glsfile [label= " paste\n write.table"]
   //3. set rank 
-  {rank = same; df0, orgTable} 
+  {rank = same; df0, orgTable0} 
+  {rank = same; df1, orgTable1} 
+  {rank = same; df2, orgTable2} 
   }
 #+END_SRC
 
-#+RESULTS[2a844ba6772a6b36427a2ccc1f559243c179fe10]: fig:orgAndR
+#+RESULTS[4dc40eca29a91b0fd99d8dbcffbf519dcde14934]: fig:orgAndR
 [[file:orgAndR.svg]]
 
 
