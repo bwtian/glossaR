@@ -35,7 +35,7 @@
 
 #+RESULTS[88d5408b7c42fd55220b0b0d0cea4f4b3f19a917]: fig:glossarWorkflow
 [[file:glossarWorkflow.png]]
-* fig:work with R
+* fig:work with R to extract glossaries
 #+NAME: fig:orgAndR 
 #+HEADER: :cache yes :tangle yes :exports none
 #+HEADER: :results output graphics
@@ -59,7 +59,7 @@
   orgTable0 [label = "org table \n raw "]
   orgTable1 [label = "org table \n unduplicated"]
   orgTable2 [label = "org table \n latex"]
-  glsfile [label = "Glossaries.tex"]
+  glsfile [label = "Glossaries.tex \n keep Update", color = red, fill=gray]
   //2. set path 
   gls -> {acro, nomencl, symbol} -> xml
   xml -> df0 [label = " web scrape"]
@@ -67,9 +67,9 @@
   df0 -> orgTable0 [label = " R:print"]
   orgTable0 -> df1 [label = " R:!duplicate(df) \l babel:var"]
   orgTable1 -> df1 [label = " R:print", dir = back]
-  orgTable1 -> orgTable2 [label = " Self Editing"]
-  orgTable2 -> df2 [label = ":var"]
-  df2 -> glsfile [label= " paste\n write.table"]
+  orgTable1 -> orgTable2 [label = " unique Label \n format Latex \n remove Error"]
+  orgTable2 -> df2 [label = ":var "]
+  df2 -> glsfile [label= " paste\n write.table", weight = 10]
   //3. set rank 
   {rank = same; df0, orgTable0} 
   {rank = same; df1, orgTable1} 
@@ -77,7 +77,7 @@
   }
 #+END_SRC
 
-#+RESULTS[4dc40eca29a91b0fd99d8dbcffbf519dcde14934]: fig:orgAndR
+#+RESULTS[8e4d5661d1ad3e74a0abe1a9b8b60046f2ce2e7d]: fig:orgAndR
 [[file:orgAndR.svg]]
 
 
