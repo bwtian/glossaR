@@ -27,7 +27,7 @@
 </g>
 <!-- df0 -->
 <g id="node3" class="node"><title>df0</title>
-<polygon fill="none" stroke="black" points="101.25,-192 22.75,-192 22.75,-154 101.25,-154 101.25,-192"/>
+<polygon fill="none" stroke="blue" points="101.25,-192 22.75,-192 22.75,-154 101.25,-154 101.25,-192"/>
 <text text-anchor="middle" x="62" y="-176.8" font-family="Times,serif" font-size="14.00">data.frame </text>
 <text text-anchor="middle" x="62" y="-161.8" font-family="Times,serif" font-size="14.00"> raw</text>
 </g>
