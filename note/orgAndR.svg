@@ -34,8 +34,8 @@
 <g id="edge2" class="edge"><title>xml&#45;&gt;orgTable</title>
 <path fill="none" stroke="black" d="M145.312,-83.2721C157.876,-71.9781 174.435,-57.0934 188.259,-44.6674"/>
 <polygon fill="black" stroke="black" points="190.934,-46.969 196.032,-37.681 186.255,-41.7631 190.934,-46.969"/>
-<text text-anchor="middle" x="210.5" y="-64.4309" font-family="Times,serif" font-size="14.00"> paste </text>
-<text text-anchor="middle" x="210.5" y="-49.4309" font-family="Times,serif" font-size="14.00"> convert</text>
+<text text-anchor="middle" x="216" y="-64.4309" font-family="Times,serif" font-size="14.00"> paste </text>
+<text text-anchor="middle" x="216" y="-49.4309" font-family="Times,serif" font-size="14.00">&amp; convert</text>
 </g>
 <!-- df0&#45;&gt;orgTable -->
 <g id="edge3" class="edge"><title>df0&#45;&gt;orgTable</title>
