@@ -49,16 +49,20 @@
   node [shape = box] 
   //1. set node 
   xml [label = "XML"]
-  df [label = "data.frame"]
-  orgTable[label = "org-mode Table"]
+  df0, df1 [label = "data.frame"]
+  orgTable[label = "org-mode table \n sort: "]
+  edit[label = "Editing"]
   //2. set path 
-  xml -> df -> orgTable -> df -> tex
+  xml -> df0 [label = " web scrape"]
+  xml -> orgTable [label = " paste \n& convert"]
+  df0 -> orgTable [label = " R:print"]
+  orgTable -> df0 [label = " babel:var"]
   //3. set rank 
-  {rank = same; A, B} 
+  {rank = same; df0, orgTable} 
   }
 #+END_SRC
 
-#+RESULTS[d550784f64737076328bc0c7f33bef8711f3309d]: fig:orgAndR
+#+RESULTS[2a844ba6772a6b36427a2ccc1f559243c179fe10]: fig:orgAndR
 [[file:orgAndR.svg]]
 
 
