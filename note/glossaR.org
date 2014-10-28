@@ -1,4 +1,4 @@
-
+* fig:glossarworkflow
 #+NAME: fig:glossarWorkflow 
 #+HEADER: :cache yes :tangle yes :exports none
 #+HEADER: :results output graphics
@@ -23,15 +23,42 @@
           bib [label = "Bibtex"]
           glsfile[label = "Glossaries.tex"]
           bibfile[label = "Literatures.bib"]
+          main [label = "main.tex"]
           //2. set path 
           {gs, gis, rs, gt} -> study -> {gls, bib}
-          gls -> {nomencl, acro, symbol} -> glsfile -> "glossaR"
-          bib -> {"Papers", "Books", "Software", "Data"} -> bibfile -> "Mendeley"
+          gls -> {nomencl, acro, symbol} -> glsfile -> main
+          bib -> {"Papers", "Books", "Software", "Data"} -> bibfile -> main
           //3. set rank 
           {rank = same; gs, gis, rs, gt} 
   }
 #+END_SRC
 
-#+RESULTS[b3335ff5f8d1ed02af3cc0db1560ac1d8e3a7b7d]: fig:glossarWorkflow
+#+RESULTS[88d5408b7c42fd55220b0b0d0cea4f4b3f19a917]: fig:glossarWorkflow
 [[file:glossarWorkflow.png]]
+* fig:work with R
+#+NAME: fig:orgAndR 
+#+HEADER: :cache yes :tangle yes :exports none
+#+HEADER: :results output graphics
+#+BEGIN_SRC dot :file orgAndR.svg 
+  digraph { 
+  fontname="Times"; 
+  fontsize = 12; 
+  splines = false; 
+  ranksep = 0.2; 
+  nodesep = 0.5; 
+  node [shape = box] 
+  //1. set node 
+  xml [label = "XML"]
+  df [label = "data.frame"]
+  org
+  //2. set path 
+  xml -> df -> orgTable -> df -> tex
+  //3. set rank 
+  {rank = same; A, B} 
+  }
+#+END_SRC
+
+#+RESULTS[d550784f64737076328bc0c7f33bef8711f3309d]: fig:orgAndR
+[[file:orgAndR.svg]]
+
 
