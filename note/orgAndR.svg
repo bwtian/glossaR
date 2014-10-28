@@ -58,7 +58,7 @@
 </g>
 <!-- df1 -->
 <g id="node4" class="node"><title>df1</title>
-<polygon fill="none" stroke="black" points="259,-108 169,-108 169,-70 259,-70 259,-108"/>
+<polygon fill="none" stroke="blue" points="259,-108 169,-108 169,-70 259,-70 259,-108"/>
 <text text-anchor="middle" x="214" y="-92.8" font-family="Times,serif" font-size="14.00">data.frame </text>
 <text text-anchor="middle" x="214" y="-77.8" font-family="Times,serif" font-size="14.00"> unduplicated</text>
 </g>
