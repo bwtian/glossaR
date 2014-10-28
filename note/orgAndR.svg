@@ -40,7 +40,8 @@
 <g id="edge3" class="edge"><title>df0&#45;&gt;orgTable</title>
 <path fill="none" stroke="black" d="M74.2784,-18C92.4955,-18 114.879,-18 135.462,-18"/>
 <polygon fill="black" stroke="black" points="135.712,-21.5001 145.712,-18 135.712,-14.5001 135.712,-21.5001"/>
-<text text-anchor="middle" x="110" y="-24.8" font-family="Times,serif" font-size="14.00">var</text>
+<text text-anchor="middle" x="110" y="-39.8" font-family="Times,serif" font-size="14.00">read</text>
+<text text-anchor="middle" x="110" y="-24.8" font-family="Times,serif" font-size="14.00">* </text>
 </g>
 <!-- edit -->
 <g id="node4" class="node"><title>edit</title>
