@@ -104,10 +104,5 @@
 <path fill="none" stroke="black" d="M45,-55.7181C45,-53.3429 45,-50.867 45,-48.3754"/>
 <polygon fill="black" stroke="black" points="48.5001,-48.2631 45,-38.2631 41.5001,-48.2631 48.5001,-48.2631"/>
 </g>
-<!-- edit -->
-<g id="node9" class="node"><title>edit</title>
-<polygon fill="none" stroke="black" points="265.5,-398 210.5,-398 210.5,-362 265.5,-362 265.5,-398"/>
-<text text-anchor="middle" x="238" y="-376.3" font-family="Times,serif" font-size="14.00">Editing</text>
-</g>
 </g>
 </svg>
