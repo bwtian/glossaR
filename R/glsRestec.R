@@ -14,7 +14,7 @@ glsRestec  <- function(url, short = "//dt", long = "//dd"){
         gls.d  <- as.data.frame(cbind(short, long))
         return(gls.d)
 }
-url  <- c("http://www.restec.or.jp/english/knowledge/glossary.html"
+url  <- c("http://www.restec.or.jp/english/knowledge/glossary.html")
 http://www.restec.or.jp/english/knowledge/glossary-bc.html
 x  <- glsRestec(url)
 pre  <- "http://www.restec.or.jp/english/knowledge/glossary"
