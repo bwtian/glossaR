@@ -77,7 +77,7 @@
   }
 #+END_SRC
 
-#+RESULTS[4a8ec4801cdc1d4fb12d0177f6d05ab7f2864aac]: fig:orgAndR
+#+RESULTS[8255e035863c6279c6f96716c72ddcc5d30f035d]: fig:orgAndR
 [[file:orgAndR.svg]]
 
 
