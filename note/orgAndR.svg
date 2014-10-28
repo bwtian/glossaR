@@ -64,7 +64,7 @@
 </g>
 <!-- df2 -->
 <g id="node5" class="node"><title>df2</title>
-<polygon fill="none" stroke="black" points="288.25,-344 209.75,-344 209.75,-306 288.25,-306 288.25,-344"/>
+<polygon fill="none" stroke="blue" points="288.25,-344 209.75,-344 209.75,-306 288.25,-306 288.25,-344"/>
 <text text-anchor="middle" x="249" y="-328.8" font-family="Times,serif" font-size="14.00">data.frame </text>
 <text text-anchor="middle" x="249" y="-313.8" font-family="Times,serif" font-size="14.00"> latex</text>
 </g>
