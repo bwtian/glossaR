@@ -11,7 +11,15 @@ glsRestec  <- function(url, short = "//dt", long = "//dd"){
                 unname(xmlSApply(x, xmlValue))}
         )
         long <- l[!(is.na(l) | l=="" | l=="\n")]
-        gls.d  <- cbind(short, long)
+        gls.d  <- as.data.frame(cbind(short, long))
         return(gls.d)
 }
+url  <- c("http://www.restec.or.jp/english/knowledge/glossary.html"
+http://www.restec.or.jp/english/knowledge/glossary-bc.html
+x  <- glsRestec(url)
+pre  <- "http://www.restec.or.jp/english/knowledge/glossary"
+suf  <- c("","-bc","-de","-fh","-ik","-ln","-oq","-rs","-tu","-vz","-09")
+url.l  <- paste0(pre, suf, ".html")
+
+df.l  <- sapply(url.l, gls.restec)
 
