@@ -1,3 +1,19 @@
+# -*- mode: org; org-export-babel-evaluate: nil -*- 
+#+TITLE:glossR 
+#+AUTHOR: Bingwei TIAN
+#+EMAIL: bwtian@gmail.com
+#+DATE:  	oday
+#+OPTIONS: H:4 toc:2 num:2 
+#+STARTUP: align fold nodlcheck hidestars oddeven lognotestate inlineimages 
+#+LICENSE: GPLv3 
+#+CREATED:  
+#+LASTEDIT:  
+#+PROPERTY:   header-args  session *R* 
+#+PROPERTY:   exports both  
+#+PROPERTY:   cache yes 
+#+PROPERTY:   tangle yes 
+#+DEPENDENCY: 
+
 * fig:glossarworkflow
 #+NAME: fig:glossarWorkflow 
 #+HEADER: :cache yes :tangle yes :exports none
