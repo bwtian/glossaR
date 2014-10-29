@@ -80,4 +80,18 @@
 #+RESULTS[8255e035863c6279c6f96716c72ddcc5d30f035d]: fig:orgAndR
 [[file:orgAndR.svg]]
 
+* R:
 
+* tbl:Restec
+#+HEADER: :cache yes :tangle yes
+#+NAME: r:figA 
+#+BEGIN_SRC R :session :file ~/Dropbox/3figs/iamg/preffix-.png :results graphics
+###############################################################################
+## R code chunk:
+###############################################################################
+
+
+#+END_SRC
+#+CAPTION: Table/figure name Out put of above code
+#+NAME: fig:A  
+#+RESULTS: r:figA  
