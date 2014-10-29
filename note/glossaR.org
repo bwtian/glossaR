@@ -95,3 +95,19 @@
 #+CAPTION: Table/figure name Out put of above code
 #+NAME: fig:A  
 #+RESULTS: r:figA  
+
+*  Remote Sensing Glossaries
+
+** http://www.ldeo.columbia.edu/res/fac/rsvlab/glossary.html
+#+HEADER: :cache yes :tangle yes 
+#+NAME: r:figA 
+#+BEGIN_SRC R :session :file ~/Dropbox/3figs/iamg/preffix-.png :results graphics
+###############################################################################
+## R code chunk:
+###############################################################################
+
+
+#+END_SRC
+#+CAPTION: Table/figure name Out put of above code
+#+NAME: fig:A  
+#+RESULTS: r:figA  
