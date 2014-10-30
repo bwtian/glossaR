@@ -44,7 +44,6 @@
      "parnotes"
      "underscore"
      "url"
-     "svg"
      "tabularx"
      "threeparttable"
      "booktabs"
