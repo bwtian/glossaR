@@ -14,11 +14,13 @@
 #+PROPERTY:   tangle yes 
 #+DEPENDENCY: 
 
+#+LATEX_HEADER: \usepackage{svg}
+
 * fig:glossarworkflow
 #+NAME: fig:glossarWorkflow 
 #+HEADER: :cache yes :tangle yes :exports none
 #+HEADER: :results output graphics
-#+BEGIN_SRC dot :file glossarWorkflow.png  
+#+BEGIN_SRC dot :file ./glossaRWorkflow.svg  
   digraph { 
           fontname="Times"; 
           fontsize = 12; 
@@ -27,6 +29,7 @@
           nodesep = 0.5; 
           node [shape = box] 
           //1. set node 
+          vol [label = "Volcanology"]
           gs [label = "Geostatistics"]
           rs [label = "Remote Sensing"]
           gis [label = "Geographic Information Systems"]
@@ -41,7 +44,7 @@
           bibfile[label = "Literatures.bib"]
           main [label = "main.tex"]
           //2. set path 
-          {gs, gis, rs, gt} -> study -> {gls, bib}
+          {gs, gis, rs, gt, vol} -> study -> {gls, bib}
           gls -> {nomencl, acro, symbol} -> glsfile -> main
           bib -> {"Papers", "Books", "Software", "Data"} -> bibfile -> main
           //3. set rank 
@@ -49,13 +52,13 @@
   }
 #+END_SRC
 
-#+RESULTS[88d5408b7c42fd55220b0b0d0cea4f4b3f19a917]: fig:glossarWorkflow
-[[file:glossarWorkflow.png]]
+#+RESULTS[c1e0eadaf391605213f44d0c646a3bf94c9d3d0b]: fig:glossarWorkflow
+[[file:glossaRWorkflow.svg]]
 * fig:work with R to extract glossaries
 #+NAME: fig:orgAndR 
 #+HEADER: :cache yes :tangle yes :exports none
 #+HEADER: :results output graphics
-#+BEGIN_SRC dot :file orgAndR.svg 
+#+BEGIN_SRC dot :file ./orgAndR.svg 
   digraph { 
   fontname="Times"; 
   fontsize = 12; 
