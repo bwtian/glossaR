@@ -74,8 +74,8 @@ Abstract：
   }
 #+END_SRC
 
-#+RESULTS[c1e0eadaf391605213f44d0c646a3bf94c9d3d0b]: fig:glossarWorkflow
-[[file:glossaRWorkflow.svg]]
+#+RESULTS[1330571588deed0579ae290f671f3b890abf2140]: fig:glossarWorkflow
+[[file:./glossaRWorkflow.pdf]]
 * fig:work with R to extract glossaries
 #+NAME: fig:orgAndR 
 #+HEADER: :cache yes :tangle yes :exports both
