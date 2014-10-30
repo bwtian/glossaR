@@ -42,7 +42,7 @@ Abstract：
 #+NAME: fig:glossarWorkflow 
 #+HEADER: :cache yes :tangle yes :exports both
 #+HEADER: :results output graphics
-#+BEGIN_SRC dot :file ./glossaRWorkflow.svg  
+#+BEGIN_SRC dot :file ./glossaRWorkflow.pdf  
   digraph { 
           fontname="Times"; 
           fontsize = 12; 
