@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>glossaR</title>
-<!-- 2014-10-30 Thu 10:43 -->
+<!-- 2014-10-30 Thu 10:45 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Bingwei Tian  \thanks{bwtian@gmail.com}\\  \small{Kyoto University, Kyoto, Japan}" />
@@ -170,10 +170,99 @@ Abstract：
 
 <div id="outline-container-sec-2" class="outline-2">
 <h2 id="sec-2"><span class="section-number-2">2</span> fig:glossarworkflow</h2>
+<div class="outline-text-2" id="text-2">
+<div class="org-src-container">
+
+<pre class="src src-dot" id="fig:glossarWorkflow">digraph { 
+        <span style="color: #ffa500;">fontname=</span><span style="color: #00ff00;">"Times"</span>; 
+        <span style="color: #ffa500;">fontsize =</span> 12; 
+        <span style="color: #ffa500;">splines =</span> <span style="color: #00ffff;">false</span>; 
+        <span style="color: #ffa500;">ranksep =</span> 0.5; 
+        <span style="color: #ffa500;">nodesep =</span> 0.5; 
+        node [<span style="color: #ffa500;">shape =</span> <span style="color: #00ffff;">box</span>] 
+        <span style="color: #00bfff;">//</span><span style="color: #00bfff;">1. set node </span>
+        vol [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Volcanology"</span>]
+        gs [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Geostatistics"</span>]
+        rs [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Remote Sensing"</span>]
+        gis [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Geographic Information Systems"</span>]
+        gt [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Geothermal"</span>]
+        study [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Research Filed"</span>]
+        gls [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Glossaries"</span>]
+        nomencl[<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Nomenclatrues"</span>]
+        acro [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Acronyms"</span>]
+        symbol [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Symbols"</span>]
+        bib [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Bibtex"</span>]
+        glsfile[<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Glossaries.tex"</span>]
+        bibfile[<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Literatures.bib"</span>]
+        main [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"main.tex"</span>]
+        <span style="color: #00bfff;">//</span><span style="color: #00bfff;">2. set path </span>
+        {gs, gis, rs, gt, vol} -&gt; study -&gt; {gls, bib}
+        gls -&gt; {nomencl, acro, symbol} -&gt; glsfile -&gt; main
+        bib -&gt; {<span style="color: #00ff00;">"Papers"</span>, <span style="color: #00ff00;">"Books"</span>, <span style="color: #00ff00;">"Software"</span>, <span style="color: #00ff00;">"Data"</span>} -&gt; bibfile -&gt; main
+        <span style="color: #00bfff;">//</span><span style="color: #00bfff;">3. set rank </span>
+        {<span style="color: #ffa500;">rank =</span> <span style="color: #00ffff;">same</span>; gs, gis, rs, gt} 
+}
+</pre>
+</div>
+
+
+<div class="figure">
+<p><img src="glossaRWorkflow.svg" alt="glossaRWorkflow.svg" />
+</p>
+</div>
+</div>
 </div>
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3"><span class="section-number-2">3</span> fig:work with R to extract glossaries</h2>
+<div class="outline-text-2" id="text-3">
+<div class="org-src-container">
+
+<pre class="src src-dot" id="fig:orgAndR">digraph { 
+<span style="color: #ffa500;">fontname=</span><span style="color: #00ff00;">"Times"</span>; 
+<span style="color: #ffa500;">fontsize =</span> 12; 
+<span style="color: #ffa500;">splines =</span> <span style="color: #00ffff;">false</span>; 
+<span style="color: #ffa500;">ranksep =</span> 0.2; 
+<span style="color: #ffa500;">nodesep =</span> 0.5; 
+node [<span style="color: #ffa500;">shape =</span> <span style="color: #00ffff;">box</span>] 
+<span style="color: #00bfff;">//</span><span style="color: #00bfff;">1. set node </span>
+gls [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Glossaries"</span>]
+nomencl[<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Nomenclatrues"</span>]
+acro [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Acronyms"</span>]
+symbol [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Symbols"</span>]
+xml [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"XML"</span>, <span style="color: #ffa500;">shape =</span> <span style="color: #00ffff;">circle</span>]
+df0 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"data.frame \n (raw)"</span>, <span style="color: #ffa500;">color =</span> <span style="color: #00ff00;">blue</span>]
+df1 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"data.frame \n (unduplicated)"</span>, <span style="color: #ffa500;">color =</span> <span style="color: #00ff00;">blue</span>]
+df2 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"data.frame \n (latex)"</span>,<span style="color: #ffa500;">color =</span> <span style="color: #00ff00;">blue</span>]
+orgTable0 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"org table \n (raw) "</span>]
+orgTable1 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"org table \n (unduplicated)"</span>]
+orgTable2 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"org table \n (latex)"</span>]
+glsfile [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">"Glossaries.tex \n( keep Update)"</span>, <span style="color: #ffa500;">color =</span> <span style="color: #00ff00;">red</span>, fill=<span style="color: #00ff00;">gray</span>]
+<span style="color: #00bfff;">//</span><span style="color: #00bfff;">2. set path </span>
+gls -&gt; {acro, nomencl, symbol} -&gt; xml
+xml -&gt; df0 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">" web scrape"</span>]
+xml -&gt; orgTable0 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">" paste \n&amp; convert"</span>]
+df0 -&gt; orgTable0 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">" R:print"</span>]
+orgTable0 -&gt; df1 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">" R:!duplicate(df) \l babel:var"</span>]
+orgTable1 -&gt; df1 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">" R:print"</span>, <span style="color: #ffa500;">dir =</span> <span style="color: #00ffff;">back</span>]
+orgTable1 -&gt; orgTable2 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">" unique Label \n format Latex \n remove Error"</span>]
+orgTable2 -&gt; df2 [<span style="color: #ffa500;">label =</span> <span style="color: #00ff00;">":var "</span>]
+df2 -&gt; glsfile [<span style="color: #ffa500;">label=</span> <span style="color: #00ff00;">" paste\n write.table"</span>, <span style="color: #ffa500;">weight =</span> 10]
+<span style="color: #00bfff;">//</span><span style="color: #00bfff;">3. set rank </span>
+{<span style="color: #ffa500;">rank =</span> <span style="color: #00ffff;">same</span>; df0, orgTable0} 
+{<span style="color: #ffa500;">rank =</span> <span style="color: #00ffff;">same</span>; df1, orgTable1} 
+{<span style="color: #ffa500;">rank =</span> <span style="color: #00ffff;">same</span>; df2, orgTable2} 
+}
+</pre>
 </div>
+
+
+<div class="figure">
+<p><img src="orgAndR.svg" alt="orgAndR.svg" />
+</p>
+</div>
+</div>
+</div>
+
 <div id="outline-container-sec-4" class="outline-2">
 <h2 id="sec-4"><span class="section-number-2">4</span> R:</h2>
 </div>
@@ -210,7 +299,7 @@ Abstract：
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Bingwei Tian  \thanks{bwtian@gmail.com}\\  \small{Kyoto University, Kyoto, Japan}</p>
-<p class="date">Created: 2014-10-30 Thu 10:43</p>
+<p class="date">Created: 2014-10-30 Thu 10:45</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>

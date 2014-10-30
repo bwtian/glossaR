@@ -1,24 +1,46 @@
 # -*- mode: org; org-export-babel-evaluate: nil -*- 
-#+TITLE:glossR 
-#+AUTHOR: Bingwei TIAN
-#+EMAIL: bwtian@gmail.com
-#+DATE:  	oday
-#+OPTIONS: H:4 toc:2 num:2 
-#+STARTUP: align fold nodlcheck hidestars oddeven lognotestate inlineimages 
+# -*- mode: org; org-export-babel-evaluate: nil -*- 
+* Header Settings   :noexport: 
+** File Info 
+#+TITLE:glossaR 
+#+AUTHOR: Bingwei Tian  \thanks{bwtian@gmail.com}\\  \small{Kyoto University, Kyoto, Japan} 
+#+EMAIL: bwtian@gmail.com 
+#+DATE: 
 #+LICENSE: GPLv3 
-#+CREATED:  
 #+LASTEDIT:  
-#+PROPERTY:   header-args  session *R* 
-#+PROPERTY:   exports both  
-#+PROPERTY:   cache yes 
-#+PROPERTY:   tangle yes 
-#+DEPENDENCY: 
+#+SEQ_TODO:  TODO(t) DOING(i!) HOLD(h@) | DONE(d) CANCELED(c@) 
+** Org Export Settings 
+#+STARTUP: overview align indent fold hideblocks hidestars 
+#+STARTUP: nodlcheck oddeven lognotestate latexpreview constSI inlineimages 
+#+OPTIONS: H:4 num:3 toc:2 |:t ::t skip:nil f:t tags:not-in-toc d:(HIDE) 
+#+OPTIONS: <:t timestamp:t todo:nil tasks:nil author:t creator:t email:nil 
+#+OPTIONS: *:t -:t ^:{} TeX:t LaTeX:t @:t ':t pri:nil \n:nil 
+#+BABEL: :session *R* :cache yes :tangle yes :exports both 
+#+COLUMNS: %25ITEM %TAGS %PRIORITY %T 
+#+PROPERTY: noweb yes 
+#+EXPORT_SELECT_TAGS:  
+#+EXPORT_EXCLUDE_TAGS:  noexport 
+** Latex Export 
+#+LaTeX_CLASS: article 
+#+LaTeX_CLASS_OPTIONS: [a4paper,times,12pt,listings-bw,microtype] 
+#+LATEX_HEADER: \usepackage{longtable,tabulary,booktabs,threeparttable,tabularx,graphicx,svg,float,wrapfig,url,underscore} 
+#+LaTeX_HEADER: \usepackage{parnotes,amsmath,amssymb,marvosym,wasysym} 
+#+LATEX_HEADER: \usepackage[citestyle=authoryear-icomp,bibstyle=authoryear,hyperref=true,maxcitenames=3,url=true,backend=biber,natbib=true]{biblatex} 
+#+LATEX_HEADER: \usepackage[section,below]{placeins} 
+#+LaTeX_HEADER: \usepackage[dvipsnames,svgnames,table]{xcolor} 
+#+LaTeX_HEADER: \usepackage[innermargin=1.5in,outermargin=1.25in,vmargin=1.25in]{geometry} 
+#+LATEX_HEADER: \usepackage[nomain,acronym,xindy,toc]{glossaries}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,citecolor=blue,linkcolor=blue,citebordercolor={0 1 0},linktocpage,pdfstartview=FitH,anchorcolor=blue,filecolor=blue,menucolor=blue,urlcolor=blue} 
+#+LATEX_HEADER: \linespread{1.3} 
+* Abstract  :ignoreheading: 
+#+BEGIN_ABSTRACT
+Abstract：
+#+END_ABSTRACT
 
-#+LATEX_HEADER: \usepackage{svg}
 
 * fig:glossarworkflow
 #+NAME: fig:glossarWorkflow 
-#+HEADER: :cache yes :tangle yes :exports none
+#+HEADER: :cache yes :tangle yes :exports both
 #+HEADER: :results output graphics
 #+BEGIN_SRC dot :file ./glossaRWorkflow.svg  
   digraph { 
@@ -56,7 +78,7 @@
 [[file:glossaRWorkflow.svg]]
 * fig:work with R to extract glossaries
 #+NAME: fig:orgAndR 
-#+HEADER: :cache yes :tangle yes :exports none
+#+HEADER: :cache yes :tangle yes :exports both
 #+HEADER: :results output graphics
 #+BEGIN_SRC dot :file ./orgAndR.svg 
   digraph { 
