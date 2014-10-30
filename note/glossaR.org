@@ -22,9 +22,8 @@
 ** Latex Export 
 #+LaTeX_CLASS: article 
 #+LaTeX_CLASS_OPTIONS: [a4paper,times,12pt,listings-bw,microtype] 
-+LATEX_HEADER: \usepackage{longtable,tabulary,booktabs,threeparttable,tabularx,graphicx,svg,float,wrapfig,url,underscore} 
+#+LATEX_HEADER: \usepackage{longtable,tabulary,booktabs,threeparttable,tabularx,graphicx,float,wrapfig,url,underscore} 
 #+LaTeX_HEADER: \usepackage{parnotes,amsmath,amssymb,marvosym,wasysym} 
-#+LaTeX_HEADER: \usepackage{svg} 
 
 #+LATEX_HEADER: \usepackage[citestyle=authoryear-icomp,bibstyle=authoryear,hyperref=true,maxcitenames=3,url=true,backend=biber,natbib=true]{biblatex} 
 #+LATEX_HEADER: \usepackage[section,below]{placeins} 
