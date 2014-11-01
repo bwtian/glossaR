@@ -8,14 +8,6 @@
      "sec-5"
      "sec-6"
      "sec-6-1")
-    (LaTeX-add-labels
-     "sec-1"
-     "sec-2"
-     "sec-3"
-     "sec-4"
-     "sec-5"
-     "sec-6"
-     "sec-6-1")
     (TeX-run-style-hooks
      "glossaries"
      "toc"
@@ -62,7 +54,6 @@
      "longtable"
      "graphicx"
      "fixltx2e"
-     ""
      "fontenc"
      "T1"
      "inputenc"
@@ -74,5 +65,7 @@
      "listings-bw"
      "12pt"
      "times"
-     "a4paper")))
+     "a4paper"
+     "tikz"
+     "")))
 
