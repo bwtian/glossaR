@@ -1,0 +1,5921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>restecTable</title>
+<!-- 2014-10-28 Tue 20:18 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="tian" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">restecTable</h1>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">A/D</td>
+<td class="left">Analog to Digital</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AAN</td>
+<td class="left">Asian AWS Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AAN</td>
+<td class="left">Asian AMeDAS Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ACRES</td>
+<td class="left">Australian Centre for Remote Sensing</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ACRIM</td>
+<td class="left">Active Cavity Radiometer Irradiance Monitor</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ACS</td>
+<td class="left">Attitude Control Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADCS</td>
+<td class="left">Attitude Determination and Control Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADEOS</td>
+<td class="left">Advanced Earth Observing Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADEOS-II</td>
+<td class="left">Advanced Earth Observing Satellite-II</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADEOS-III</td>
+<td class="left">Advanced Earth Observing Satellite-III</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AFC</td>
+<td class="left">Automatic Frequency Control</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AGC</td>
+<td class="left">Automatic Gain Control</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AIM</td>
+<td class="left">AMI image</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AIT</td>
+<td class="left">Asian Institute of Technology</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ALOS</td>
+<td class="left">Advanced Land Observing Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ALT</td>
+<td class="left">Altimeter</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AM</td>
+<td class="left">Amplitude Modulation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMEX</td>
+<td class="left">Aeronautical Maritime Experimental Transponder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMI</td>
+<td class="left">Active Microwave instrument</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMR</td>
+<td class="left">Airborne Microwave Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMS</td>
+<td class="left">Attitude Measurement Sensor</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMSR</td>
+<td class="left">Advanced Microwave Scanning Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ANT</td>
+<td class="left">Antenna</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AO</td>
+<td class="left">Announcement of Opportunity</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AOCS</td>
+<td class="left">Attitude and Orbit Control Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AOS</td>
+<td class="left">Acquisition of Signal</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">APD</td>
+<td class="left">Antenna Pointing Data</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">APN</td>
+<td class="left">Asian Pacific Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ARC</td>
+<td class="left">Active Radar Calibrator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ARGOS</td>
+<td class="left">ARGOS System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ASAR</td>
+<td class="left">Advanced Synthetic Aperture Radar</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ASF</td>
+<td class="left">Alaska SAR Facility</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ASMS</td>
+<td class="left">Alice Springs MOS Receiving Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ASTER</td>
+<td class="left">Advanced Spaceborne Thermal Emission and Reflection radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ATM</td>
+<td class="left">Asynchronous Transfer Mode</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ATSR/IR(ATI)</td>
+<td class="left">Along Track Scanning Radiometer/infrared</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ATSR/M(ATM)</td>
+<td class="left">ATSR/Microwave Sounder ATSR</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVHRR</td>
+<td class="left">Advanced Very High Resolution Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVIRIS</td>
+<td class="left">Airborne Visible and Infrared Imaging Spectrometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVNIR</td>
+<td class="left">Advanced Visible and Near Infrared Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVNIR-II</td>
+<td class="left">Advanced Visible and Near Infrared Radiometer II</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVR</td>
+<td class="left">Automatic Voltage Regulator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AWA</td>
+<td class="left">AMI wave</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AWI</td>
+<td class="left">AMI wind</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AWS</td>
+<td class="left">Automated Weather Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">B/H</td>
+<td class="left">Base to Height ratio</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">B/S</td>
+<td class="left">Byte per Second</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BBS</td>
+<td class="left">Bulletin Board System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BCD</td>
+<td class="left">Binary Coded Decimal</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BDS</td>
+<td class="left">Browse data Distribution Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BER</td>
+<td class="left">Bit Error Rate</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BIL</td>
+<td class="left">Band Interleaved by Line</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BIP2</td>
+<td class="left">Band Interleaved by 2 Pixels</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BIf</td>
+<td class="left">Bi-Phase</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BKMS</td>
+<td class="left">Bangkok MOS Receiving Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BPI</td>
+<td class="left">Byte per Inch</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">bpi</td>
+<td class="left">bit per inch</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">bps</td>
+<td class="left">bit per second</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BPSK</td>
+<td class="left">Biphase Phase Shift Keying</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BS</td>
+<td class="left">Broadcasting Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BSQ</td>
+<td class="left">Band Sequential</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">C/N</td>
+<td class="left">Carrier to Noise Ratio</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CADS</td>
+<td class="left">Catalogue Data Distribution System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CAL</td>
+<td class="left">Calibration</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CAPPI</td>
+<td class="left">Constant Altitude Plan Position Indicator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CAS</td>
+<td class="left">Chinese Academy of Science</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CASI</td>
+<td class="left">Compact Airborne spectrographic Imager</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CATS</td>
+<td class="left">Catalogue Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CC</td>
+<td class="left">Console Control</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CC</td>
+<td class="left">Cubic Convolution</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CCD</td>
+<td class="left">Charge Coupled Device</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CCRS</td>
+<td class="left">Canada Centre for Remote Sensing</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CCSDS</td>
+<td class="left">Consultative Committee for Space Data System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CCT</td>
+<td class="left">Computer Compatible Tape</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CD</td>
+<td class="left">Compact Disk</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CD-ROM</td>
+<td class="left">Compact Disk-Read Only Memory</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CDDI</td>
+<td class="left">Copper Distributed Data Interface</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CDF</td>
+<td class="left">Common Data Format</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CDR</td>
+<td class="left">Critical Design Review</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS</td>
+<td class="left">Committee on Earth Observation Satellites</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-AHWGN</td>
+<td class="left">CEOS Adhoc Working Group on Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-IDN</td>
+<td class="left">CEOS International Directory Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-WGD/NS</td>
+<td class="left">CEOS Working Group on Data/Network Subgroup</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-WGINS</td>
+<td class="left">CEOS Interim Working Group on International Network Services</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-WGISS</td>
+<td class="left">CEOS Interim Working Group on Information Systems and Services</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CERES</td>
+<td class="left">Clouds and the Earth&rsquo;s Radiant Energy System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CHL</td>
+<td class="left">Chlorphyll</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CI</td>
+<td class="left">Co Investigator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CINTEX</td>
+<td class="left">Catalog Interoperability Experiment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CNES</td>
+<td class="left">Centre National d&rsquo;Etudes Spatiales</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CNIE</td>
+<td class="left">Commission National de Investigacines Espaciales Argentina</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">COARE</td>
+<td class="left">Coupled Ocean Atmosphere Reserch Experiment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">COMETS</td>
+<td class="left">Communications &amp; Engineering Test Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">COMP</td>
+<td class="left">Combined product(TRMM)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CPR</td>
+<td class="left">Cloud Profiling Radar</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CPU</td>
+<td class="left">Central Processing Unit</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CR</td>
+<td class="left">Corner Reflector</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CRL</td>
+<td class="left">Communications Research Laboratory</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CRT</td>
+<td class="left">Cathode Ray Tube</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CSA</td>
+<td class="left">Canadian Space Agency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CTM</td>
+<td class="left">Chemical Transport Model</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CVCF</td>
+<td class="left">Constant Voltage Constant Frequency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CZCS</td>
+<td class="left">Coastal Zone Color Scanner</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">D-1</td>
+<td class="left">ansi iD-1 format</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DAS</td>
+<td class="left">Data Analysis System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">dB</td>
+<td class="left">decibel</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DC</td>
+<td class="left">Direct Current</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DCE</td>
+<td class="left">Data Cercuit-terminating Equipment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DCP</td>
+<td class="left">Data Collection Platform</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DCS</td>
+<td class="left">Data Collection System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DCST</td>
+<td class="left">Data Collection System Transponder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DCT</td>
+<td class="left">Discrate Cosine Tras formation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DDL</td>
+<td class="left">Data Descriptive Language</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DDMS</td>
+<td class="left">Data Distribution and Management System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DDS</td>
+<td class="left">on line Data Distribution Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DDX</td>
+<td class="left">Digital Data eXchange</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DEM</td>
+<td class="left">Digital Elevation Model</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DGS</td>
+<td class="left">Dataset Generation Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DIAL</td>
+<td class="left">Differential Absorption Lider</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DIE</td>
+<td class="left">Data Interface Equipment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DIF</td>
+<td class="left">Data Interface Facility</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DIF</td>
+<td class="left">Directory Interchange Format</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DMSP</td>
+<td class="left">Defence Meteorological Satellite Program</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DOMSAT</td>
+<td class="left">DOMestic communications SATellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DOS</td>
+<td class="left">Disk Operation System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DRTS</td>
+<td class="left">Data Relay Test Satellite Program</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DSB</td>
+<td class="left">Double Sideband</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DSP</td>
+<td class="left">Digital Signal Processor</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DSU</td>
+<td class="left">Digital Service Unit</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DT</td>
+<td class="left">Direct Transmission subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DTE</td>
+<td class="left">Data Terminal Equipment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DTL</td>
+<td class="left">subsystem for Direct Transmission for Local users</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DTM</td>
+<td class="left">Digital Terrain Model</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ECMWF</td>
+<td class="left">Europian Center for Medium-Range Weather Forcast</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EDC</td>
+<td class="left">EROS Data Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EECF</td>
+<td class="left">Earthnet ERS-1 Central Facility</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EEOC</td>
+<td class="left">Earth Environment Observation Committee</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ELMF</td>
+<td class="left">Elements File</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ELMF1</td>
+<td class="left">Elements File 1</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ELMOS</td>
+<td class="left">Electro-Magnetic field Observation Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EM</td>
+<td class="left">Engineering Model</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ENRICH</td>
+<td class="left">Europian Network for Reserch In global CHange</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ENSO</td>
+<td class="left">El Nino/Southern Oscillation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ENVISAT</td>
+<td class="left">Enviromental Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EO-ICWG</td>
+<td class="left">Earth Observation International Cordination Working Group</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOC</td>
+<td class="left">Earth Observation Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOC-IS</td>
+<td class="left">EOC Information System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOF</td>
+<td class="left">End of File Marker</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOIS</td>
+<td class="left">Earth Observation data and Information System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOPD</td>
+<td class="left">Earth Observation Planning Department</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EORC</td>
+<td class="left">Earth Observation Research Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOS</td>
+<td class="left">Earth Observation Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOSAT</td>
+<td class="left">Earth Observation Satellite Company</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOSDIS</td>
+<td class="left">EOS Data and Information System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOT</td>
+<td class="left">End Of Tape</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ERBE</td>
+<td class="left">Earth Radiation budget Experiment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EROS</td>
+<td class="left">Earth Resources Observation System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ERS-1</td>
+<td class="left">European Remote Sensing Satellite-1</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ERSDAC</td>
+<td class="left">Earth Remote Sensing Data Analysis Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ESA</td>
+<td class="left">European Space Agency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ESCAP</td>
+<td class="left">United Nations Economic and Social Commission for Asia and  the Pacific</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ESRO</td>
+<td class="left">European Space Research Organization</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ETS-V</td>
+<td class="left">Engineering Test Satellite-V</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ETS-V/EMSS</td>
+<td class="left">Experimental Mobil Satellite System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ETS-VI</td>
+<td class="left">Engeneering Test Satellite-VI</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EUS</td>
+<td class="left">EOIS User interface Software</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EWS</td>
+<td class="left">Engineering Work Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FCMS</td>
+<td class="left">Fucino MOS Receiving Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FD</td>
+<td class="left">Floppy Disk</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FDDI</td>
+<td class="left">Fiber Distributed Data Interface</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FDM</td>
+<td class="left">Frequency Division Multiplex</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FDP</td>
+<td class="left">Fast Delivery Product</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FET</td>
+<td class="left">Field Effect Transistor</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FM</td>
+<td class="left">Flight Model</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FM</td>
+<td class="left">Frequency Modulation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FOV</td>
+<td class="left">Field Of View</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FSC</td>
+<td class="left">Facility for Scientific Community</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FTAM</td>
+<td class="left">File Transfer Access Method</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FTP</td>
+<td class="left">File Transfer Protocol</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">G/T</td>
+<td class="left">Gain/Temperature</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">G-II</td>
+<td class="left">Gulfstream-II</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GAC</td>
+<td class="left">Global Area Coverage</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GAIN</td>
+<td class="left">GAME Data Archive and Information Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GAME</td>
+<td class="left">GEWEX-related Asian Monsoon Experiment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GAME-T</td>
+<td class="left">GAME-Tropics</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GANAL</td>
+<td class="left">Global Analysis Data Set</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GCM</td>
+<td class="left">General Circulation Model</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GCP</td>
+<td class="left">Ground Control Point</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GEWEX</td>
+<td class="left">Global Energy and Water Cycle Experiment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GIF</td>
+<td class="left">Graphic Interchange Format</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GIS</td>
+<td class="left">Geographical Information System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GLI</td>
+<td class="left">Global Imager</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GLIS</td>
+<td class="left">Global Lead Information System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GMS</td>
+<td class="left">Geostationary Meteorological Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GMT</td>
+<td class="left">Greenwich Mean Time</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GOES</td>
+<td class="left">Geostationary Operational Environmental Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GOIN</td>
+<td class="left">Global Observation Information Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GOSS</td>
+<td class="left">Groupe des. Operateurs de Stations SPOT</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GPIB</td>
+<td class="left">General Purpose Interface Bus</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GPS</td>
+<td class="left">Global Positioning System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GRN</td>
+<td class="left">Global Research Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GRS</td>
+<td class="left">Ground Reference System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GSFC</td>
+<td class="left">Goddard Space Flight Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GT</td>
+<td class="left">Ground Truth</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GTDMS</td>
+<td class="left">Ground Truth Data Management Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GTMS</td>
+<td class="left">Gatineau MOS Receiving Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GUI</td>
+<td class="left">Graphical User Interface</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GV</td>
+<td class="left">Ground validation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GW</td>
+<td class="left">Gate Way</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HDDR</td>
+<td class="left">High-Density Digital Recordor</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HDDT/HDT</td>
+<td class="left">High Density Digital Tape</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HDF</td>
+<td class="left">Hierarchic Data Format</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HEOC</td>
+<td class="left">Hatoyama Earth Observation Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HK</td>
+<td class="left">Housekeeping</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HOM</td>
+<td class="left">Hotine Oblique Mercator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HRPT</td>
+<td class="left">High Resolution Picture Transmission</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HRV</td>
+<td class="left">High Resolution Visible</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HTML</td>
+<td class="left">Hyper Text Markup Language</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HTTP</td>
+<td class="left">Hyper Text Transfer Protocol</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IAI</td>
+<td class="left">Inter-American Institute for Global Change Reserch</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ID</td>
+<td class="left">Identification</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IDF</td>
+<td class="left">Intermediate Distribution Frame</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IDN</td>
+<td class="left">International Directory Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IF</td>
+<td class="left">Intermediate Frequency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IFOV</td>
+<td class="left">Instantaneous Field of View</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IFSAR</td>
+<td class="left">Interferometric Synthetic Aperture Radar (=INSAR)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IGAC</td>
+<td class="left">International Global Atmospheric Chemistry(Project)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IGBP</td>
+<td class="left">International Geosphere-Biosphere Programme</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ILAS</td>
+<td class="left">Improved Limb Atmospheric Spectrometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ILAS-II</td>
+<td class="left">Improved Limb Atmospheric Spectrometer-II</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IMG</td>
+<td class="left">Interferometric Monitor for Greenhouse Gases</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IMS</td>
+<td class="left">Information Management System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">INPE</td>
+<td class="left">Instituto National de Pesquisas Espaciais</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">INSAR</td>
+<td class="left">Interferometric Synthetic Aperture Radar (=IFSAR)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">INTELSAT</td>
+<td class="left">International Telecommunications Satellite Organization</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IOCS</td>
+<td class="left">Inter-Orbit Communication Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IP</td>
+<td class="left">Internet Protocol</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IPCC</td>
+<td class="left">Intergovernmental Panel on Climate Change</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IR</td>
+<td class="left">Infrared</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IRG</td>
+<td class="left">Inter Record Gap</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IRIG</td>
+<td class="left">Inter Range Instrumentation Group Standard</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IRS</td>
+<td class="left">Information Retrieval Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IRSA</td>
+<td class="left">Institute of Remote Sensing Application</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ISDN</td>
+<td class="left">Integrated Services Digital Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ISO</td>
+<td class="left">International Organization for Standardization</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ISP</td>
+<td class="left">Imaging Schedule Plan</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ISY</td>
+<td class="left">International Space Year</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ITV</td>
+<td class="left">Industrial Television</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JAFIC</td>
+<td class="left">Japan Fisheries Information Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JAROS</td>
+<td class="left">Japan Resources Observation System Organization</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JD</td>
+<td class="left">Julian Day</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JEA</td>
+<td class="left">Japan Environment Agency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JEM</td>
+<td class="left">Japan Experimental Module</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JIS</td>
+<td class="left">Japan Industrial Standard</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JPEG</td>
+<td class="left">Joint Photographic coding Experts Group</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JPL</td>
+<td class="left">Jet Propulsion Laboratory</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JST</td>
+<td class="left">Japan Standard Time</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JWA</td>
+<td class="left">Japan Weather Association</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">KRNS</td>
+<td class="left">Kiruna MOS Receiving Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LAC</td>
+<td class="left">Local Area Coverage</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LAN</td>
+<td class="left">Local Area Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LANDSAT</td>
+<td class="left">Land Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LAPAN</td>
+<td class="left">Indonesian National Institute of Aeronautics and Space</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LBIR</td>
+<td class="left">Laser Beam Image Recorder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LBIR/LBR</td>
+<td class="left">Laser Beam Image Recorder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LCC</td>
+<td class="left">Lambert Conformal Conic</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LD</td>
+<td class="left">Laser Disc</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LGSOWG</td>
+<td class="left">LANDSAT Ground Station Operators Working Group</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LIS</td>
+<td class="left">Lightning Imaging Sensor</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LMDR</td>
+<td class="left">Low bit rate Mission Data Recorder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LMT</td>
+<td class="left">Local Mean Time</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LNA</td>
+<td class="left">Low Noise Amplifier</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LOS</td>
+<td class="left">Loss of Signal</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LP</td>
+<td class="left">Line Printer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LSB</td>
+<td class="left">Least Significant Bit</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LTWG</td>
+<td class="left">LANDSAT Technical Working Group</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MCC</td>
+<td class="left">Mission Control Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MCCF</td>
+<td class="left">Mission Control Center Frontend</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MCS</td>
+<td class="left">Media Conversion Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MD</td>
+<td class="left">Mini Disk</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MDR</td>
+<td class="left">Mission Data Recorder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MDSS</td>
+<td class="left">Master Data Storage Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MESSR</td>
+<td class="left">Multispectral Electronic Self Scanning Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">METEOSAT</td>
+<td class="left">Meteorology Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MHS</td>
+<td class="left">Message Handling System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MITI</td>
+<td class="left">Ministry of International Trade and Industry</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MJD</td>
+<td class="left">Modified Julian Date</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MMO</td>
+<td class="left">Mission Management Organization</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MMOFE</td>
+<td class="left">Mission Management Organization Front End</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MMS</td>
+<td class="left">Multimission Modular Spacecraft</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MO</td>
+<td class="left">Magnetic Optical disc</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MODIS</td>
+<td class="left">Moderate-Resolution Imaging Spectrometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MOS</td>
+<td class="left">Marine Observation Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MOS-1/1b</td>
+<td class="left">Marine Observation Satellite-1/1b</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MOU</td>
+<td class="left">Memorandum of Understanding</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MPMS</td>
+<td class="left">Maspalomas MOS Receiving Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MRI</td>
+<td class="left">Meteorological Research Institute</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSB</td>
+<td class="left">Most Significant Bit</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSK</td>
+<td class="left">Minimum Shift Keying</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSR</td>
+<td class="left">Microwave Scanning Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSS</td>
+<td class="left">Multispectoral Scanner</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSS</td>
+<td class="left">Mass Storage Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MTBF</td>
+<td class="left">Mean Time Between Failures</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MTF</td>
+<td class="left">Modulation Transfer Functiion</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MTTR</td>
+<td class="left">Mean Time to Repair</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NASA</td>
+<td class="left">National Aeronautics and Space Administration</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NASDA</td>
+<td class="left">National Space Development Agency of Japan</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NBTR</td>
+<td class="left">Narrow Band Tape Recorder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NCD</td>
+<td class="left">Nominal Catalogue Data</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NCS</td>
+<td class="left">Network Control Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NCSA</td>
+<td class="left">National Center for Supercomputing Applications</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NCU</td>
+<td class="left">Network Control Unit</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NESDIS</td>
+<td class="left">National Enviromental Satellite,Data,and Information Sevice</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NFS</td>
+<td class="left">Network File System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NIS</td>
+<td class="left">Network Information Services</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NMS</td>
+<td class="left">Network Management Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NN</td>
+<td class="left">Nearest Neighber</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NOAA</td>
+<td class="left">National Oceanic and Atmospheric Administration</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NRCS</td>
+<td class="left">Normalized Radar Cross Section</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NRCT</td>
+<td class="left">National Research Council of Thailand</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NRSA</td>
+<td class="left">National Remote Sensing Agency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NRSCC</td>
+<td class="left">National Remote Sencing Center of China</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NRZ</td>
+<td class="left">Non Return to Zero</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NSCAT</td>
+<td class="left">NASA Scatterometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NSI</td>
+<td class="left">NASA Science Internet</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NSSDC</td>
+<td class="left">National Space Science Data Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NSSDC/WDC</td>
+<td class="left">National Space Science Data Center/World Data Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OAS</td>
+<td class="left">Orbit Adjust Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OBC</td>
+<td class="left">On Board Computer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OCC</td>
+<td class="left">Operations Control Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OCTS</td>
+<td class="left">Ocean Color and Temperature Scanner</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OD</td>
+<td class="left">Optical Disk</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ODR</td>
+<td class="left">Optical Data Recorder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ODUS</td>
+<td class="left">Ozone Dynamics Ultrariolet Spectrometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OIS</td>
+<td class="left">Operation Interface Specification</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OLIS</td>
+<td class="left">On Line Information System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OLR</td>
+<td class="left">Outgoing Longwave Radiation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OLS</td>
+<td class="left">Operational Linescan System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OMG</td>
+<td class="left">Object Management Group</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OPLAN</td>
+<td class="left">Operational Plan File</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OPS</td>
+<td class="left">Optical Sensor</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OS</td>
+<td class="left">Operating System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OSI</td>
+<td class="left">Open Systems Interconnection</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OTF</td>
+<td class="left">Optical Transfer Function</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">P.S.</td>
+<td class="left">Polor Stereo</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">P/PA</td>
+<td class="left">Panchromatic mode</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PAMS</td>
+<td class="left">Prince Albert MOS Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PARTNERS</td>
+<td class="left">Pan-pacific Regional Telecommunications Network Experiment  and Reserch</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PBM</td>
+<td class="left">Pass Briefing Message</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PBX</td>
+<td class="left">Private Branch eXchange</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PC</td>
+<td class="left">Program Control</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PC</td>
+<td class="left">Personal Computer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PC</td>
+<td class="left">Project Coordinator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PCD</td>
+<td class="left">Precise Catalogue Data</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PCDW</td>
+<td class="left">Precise Catalogue Data Weekly</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PCM</td>
+<td class="left">Pulse Code Modulation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PDR</td>
+<td class="left">Preliminary Design Review</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PEPS</td>
+<td class="left">SPOT Early Assessment Program</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PFM</td>
+<td class="left">Proto-Flight Model</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PGS</td>
+<td class="left">Product Generation Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PI</td>
+<td class="left">Principal Investigator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PIE</td>
+<td class="left">Polar Ice Extent</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PLL</td>
+<td class="left">Phase Locked Loop</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PM</td>
+<td class="left">Proto-type Model</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PM</td>
+<td class="left">Project Manager</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PM</td>
+<td class="left">Phase Modulation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PN</td>
+<td class="left">Pseudo-Noise</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">POLDER</td>
+<td class="left">Polarization and Directionality of the Earth`s Reflectances</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PPED</td>
+<td class="left">Post Pass Ephemeris Data</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PR</td>
+<td class="left">Precipitation Rader</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PRF</td>
+<td class="left">Pulse Repetition Frequency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PSK</td>
+<td class="left">Phase Shift Keying</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PTF</td>
+<td class="left">Phase transfer Function</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">QC</td>
+<td class="left">Quality Control</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">QL</td>
+<td class="left">Quick Look</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">QLDS</td>
+<td class="left">Quick Look data Distribution Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">QPSK</td>
+<td class="left">Quadrature Phase Shift Keying</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">QQC</td>
+<td class="left">Quality Quantity Continuity</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">R&amp;RR</td>
+<td class="left">Range &amp; Range Rate</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RA</td>
+<td class="left">Radar Altimeter</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RA</td>
+<td class="left">Research Announcement</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RADARSAT</td>
+<td class="left">Radar Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RADSCAT</td>
+<td class="left">Radiometer/Scatterometer(S-193)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RBV</td>
+<td class="left">Return Beam Vidicon camera</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RCS</td>
+<td class="left">Radar Cross Section</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RDB</td>
+<td class="left">Relational Data Base</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">REQ</td>
+<td class="left">Request(Operation Request File)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RESTEC</td>
+<td class="left">Remote Sensing Technology Center of Japan</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Rev</td>
+<td class="left">Revolution</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RF</td>
+<td class="left">Radio Frequency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RIS</td>
+<td class="left">Retroreflector in Space</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RSGS</td>
+<td class="left">Remote Sensing Ground Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RSP</td>
+<td class="left">Reference System for Planning</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">S/N , SNR</td>
+<td class="left">Signal to Noise Ratio</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">S-Band</td>
+<td class="left">S-Band Frequency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SAFISY</td>
+<td class="left">Space Agency Forum on ISY</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SANCST</td>
+<td class="left">Saudi Arabian National Center for Science and Technology</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SAR</td>
+<td class="left">Synthetic Aperture Radar</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SCAT</td>
+<td class="left">Microwave Scatterometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SCATT</td>
+<td class="left">Scatterometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SCO</td>
+<td class="left">Spacecraft Control Organization</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SEASAT</td>
+<td class="left">Sea Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SeaWiFS</td>
+<td class="left">Seaviewing Wide Field Sensor</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SeaWinds</td>
+<td class="left">Sea Winds</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SHMS</td>
+<td class="left">Shouwa station MOS Receiving Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SINFONIA</td>
+<td class="left">Satellite Information Network based on Individual Archiving</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SIR</td>
+<td class="left">Shuttle Imaging Radar</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SIR-C/X-SAR</td>
+<td class="left">Shuttle Imaging Radar C Band/X Band Synthetic Aperture Rader</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SLAR</td>
+<td class="left">Side Looking Airborne Radar</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SMILES</td>
+<td class="left">Sub-Millemeter wave Limb Emission Sounder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SMM</td>
+<td class="left">Solar Maximum Mission</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SMS</td>
+<td class="left">Schedule Management System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SMSS</td>
+<td class="left">Schedule Management Subsystem</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SMTP</td>
+<td class="left">Simple Mail Transfer Protocol</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SN</td>
+<td class="left">Signal to Noise Ratio</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SNMP</td>
+<td class="left">Simple Network Management Protocol</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SOCP</td>
+<td class="left">Spacecraft Orbital Checkout Procedure</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SOM</td>
+<td class="left">Space Oblique Mercator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SOOH</td>
+<td class="left">Spacecraft Orbital Operations Handbook</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SOP</td>
+<td class="left">Spacecraft Operation Procedure</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SPOT</td>
+<td class="left">Satellite Probatoire d&rsquo;Observation de la Terre</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SQL</td>
+<td class="left">Stractured Qyery Language</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SR</td>
+<td class="left">Special Resampling</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SRPS</td>
+<td class="left">SPOT Receiving Plan Scheduler</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SRR</td>
+<td class="left">System Requirement Review</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSB</td>
+<td class="left">Single Side band</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSM/I</td>
+<td class="left">Special Sensor Microwave/Imager</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSM/T</td>
+<td class="left">Special Sensor Microwave/Temperature Sounder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSQ</td>
+<td class="left">Subscene Sequential</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SST</td>
+<td class="left">Sea Surface Temperature</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSTCC</td>
+<td class="left">State Science and Technology Commission of China</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">STA</td>
+<td class="left">Science and Technology Agency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SUPARCO</td>
+<td class="left">Space and Upper Atmosphere Research Committee</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SWIR</td>
+<td class="left">Short Wavelength Infrared Region</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SWIR</td>
+<td class="left">Short Wave Infrared Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TACC</td>
+<td class="left">Tracking and Control Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TACS</td>
+<td class="left">Tracking and Control Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TBD</td>
+<td class="left">To Be Determined</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TBS</td>
+<td class="left">To Be Specified(Supplied)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TC&amp;R</td>
+<td class="left">Telemetry Command &amp; Ranging</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TCP</td>
+<td class="left">Transmission Control Protocol</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TCP/IP</td>
+<td class="left">Transmission Control Protocol/Internet Protocol</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TDM</td>
+<td class="left">Time Division Multiplexing</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TDMA/DSI</td>
+<td class="left">Time Division Multiple Access/Digital Speech Interpolation</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TDRS</td>
+<td class="left">Tracking &amp; Data Relay Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TDRSS</td>
+<td class="left">Tracking &amp; Data Relay Satellite System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TEDA</td>
+<td class="left">Technical Data Acquisition Equipment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TERSE</td>
+<td class="left">Tunable Etalon Remote Sounder for the Environment</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TG-DIAL</td>
+<td class="left">Trace Gas Differential absorption Lidar</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TIFF</td>
+<td class="left">Tagged-Image File Format</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TISN</td>
+<td class="left">Todai International Science Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TKMS</td>
+<td class="left">Tukuba Space Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TKSC</td>
+<td class="left">Telemetry</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TLM</td>
+<td class="left">Thematic Mapper</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TM</td>
+<td class="left">TRMM Microwave Imager</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TMI</td>
+<td class="left">Thailand MOS Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TMS</td>
+<td class="left">Tropical Ocean and Global Atmosphere</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TOGA</td>
+<td class="left">Total zone Mapping Spectrometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TOMS</td>
+<td class="left">Tokai university Research &amp; Information Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TRIC</td>
+<td class="left">Tropical Rainfall Measuring Mission</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TRMM</td>
+<td class="left">Tromsoe MOS Receiving Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TRMS</td>
+<td class="left">Tokai university Space Information Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TSIC</td>
+<td class="left">Tracking, Telemetry &amp; Command Plan</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TTCPLAN</td>
+<td class="left">Transistor-Transistor Logic</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TTL</td>
+<td class="left">Traveling Wave Tube</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TWT</td>
+<td class="left">Taihei-You sougou Kansoku Initiative</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TYKKI</td>
+<td class="left">Upper Atmospheric Research Satellite</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UARS</td>
+<td class="left">Ultra-High Frequency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UHF</td>
+<td class="left">User Interface Terminal</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UIT</td>
+<td class="left">Unbalanced quadrature phase shift keying</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UQPSK</td>
+<td class="left">Unifide S-Band</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">USB</td>
+<td class="left">Universal Time</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UT</td>
+<td class="left">Universal Transverse Mercator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UTM</td>
+<td class="left">Tracking and Control Center</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">V/H</td>
+<td class="left">Velocity to Height ratio</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VCO</td>
+<td class="left">Voltage Control Oscillator</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VHF</td>
+<td class="left">Very-High Frequency</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VIRS</td>
+<td class="left">Visible Infrared Scanner</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VNIR</td>
+<td class="left">Visible and Near Infrared Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VSAR</td>
+<td class="left">Variable off-nadir angle Synthetic Aperture Rader</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VSWR</td>
+<td class="left">Voltage Standing Wave Ratio</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VTIR</td>
+<td class="left">Visible and Thermal Infrared Radiometer</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WAN</td>
+<td class="left">Wide Area Network</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WBTR</td>
+<td class="left">Wide-band Video Tape Recorder</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WCRP</td>
+<td class="left">World Climate Research Programme</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WO</td>
+<td class="left">Work Order</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WPS</td>
+<td class="left">Wallops</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WRS</td>
+<td class="left">World Reference System</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WS</td>
+<td class="left">Work Station</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WWW</td>
+<td class="left">World Wide Web</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">XS</td>
+<td class="left">Multi Spectral Mode</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">4DDA</td>
+<td class="left">4 Dimentional Data Assimilation</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">A/D</td>
+<td class="left">Ascending/Descending</td>
+<td class="left">アセンディング／ディセンディング</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AADN</td>
+<td class="left">Americas ALOS Data Node</td>
+<td class="left">北南米地域担当ALOSデータノード</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ACRES</td>
+<td class="left">Australian Centre for Remote Sensing</td>
+<td class="left">オーストラリア リモートセンシングセンター</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Active sensor</td>
+<td class="left">Active sensor</td>
+<td class="left">能動型センサ:衛星から電磁波を物体に照射し､物体からの散乱反射波を収集するセンサ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADDS</td>
+<td class="left">ALOS Data Distribution System</td>
+<td class="left">ALOSデータ伝送システム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADEN</td>
+<td class="left">ALOS Data European Node</td>
+<td class="left">ヨーロッパ/アフリカ地域担当ALOSデータノード</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADEOS</td>
+<td class="left">Advanced Earth Observing Satellite</td>
+<td class="left">地球観測プラットフォーム技術衛星｢みどり｣</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADEOS-II</td>
+<td class="left">Advanced Earth Observing Satellite-II</td>
+<td class="left">環境観測技術衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADIS</td>
+<td class="left">ALOS Data node Interface System</td>
+<td class="left">EOC外機関用通信システム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADN</td>
+<td class="left">ALOS Data Node</td>
+<td class="left">ALOSデータノード機関</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADS</td>
+<td class="left">Advertisement Subsystem</td>
+<td class="left">ガイドサブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ADS</td>
+<td class="left">Angular Displacement Sensor</td>
+<td class="left">高周波角度センサ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Aerosol</td>
+<td class="left">Aerosol</td>
+<td class="left">エアロゾル:気体中に分散し浮遊する個体又は液体の微粒子</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AIM</td>
+<td class="left">AMI Image</td>
+<td class="left">AMIのイメージモード(ERS-1/2)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AIRS</td>
+<td class="left">Atmospheric Infrared Sounder</td>
+<td class="left">大気赤外サウンダ(EOS-PM1(Aqua)搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Albedo</td>
+<td class="left">Albedo</td>
+<td class="left">アルベド:太陽光又は可視波長範囲について､物体により反射される電磁波量の､物体に入射する電磁波量に対する比</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ALOS</td>
+<td class="left">Advanced Land Observing Satellite</td>
+<td class="left">陸域観測技術衛星(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMI</td>
+<td class="left">Active Microwave Instrument</td>
+<td class="left">能動型マイクロ波観測機器(ERS-1/2搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMSR</td>
+<td class="left">Advanced Microwave Scanning Radiometer</td>
+<td class="left">高性能マイクロ波放射計(ADEOS-II搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMSR-E</td>
+<td class="left">Advanced Microwave Scanning Radiometer-EOS</td>
+<td class="left">改良型高性能マイクロ波放射計(EOS-PM1(Aqua)搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AMSU</td>
+<td class="left">Advanced Microwave Sounding Unit</td>
+<td class="left">高性能マイクロ波サウンダ(EOS-PM1(Aqua)搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AOCS</td>
+<td class="left">Attitude and Orbit Control Subsystem</td>
+<td class="left">姿勢軌道制御系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AOS</td>
+<td class="left">Acquisition of Signal</td>
+<td class="left">信号受信開始</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AP</td>
+<td class="left">precipitation</td>
+<td class="left">降水量</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Aqua</td>
+<td class="left">Earth Observing System PM1(EOS-PM1)</td>
+<td class="left">NASA/EOS計画の衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ARGOS</td>
+<td class="left">ARGOS System</td>
+<td class="left">位置算出･データ収集システムNOAA衛星(米国)等で情報収集を行う｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ARTEMIS</td>
+<td class="left">Advanced Relay and Technology Mission</td>
+<td class="left">先端型データ中継技術衛星(ESA)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ASF</td>
+<td class="left">Alaska SAR Facility</td>
+<td class="left">アラスカSAR施設</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ASTER</td>
+<td class="left">Advanced Spaceborne Thermal Emission and Reflection radiometer</td>
+<td class="left">資源探査用将来型センサ(Terra搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ATSR/IR(ATI)</td>
+<td class="left">Along Track Scanning Radiometer/infrared</td>
+<td class="left">航跡沿走査放射計/熱赤外(ERS-1搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Attitude</td>
+<td class="left">Attitude</td>
+<td class="left">衛星の姿勢をＸ，Ｙ，Ｚの３軸のまわりの角度で表したもの。 Ｘ軸：飛行方向を限定する軸、まわりの回転をロールという。 Ｙ軸：飛行方向に垂直な軸、まわりの回転をピッチという。 ｚ軸：鉛直方向の軸、まわりの回転をヨーという。</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AUIG</td>
+<td class="left">ALOS User Interface Gateway</td>
+<td class="left">ALOSユーザインタフェースゲートウェイ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AUSLIG</td>
+<td class="left">Ausralian Survaying &amp; Land Information Group</td>
+<td class="left">オーストラリア地理情報グループ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVHRR</td>
+<td class="left">Advanced Very High Resolution Radiometer</td>
+<td class="left">改良型高分解能放射計(TIROS-N/NOAAシリーズ搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVIRIS</td>
+<td class="left">Airborne Visible and Infrared Imaging Spectrometer</td>
+<td class="left">航空機搭載型イメージングスペクトロメータ(NASA/JPL)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVNIR</td>
+<td class="left">Advanced Visible and Near-Infrared Radiometer</td>
+<td class="left">高性能可視近赤外放射計(ADEOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AVNIR-2</td>
+<td class="left">Advances Visible and Near Infrared Radiometer type 2</td>
+<td class="left">高性能可視近赤外放射計2(ALOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AWA</td>
+<td class="left">AMI Wave</td>
+<td class="left">AMI波モード(ERS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">AWI</td>
+<td class="left">AMI Wind</td>
+<td class="left">AMI風モード(ERS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Azimuth</td>
+<td class="left">Azimuth</td>
+<td class="left">アジマス方向:アンテナから見た場合の､衛星の進行方向</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BDS</td>
+<td class="left">Browse data Distribution Subsystem</td>
+<td class="left">画像カタログデータ伝送サブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BER</td>
+<td class="left">Bit Error Rate</td>
+<td class="left">ビット誤り率</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Biomass</td>
+<td class="left">Biomass</td>
+<td class="left">バイオマス:植生群落の単位面積あたりの全量</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Bird&rsquo;s eye view image</td>
+<td class="left">Bird&rsquo;s eye view image</td>
+<td class="left">鳥瞰(ちょうかん)画像:鳥が高所から地上を眺めたように見せた画像</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BKMS</td>
+<td class="left">Bangkok MOS Receiving Station</td>
+<td class="left">バンコクMOS受信局の地上局コード(タイ)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">BL</td>
+<td class="left">Bi-Linear</td>
+<td class="left">双1次内挿方式:リサンプリング法の一種｡求めたい点の周囲4点の画像データを用いて内挿する方式</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">C/O</td>
+<td class="left">Check Out</td>
+<td class="left">チェックアウト(衛星搭載機器の機能確認)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CAL</td>
+<td class="left">Calibration</td>
+<td class="left">校正</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CAP</td>
+<td class="left">For Centre d&rsquo;archivage et de prétraitement</td>
+<td class="left">Spot Image社にて提供されているSpot画像の標準フォ ーマット｡CEOSフォーマット(BIL)の基本的な構造を受け継いでいる｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CC</td>
+<td class="left">Cubic Convolution</td>
+<td class="left">3次たたみ込み内挿方式:リサンプリング法の一種｡求めたい点の周囲16点の画像データを用いて内挿する方式</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CCD</td>
+<td class="left">Charge Coupled Device</td>
+<td class="left">光の情報をデジタルデータに変換する半導体素子のことで､光学センサの受光部に使用されている｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CCRS</td>
+<td class="left">Canadian Centre for Remote Sensing</td>
+<td class="left">カナダ リモートセンシングセンター</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CCSDS</td>
+<td class="left">Consultative Committee for Space Data System</td>
+<td class="left">宇宙データシステム諮問委員会:機関間での宇宙機の相互運用を実現するために必要なデータシステムの国際標準の勧告を行う｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CD-ROM</td>
+<td class="left">Compact Disk-Read Only Memory</td>
+<td class="left">読み出し専用コンパクトディスク</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS</td>
+<td class="left">Committee on Earth Observation Satellites(CEOS)</td>
+<td class="left">地球観測衛星委員会:各国の宇宙関連機関が集まり､データフォーマットやカタログ相互運用等の地球観測に関する標準､国際的な情報インフラ､将来的な開発や協力に関わる構想を行う組織｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-BIL</td>
+<td class="left">Band Interleaved by Line</td>
+<td class="left">CEOSで標準化が図られたフォーマット｡ライン毎に全ての画像データが格納されたフォーマット｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-BSQ</td>
+<td class="left">Band Sequential</td>
+<td class="left">CEOSで標準化が図られたフォーマット｡画像データが各バンド毎にファイル構成されたフォーマット｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-IDN</td>
+<td class="left">CEOS International Directory Network</td>
+<td class="left">国際ディレクトリネットワーク:CEOSで提唱され､JAXA､NASA､ESA､CCRSの国際ノードで運用されている､衛星観測データに関する全世界のデータセット情報(文字情報)を検索､入手することができるデータベースシステム｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-WGCV</td>
+<td class="left">CEOS-Working Group on Calibration and Validation</td>
+<td class="left">校正･検証作業部会(CEOS):地球観測データ成果品の品質｡精度､及び長期的信頼性の維持向上を目的とした作業部会｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CEOS-WGISS</td>
+<td class="left">CEOS Working Group on Information Systems and Services</td>
+<td class="left">情報システム/サービスワーキンググループ(CEOS):ユーザやデータ提供者に対し､地球規模又は地域的規模でのデータ及び情報の管理とサービスを行うシステムの試験･開発を行う作業部会｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CERES</td>
+<td class="left">Clouds and the Earth&rsquo;s Radiant Energy System</td>
+<td class="left">雲地球放射エネルギー観測装置(TRMM及びAqua搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Chlorophyll</td>
+<td class="left">Chlorophyll</td>
+<td class="left">クロロフィル:植物の光合成に必要な緑色の色素</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CIP</td>
+<td class="left">Catalog Interoperability Protocol</td>
+<td class="left">カタログ相互運用プロトコル</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CLS</td>
+<td class="left">Collecte Localization Satellites</td>
+<td class="left">ADEOS-II DCS機関</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CLW</td>
+<td class="left">Cloud Liquid Water</td>
+<td class="left">シーエルダブリュー 雲水量</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CNES</td>
+<td class="left">Centre National d&rsquo;Etudes Spatiales</td>
+<td class="left">フランス国立宇宙研究所(フランス)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CNIE</td>
+<td class="left">Commision National de Investigacines Espaciales Argentina</td>
+<td class="left">アルゼンチン宇宙研究委員会(アルゼンチン)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Color composit</td>
+<td class="left">Color composit</td>
+<td class="left">カラー合成:3つのバンドの輝度値分布(白黒画像)に赤､緑､青を割り当ててカラー画像を作ること</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">COMB</td>
+<td class="left">Combined product(TRMM)</td>
+<td class="left">TRMM降雨レーダ(PR)とTRMMマイクロ波観測装置(TMI)を組み合わせた複合データ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Cross Track</td>
+<td class="left">Cross Track</td>
+<td class="left">クロストラック方向:衛星進行方向と直角方向</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CSA</td>
+<td class="left">Canadian Space Agency</td>
+<td class="left">カナダ航空宇宙局</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">CZCS</td>
+<td class="left">Coastal Zone Color Scanner</td>
+<td class="left">沿岸海域カラースキャナー (NIMBUS-7搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">D1</td>
+<td class="left">Digital Data Cartridge</td>
+<td class="left">JAXA/EOCの提供媒体</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DAAC</td>
+<td class="left">Distributed Active Archive Centers</td>
+<td class="left">地球科学に関する衛星観測および地上観測データや情報の収集､保管および提供を行っているアメリカの分散型活動記録センターの総称｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DAS</td>
+<td class="left">Data Analysis System</td>
+<td class="left">データ解析処理サブシステム(JAXA/EORC設備):衛星データの処理アルゴリズム､校正･検証を行うための計算機環境並びに地上観測データを提供するシステム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DAT</td>
+<td class="left">Digital Audio Tape</td>
+<td class="left">JAXA/EOCの提供媒体</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DCP</td>
+<td class="left">Data Collection Platform</td>
+<td class="left">データ収集プラットフォーム:DCSで用いられる無人観測装置(ブイ等)のこと｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DCS</td>
+<td class="left">Data Collection System</td>
+<td class="left">データ収集システム:無人観測装置(ブイ等のDCP)からの観測データを収集し､衛星経由でデータを世界中のユーザーに伝送するシステム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DDMS</td>
+<td class="left">Data Distribution and Management System</td>
+<td class="left">データ総合管理･提供システム:JAXA/EOCにおける情報管理及びデータ提供系設備の総称</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DDS</td>
+<td class="left">Data Distribution Subsystem</td>
+<td class="left">処理済みデータ伝送サブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DEM</td>
+<td class="left">Digital Elevation Model</td>
+<td class="left">地上の形状を表現するためのデータ(ディジタル標高モデル)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DES</td>
+<td class="left">Data Editing Subsystem</td>
+<td class="left">データ編集サブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DFAS</td>
+<td class="left">DMS Flight Application Software</td>
+<td class="left">自動化自律化ソフトウェア</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DIF</td>
+<td class="left">Directory Interchange Format</td>
+<td class="left">CEOS-IDNモード間で交換するディレクトリ情報のフォーマット</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DLT</td>
+<td class="left">Digital Linear Tape</td>
+<td class="left">ディジタル リニア テープ:JAXA/EOCでのデータ保存媒体として用いている｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DM</td>
+<td class="left">Deployment Monitor</td>
+<td class="left">展開モニタ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DMSP</td>
+<td class="left">Defence Meteorological Satellite Program</td>
+<td class="left">米国国防省気象衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DPS</td>
+<td class="left">Data Processing Subsystem</td>
+<td class="left">データ処理設備(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DRC</td>
+<td class="left">Data Relay ｓａｔｅｌｌｉｔｅ　Communication</td>
+<td class="left">データ中継衛星通信部</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DRS</td>
+<td class="left">Data Retrieval Subsystem</td>
+<td class="left">データ提供サブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DRTS</td>
+<td class="left">Data Relay Test Satellite</td>
+<td class="left">データ中継技術衛星(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DSS</td>
+<td class="left">Data Storage System</td>
+<td class="left">データ保存システム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DT</td>
+<td class="left">Direct Transmission subsystem</td>
+<td class="left">直接伝送系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">DTM</td>
+<td class="left">Digital Terrain Model</td>
+<td class="left">ディジタル地形のモデル</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Earth Ellipsoid Model</td>
+<td class="left">Earth Ellipsoid Model</td>
+<td class="left">地球楕円体モデル:地球上の位置を緯度､経度､高さで表現するために用いる基準モデルのこと</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ECS</td>
+<td class="left">EOSDIS Core System</td>
+<td class="left">EOSDISの基盤となるECSは､NASAが運用する9つのDAACからインターネットを通じて地球観測に関する幅広い情報を提供するシステム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EDC</td>
+<td class="left">Earth Resources Observation System(EROS) Data Center</td>
+<td class="left">米国の地球資源観測システム(EROS)のデータセンター(USGSの一部門)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EL</td>
+<td class="left">Elevation</td>
+<td class="left">仰角</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ELMD</td>
+<td class="left">Definitive orbital Element</td>
+<td class="left">軌道決定値(ファイル)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ELMF</td>
+<td class="left">Elements File</td>
+<td class="left">軌道要素情報ファイル:受信局のアンテナ指向のための軌道データの予測値と画像データを正確に処理するための決定値を含んだファイルのことで次の情報が含まれる｡ (1)初期軌道要素､(2)生成軌道要素I(8時間毎)､(3)生成軌道要素II(1分毎)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ELMF 1</td>
+<td class="left">Elements File 1</td>
+<td class="left">軌道要素情報ファイル1:ELMFから1分毎の生成軌道要素IIを除いたもの｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ELMP</td>
+<td class="left">Predictive orbital Element</td>
+<td class="left">軌道予測値(ファイル)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EMS</td>
+<td class="left">Environmental Management System</td>
+<td class="left">環境管理システム(ISO14001):企業活動､製品及びサービスの環境負荷の低減といった環境パフォーマンスの改善を実施する仕組みが継続的に改善されるシステム｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ENVISAT</td>
+<td class="left">Environmental Satellite</td>
+<td class="left">環境観測衛星(ESA)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOC</td>
+<td class="left">Earth Observation Center</td>
+<td class="left">地球観測センター(JAXA/EOC)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOIS</td>
+<td class="left">Earth Observation data and Information System</td>
+<td class="left">地球観測情報システム:JAXA/EOCの情報管理及び処理･提供系設備の総称</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EORC</td>
+<td class="left">Earth Observation Research Center</td>
+<td class="left">地球観測研究センター(JAXA)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOS</td>
+<td class="left">Earth Observation Satellite</td>
+<td class="left">地球観測衛星(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOS</td>
+<td class="left">Earth Observing System</td>
+<td class="left">地球観測計画:NASAのグローバルチェンジを理解するための科学的基礎を得るために地表面､生圏､固体地球､気圏及び海洋を衛星によって長期的に観測する計画｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOS-AM1</td>
+<td class="left">Earth Observing System-AM1</td>
+<td class="left">NASA極軌道プラットフォーム(Terra)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOSAT</td>
+<td class="left">Earth Observation Satellite Company</td>
+<td class="left">LandsatやIRSデータを販売していた世界最大の衛星画像配給会社1996年にSpace Imaging EOSAT社となる｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOSDIS</td>
+<td class="left">EOS Data and Information System</td>
+<td class="left">NASAのMTPE(惑星地球へのミッション)計画によって収集された地球科学に関連する包括的なデータおよび情報を提供するシステム｡ (EOS計画全体を対象とした地上データシステム)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EOS-PM1</td>
+<td class="left">Earth Observing System-PM1(Aqua)</td>
+<td class="left">NASA極軌道プラットフォーム(Aqua)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EPS</td>
+<td class="left">Electoric Power Subsystem</td>
+<td class="left">電源系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EQR</td>
+<td class="left">parallel latitude/longitude projection</td>
+<td class="left">等緯度経度図法</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Equatorial crossing</td>
+<td class="left">Equatorial crossing</td>
+<td class="left">降交点時刻:北極から南極方向の軌道において衛星が赤道を横切る時刻</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">EROS</td>
+<td class="left">Earth Resources Observation System</td>
+<td class="left">米国の地球資源観測システム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ERS</td>
+<td class="left">European Remote Sensing Satellite</td>
+<td class="left">ヨーロッパ リモートセンシング衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ERSDAC</td>
+<td class="left">Earth Remote Sensing Data Analysis Center</td>
+<td class="left">(財)資源･環境観測解析センター(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ESA</td>
+<td class="left">European Space Agency</td>
+<td class="left">欧州宇宙機構:欧州各国間の宇宙研究と技術協力を推進する機関</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ESRIN</td>
+<td class="left">European Space Research Institute</td>
+<td class="left">欧州宇宙研究所</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ESRO</td>
+<td class="left">European Space Research Organization</td>
+<td class="left">欧州宇宙研究機構(ESAの前身)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ESTEC</td>
+<td class="left">European Space Technology Center</td>
+<td class="left">欧州宇宙技術センター:欧州宇宙機関(ESA)の施設</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ETM+</td>
+<td class="left">Enhanced Thematic Mapper Plus</td>
+<td class="left">改良型セマティック マッパ プラス(LANDSAT-7搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ETS-V</td>
+<td class="left">Engineering Test Satellite-V</td>
+<td class="left">技術試験衛星V型:きく5号(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ETS-V/EMSS</td>
+<td class="left">Experimental Mobile Satellite System</td>
+<td class="left">ETS-V/移動体衛星通信実験</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ETS-VI</td>
+<td class="left">Engineering Test Satellite-VI</td>
+<td class="left">技術試験衛星VI型:きく6号(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">False color</td>
+<td class="left">False color</td>
+<td class="left">フォールスカラー:画像のカラー合成の一種であり､植生が赤系統に発色し､植生の種類､活力等を判読するのに用いられる</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FAST-L7A</td>
+<td class="left">FAST-L7A Format</td>
+<td class="left">FAST-L7Aフォーマット:Space Imaging社がLANDSAT用に使用していたFAST-CフォーマットをETM+用に修正したもの｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FCMS</td>
+<td class="left">Fucino MOS Receiving Station</td>
+<td class="left">フチノMOS受信局(地上局コード)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FD</td>
+<td class="left">Floppy Disk</td>
+<td class="left">フロッピーディスク</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Fixed area sub scene</td>
+<td class="left">Fixed area sub scene</td>
+<td class="left">固定域サブシーン(TRMM):南緯5度~北緯35度､東経80度~160度の範囲で切り出したもの｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Footprint</td>
+<td class="left">Footprint</td>
+<td class="left">フットプリント:マイクロ波センサが広がりのある対象面を観測するときに､対象物面上でアンテナの主ビームが見込む範囲</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">FOV</td>
+<td class="left">Field of View</td>
+<td class="left">観測視野:センサの全体が受光できる角</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Full scene</td>
+<td class="left">Full Scene</td>
+<td class="left">フルシーン:シーン単位のデータ｡サブシーンに対して､シーン全体を指すときに用いる｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GA</td>
+<td class="left">Geoscience Australia</td>
+<td class="left">ジオサイエンス オーストラリア</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GAC</td>
+<td class="left">Global Area Coverage</td>
+<td class="left">ADEOS/OCTSのシーン定義の一種｡チルトセグメント毎のデータ｡日照期間中のデータのみを処理する｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GCOM</td>
+<td class="left">Global Change Observation Mission</td>
+<td class="left">地球環境変動観測ミッション</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GCP</td>
+<td class="left">Ground Control Point</td>
+<td class="left">地上基準点:画像データの幾何学補正処理等に使用する地上の位置ぎめの為のターゲット</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Geometric correction</td>
+<td class="left">Geometric correction</td>
+<td class="left">幾何学的歪み補正:画像上の各ピクセルの位置座標と地図座標系における対象地物の座標との差異を補正すること｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GeoTIFF</td>
+<td class="left">GeoTIFF Format</td>
+<td class="left">GeoTIFFフォーマット:通常のTIFFにリモートセンシング用の情報を付加したフォーマット｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GHRC</td>
+<td class="left">Global Hydrology Resource Center</td>
+<td class="left">全球水文資源センター(NASA)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GIS</td>
+<td class="left">Geographical Information System</td>
+<td class="left">地理情報システム:数値化された地図データと台帳などの属性データを組み合わせ､コンピュータ上で一元管理するもので､情報の検索や処理又は解析を容易に行うことのできるシステム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GISTDA</td>
+<td class="left">Geo-Informatics and Space Technology Development Agency</td>
+<td class="left">タイ地理情報･宇宙技術開発機関(タイ)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GLI</td>
+<td class="left">Global Imager</td>
+<td class="left">グローバル イメージャ(ADEOS-II搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GMS</td>
+<td class="left">Geostationary Meteorological Satellite</td>
+<td class="left">静止気象衛星:ひまわり(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GMT</td>
+<td class="left">Greenwich Mean Time</td>
+<td class="left">グリニッジ標準時</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GN</td>
+<td class="left">Ground Network System</td>
+<td class="left">追跡管制地上ネットワークシステム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GOES</td>
+<td class="left">Geostationary Operational Environmental Satellite</td>
+<td class="left">米国の静止気象衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GOFC</td>
+<td class="left">Global Observation of Forest Cover</td>
+<td class="left">CEOS/IGOSにおける全球森林観測計画</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GOIN</td>
+<td class="left">Global Observation Information Network</td>
+<td class="left">地球観測情報ネットワーク:日米及びアジア･太平洋諸国の地球観測データ流通を促進するための活動</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GOSAT</td>
+<td class="left">Greenhouse gas Observing SATellite</td>
+<td class="left">温室効果ガス観測技術衛星　地球温暖化の原因となる「温室効果ガス」の濃度分布を観測し、「京都議定書」で定められた二酸化炭素(CO2)の排出量削減に貢献することを目的とした人工衛星。</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GPS</td>
+<td class="left">Global Positioning System</td>
+<td class="left">全地球規模位置決定システム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GPSR</td>
+<td class="left">GPS Receiver</td>
+<td class="left">GPS受信機</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Ground truth</td>
+<td class="left">Ground truth</td>
+<td class="left">グランドトゥルース:衛星による地表観測データと地上観測データの正確さや整合性のチェック作業のこと</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GRS</td>
+<td class="left">Ground Reference System</td>
+<td class="left">地上参照座標系:観測データの位置を示すための座標系であり､"パス"と"ロウ"で表される｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GRS80</td>
+<td class="left">Geodetic Reference System 1980</td>
+<td class="left">測地基準系 1980:国際測地学協会及び国際測地･地球物理学連合が1979年に採択した､重力定数､角速度等地球の物理学的な定数及び計算式｡JAXA/EOCで処理されるデータに用いられている｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GSFC</td>
+<td class="left">Goddard Space Flight Center</td>
+<td class="left">NASA/ゴダード宇宙飛行センター</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GT</td>
+<td class="left">Ground Truth</td>
+<td class="left">グランドトゥルースデータ:地球観測衛星との同期実験の際に地上で取得されたデータ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GUI</td>
+<td class="left">Graphical User Interface</td>
+<td class="left">グラフィカルユーザインタフェース:ユーザに対する情報の表示にグラフィックを多用し､大半の基礎的な操作をマウスなどのポインティングデバイスによって行うことができるユーザインターフェースのこと｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">GV</td>
+<td class="left">Ground Validation</td>
+<td class="left">グランドバリデーションデータ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HDDR</td>
+<td class="left">High-Density Digital Recorder</td>
+<td class="left">高密度ディジタルレコーダ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HDDT</td>
+<td class="left">High-Density Digital Tape</td>
+<td class="left">高密度ディジタルテープ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HDF</td>
+<td class="left">Hierarchcal Data Format</td>
+<td class="left">様々な計算機環境にあるユーザが容易にデータの相互交換を行えるようにイリノイ大学のNCSAで開発された階層型のフォーマット</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HEOC</td>
+<td class="left">Hatoyama Earth Observation Center</td>
+<td class="left">鳩山受信局(JAXA/EOC)の地上局コード</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">H-II</td>
+<td class="left">H-II</td>
+<td class="left">H-IIロケット:日本の大型国産ロケット</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">H-IIA</td>
+<td class="left">H-IIA</td>
+<td class="left">H-IIAロケット:H-IIロケットの改良型(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HK</td>
+<td class="left">Housekeeping</td>
+<td class="left">ハウスキーピング:衛星の内部構成機器の状態監視</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HKTLM</td>
+<td class="left">HouseKeeping Telemetry</td>
+<td class="left">ハウスキーピング テレメトリデータ:衛星の内部構成機器の状態(温度､電力､動作状態等)を示したデータ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HRV</td>
+<td class="left">High Resolution Visible Imaging System</td>
+<td class="left">SPOT1~3に搭載されている高分解能センサ(SPOT)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HRVIR</td>
+<td class="left">High-Resolution Visible and Infrared</td>
+<td class="left">HRVの後継センサ(SPOT-4搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HSB</td>
+<td class="left">Humidity Sounder for Brazil</td>
+<td class="left">マイクロ波水蒸気サウンダ(Aqua搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">HSSR</td>
+<td class="left">High rate Mission data Solid-State Recorder</td>
+<td class="left">高速ミッションデータ用データレコーダ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IAU</td>
+<td class="left">International Astronomical Union</td>
+<td class="left">国際天文学連合</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IC</td>
+<td class="left">Sea Ice Concentration</td>
+<td class="left">海氷分布／海氷密接度</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IDCP</td>
+<td class="left">Image Data Compression Processor</td>
+<td class="left">画像データ圧縮装置</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IDN</td>
+<td class="left">International Directory Network</td>
+<td class="left">国際ディレクトリネットワーク(CEOS)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IFOV</td>
+<td class="left">Instantaneous Field of View</td>
+<td class="left">瞬時視野角:センサが瞬間的に見ることが出来る視野(角度)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IGBP</td>
+<td class="left">International Geosphere - Biosphere Programme</td>
+<td class="left">地球圏-生物圏国際共同研究計画:地球圏変動メカニズムを解明し､その変動予測のための科学的基礎を確立するための計画</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IGOS</td>
+<td class="left">International Global Observing Strategy</td>
+<td class="left">総合地球観測戦略:科学/運用･研究分野でより高いレベルでの包括的戦略計画を立案するCEOSのコンセプト</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ILAS</td>
+<td class="left">Improved Limb Atmospheric Spectrometer</td>
+<td class="left">改良型大気周縁赤外分光計(ADEOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ILAS-II</td>
+<td class="left">Improved Limb Atmospheric Spectrometer-II</td>
+<td class="left">改良型大気周縁赤外分光計II型</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IMG</td>
+<td class="left">Interferometric Monitor for Greenhouse Gases</td>
+<td class="left">温室効果気体センサ(ADEOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Incidence angle</td>
+<td class="left">Incidence angle</td>
+<td class="left">地表入射角:センサと地表対象物とを結ぶ直線とその地表面の法線とのなす角</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">INPE</td>
+<td class="left">Instituto National de Pesquisas Espaciais</td>
+<td class="left">ブラジル国立宇宙研究所(ブラジル)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">INT</td>
+<td class="left">Integration Hard ware</td>
+<td class="left">計装系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">INTELSAT</td>
+<td class="left">International Telecommunications Satellite Organization</td>
+<td class="left">国際電気通信衛星機構</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Interferometry</td>
+<td class="left">Interferometry</td>
+<td class="left">インターフェロメトリ:合成開口レーダに干渉系の手法を組み合わせて､地形の三次元情報を得る技術</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IOCS</td>
+<td class="left">Inter-Orbit Communication Subsystem</td>
+<td class="left">軌道間通信系:地球観測衛星が､地上局の非可視域でも通信衛星を経由して観測データの伝送を可能とする機能</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IR</td>
+<td class="left">Infrared radiation</td>
+<td class="left">赤外線:可視光の超波長側の端､0.7μm～1mm間での波長範囲にある電磁波のこと</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IRS</td>
+<td class="left">Information Retrieval Subsystem</td>
+<td class="left">検索処理サブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">IRS</td>
+<td class="left">Indian Remote Sensing Satellite</td>
+<td class="left">インド リモートセンシング衛星(インド)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ISO</td>
+<td class="left">International Organization for Standardization</td>
+<td class="left">国際標準化機構:工業及び科学技術に関する国際規格を制定している国際機関｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ISY</td>
+<td class="left">International Space Year</td>
+<td class="left">国際宇宙年:1992年に行われた国際的な宇宙活動のイベント</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JAFIC</td>
+<td class="left">Japan Fisheries Information Service Center</td>
+<td class="left">(社)漁業情報サービスセンター(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JAMSTEC</td>
+<td class="left">Japan Agency for Marine-Earth Science and Technology</td>
+<td class="left">独立行政法人海洋研究開発機構(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JAROS</td>
+<td class="left">Japan Resources Observation System Organization</td>
+<td class="left">(財)資源探査用観測システム研究開発機構(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JAXA</td>
+<td class="left">Japan Aerospace Exploration Agency</td>
+<td class="left">宇宙航空研究開発機構。宇宙科学研究所(ISAS)、航空宇宙技術研究所(NAL)、宇宙開発事業団(NASDA)が統合し、2003年10月1日に発足した。</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JD</td>
+<td class="left">Julian Day</td>
+<td class="left">ユリウス日</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JEM</td>
+<td class="left">Japan Experiment Module</td>
+<td class="left">国際宇宙ステーションの取付型多目的実験モジュール(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JERS-1</td>
+<td class="left">Japanese Earth Resources Satellite-1</td>
+<td class="left">地球資源衛星1号｢ふよう｣</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JMA</td>
+<td class="left">Japan Meteorological Agency</td>
+<td class="left">気象庁(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JPL</td>
+<td class="left">Jet Propulsion Laboratory</td>
+<td class="left">NASA/ジェット推進研究所(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JRC</td>
+<td class="left">Joint Research Center</td>
+<td class="left">欧州連合(EU)の研究センター</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JST</td>
+<td class="left">Japan Science and Technology Agency</td>
+<td class="left">独立行政法人科学技術振興機構(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">JWA</td>
+<td class="left">Japan Weather Association</td>
+<td class="left">(財)日本気象協会(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">KAIST</td>
+<td class="left">Korea Advanced Institute of Science and Technology</td>
+<td class="left">韓国科学技術院(韓国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">KRN</td>
+<td class="left">Kiruna Tracking Station</td>
+<td class="left">キルナ可搬局</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">KRNS</td>
+<td class="left">Kiruna MOS Receiving Station</td>
+<td class="left">キルナMOS受信局(スウェーデン)地上局コード</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">KSA</td>
+<td class="left">Ka-band Single Access</td>
+<td class="left">Kaバンド単元接続</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">KTCS</td>
+<td class="left">Katsuura Tracking and Communication　Station</td>
+<td class="left">勝浦宇宙通信所</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LAC</td>
+<td class="left">Local Area Coverage</td>
+<td class="left">ADEOS/OCTSのシーン定義の一種｡MDR再生データまたはリアルタイム受信データを切り出したもの｡観測パスから指定されたチルトセグメントの範囲内でデータの切り出しを行う｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LANDSAT</td>
+<td class="left">Land Satellite</td>
+<td class="left">ランドサット､米国の地球観測衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LAPAN</td>
+<td class="left">Indonesian National Institute of Aeronautics and Space</td>
+<td class="left">インドネシア国立航空宇宙研究所(インドネシア)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LaRC</td>
+<td class="left">NASA Langley Research Center</td>
+<td class="left">NASA/ラングレー研究センター(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LCC</td>
+<td class="left">Lambert Conformal Conic projection</td>
+<td class="left">ランベルト正角円錐図法:地図投影法の一種｡軸が地軸と一致した地球と2標準緯度で交わる円錐を地球に被せて地球の中心から投影する｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LGSOWG</td>
+<td class="left">LANDSAT Ground Station Operators Working Group</td>
+<td class="left">ランドサット地上局運用国間調整会議</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LIS</td>
+<td class="left">Lightning Imaging Sensor</td>
+<td class="left">雷観測装置(TRMM搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LISS</td>
+<td class="left">Linear Imaging and Self Scanning Sensor</td>
+<td class="left">マルチ4バンドセンサ(IRS-1C/1D)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LLM</td>
+<td class="left">Light Load Mode</td>
+<td class="left">軽負荷モード</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LLP</td>
+<td class="left">Cylindrical Projection</td>
+<td class="left">等割円筒図法:地球を長方形の紙でくるんで光を当て上に映った影を地図とする図法｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LOS</td>
+<td class="left">Loss of Signal</td>
+<td class="left">信号受信終了</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LR</td>
+<td class="left">Laser Reflector</td>
+<td class="left">レーザ反射体</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LSME</td>
+<td class="left">LANDSAT/SPOT/MOS/ERS</td>
+<td class="left">4衛星名の省略名称</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LSSR</td>
+<td class="left">Low rate Mission data Solid-State Recorder</td>
+<td class="left">低速ミッションデータ用データレコーダ(MDR構成)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">LTWG</td>
+<td class="left">LANDSAT Technical Working Group</td>
+<td class="left">ランドサット技術作業部会(LGSOWGの下部会議)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Maneuver</td>
+<td class="left">Maneuver</td>
+<td class="left">軌道制御(マヌーバ):衛星の軌道を制御するための操作</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Map Projection method</td>
+<td class="left">Map projection method</td>
+<td class="left">地図投影法:地球表面を平面上に投影して表現する方法</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MCS</td>
+<td class="left">Media Conversion Subsystem</td>
+<td class="left">媒体変換サブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MDHS</td>
+<td class="left">Mission Data Handling System</td>
+<td class="left">ミッションデータ処理系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MDR</td>
+<td class="left">Mission Data Recorder</td>
+<td class="left">ミッションデータ記録装置:衛星に搭載されたデータの記録装置</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MER</td>
+<td class="left">Mercator cylindrical projection</td>
+<td class="left">メルカトール図法:地図投影法の一種｡地球中心から地球にかぶせた円筒面に地球を投影する｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MESSR</td>
+<td class="left">Multispectral Electronic Self-Scanning Radiometer</td>
+<td class="left">可視近赤外放射計(MOS-1/1b搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">METEOSAT</td>
+<td class="left">Meteorology Satellite</td>
+<td class="left">ESAの静止気象衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">METI</td>
+<td class="left">Ministry of Economy Trade and Industry</td>
+<td class="left">経済産業省(2001年1月6日から)(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MEXT</td>
+<td class="left">Ministry of Education, Culture, Sports, Science and Technology</td>
+<td class="left">文部科学省(2001年1月6日から)(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Micro wave</td>
+<td class="left">Micro wave</td>
+<td class="left">マイクロ波:波長1cmから1mまでの電磁波のこと｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MIFS</td>
+<td class="left">Mission Information Server</td>
+<td class="left">共通情報保存システム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MITI</td>
+<td class="left">Ministry of International Trade and Industry</td>
+<td class="left">通商産業省(2001年1月5日まで)(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MMO</td>
+<td class="left">Mission Management and Operation System</td>
+<td class="left">ミッション運用管理系設備(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MOC</td>
+<td class="left">Mission Operation Center</td>
+<td class="left">ミッション運用センター(NASA)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MODIS</td>
+<td class="left">Moderate Resolution Imaging Spectroradiometer</td>
+<td class="left">中間分解能撮像分光放射計(Aqua搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MOE</td>
+<td class="left">Ministry of the Environment</td>
+<td class="left">環境省(2001年1月6日から)(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MOS-1/1b</td>
+<td class="left">Marine Observation Satellite-1/1b</td>
+<td class="left">海洋観測衛星1号/1号b｢もも｣</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MPMS</td>
+<td class="left">Maspalomas MOS Receiving Station</td>
+<td class="left">マスパロマスMOS受信局(スペイン)の地上局コード</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSFC</td>
+<td class="left">Marshall Space Fright Center</td>
+<td class="left">NASA/マーシャル宇宙飛行センター</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSP</td>
+<td class="left">Maspalomas Tracking Station</td>
+<td class="left">マスパロマス可搬局</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSR</td>
+<td class="left">Microwave Scanning Radiometer</td>
+<td class="left">マイクロ波放射計(MOS-1/1b搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MSS</td>
+<td class="left">Multispectral scanner</td>
+<td class="left">マルチスペクトル スキャナ(LANDSAT-1～5搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MTCS</td>
+<td class="left">Masuda Tracking and Communication　Station</td>
+<td class="left">増田宇宙通信所</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">MTIR</td>
+<td class="left">Middle　and Thermal Infrared</td>
+<td class="left">中間・熱赤外:波長3～13μmまでの電磁波のこと</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NASA</td>
+<td class="left">National Aeronautics and Space Administration</td>
+<td class="left">アメリカ航空宇宙局(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NASDA</td>
+<td class="left">National Space Development Agency of Japan</td>
+<td class="left">旧宇宙開発事業団(日本)。2003年10月1日より宇宙科学研究所(ISAS)、航空宇宙技術研究所(NAL)、宇宙開発事業団(NASDA)が統合しＪＡＸＡに名称変更。</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Natural color</td>
+<td class="left">Natural color</td>
+<td class="left">ナチュラルカラー:画像のカラー合成の一種であり､自然な色に近い発色となるが真の天然色とは異なる</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NCSA</td>
+<td class="left">National Center for Supercomputing Applications</td>
+<td class="left">イリノイ州立大学の研究組織(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NESDIS</td>
+<td class="left">National Environmental Satellite Data and Information Service</td>
+<td class="left">国立気象衛星データ情報サービス(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NEΔT</td>
+<td class="left">Noise Equivalent Differential Temperature</td>
+<td class="left">雑音等価温度差:熱赤外センサのラジオメトリック分解能を表す指標の一つ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NGN</td>
+<td class="left">NASA/NOAA Ground Network</td>
+<td class="left">ADEOS-IIでの地上ネットワーク網(米国(NASA/NOAA)/日本/フランス)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NIES</td>
+<td class="left">National Institute for Environmental Studies</td>
+<td class="left">国立環境研究所(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NMS</td>
+<td class="left">Network Management Subsystem</td>
+<td class="left">ネットワーク管理サブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NN</td>
+<td class="left">Nearest Neighbor</td>
+<td class="left">最近隣内挿方式:リサンプリング法の一種｡求めたい点に最も近い画像データを内挿データとする方式</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NOAA</td>
+<td class="left">National Oceanic and Atmospheric Administration</td>
+<td class="left">海洋大気庁(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NRSA</td>
+<td class="left">National Remote Sensing Agency</td>
+<td class="left">国立リモートセンシング機関(インド)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NRSCC</td>
+<td class="left">National Remote Sensing Center of China</td>
+<td class="left">中国国家リモートセンシングセンター(中国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NRT</td>
+<td class="left">Near Real-Time Data</td>
+<td class="left">準リアルタイムデータ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NSCAT</td>
+<td class="left">NASA Scatterometer</td>
+<td class="left">NASA散乱計(ADEOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">NSIDC</td>
+<td class="left">National Snow and Ice Data Center</td>
+<td class="left">米国雪氷センター(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OADN</td>
+<td class="left">Oceania ALOS Data Node</td>
+<td class="left">オセアニア地域担当ALOSデータノード</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Obit inclination</td>
+<td class="left">Orbit inclination</td>
+<td class="left">軌道傾斜角:衛星の昇降点における軌道面と赤道面とのなす角</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OCTS</td>
+<td class="left">Ocean Color and Temperature Scanner</td>
+<td class="left">海色海温走査放射計(ADEOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Off nadir angle</td>
+<td class="left">Off nadir angle</td>
+<td class="left">オフナディア角:衛星直下点とセンサの指向方向とのなす角</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OPS</td>
+<td class="left">Optical Sensor</td>
+<td class="left">光学センサ(JERS-1搭載):VNIRとSWIRの2つのセンサモードを持つ｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Orbit Viewer</td>
+<td class="left">Orbit Viewer</td>
+<td class="left">オービット ビューア:NASA/GSFC/TSDISにおいて開発されフリーで配布されている､IDLを利用したTRMM専用のビューア</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OREQ</td>
+<td class="left">Observation Requests handling System</td>
+<td class="left">観測要求受付システム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ORS</td>
+<td class="left">Observation Requests Subsystem</td>
+<td class="left">観測要求システム(JAXA/EORC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OSW</td>
+<td class="left">OPS-Shortwave infrared band</td>
+<td class="left">SWIRの略称</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OTCS</td>
+<td class="left">Okinawa Tracking and Communication　Station</td>
+<td class="left">沖縄宇宙通信所</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">OVN</td>
+<td class="left">OPS-Visible near infrared band</td>
+<td class="left">VNIRの略称</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PALSAR</td>
+<td class="left">Phased Array type L-band Synthetic Aperture Radar</td>
+<td class="left">フェーズドアレイ方式Lバンド合成開口レーダ(ALOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PAN</td>
+<td class="left">Panchromatic Sensor</td>
+<td class="left">IRS-1C/1Dに搭載されている単バンドのセンサ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Passive Sensor</td>
+<td class="left">Passive sensor</td>
+<td class="left">受動型センサ:太陽光を受けた地上の物体が反射する電磁波や物体自らが放出する電磁波を収集するセンサ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Path/Row</td>
+<td class="left">Path/Row</td>
+<td class="left">パス/ロウ:衛星データの1シーンあたりの位置を特定するための呼称で東から西をパス､北から南をロウという｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PD</td>
+<td class="left">Primary Distributor</td>
+<td class="left">プライマリディストリビュータ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PDL</td>
+<td class="left">Solar Paddle</td>
+<td class="left">太陽電池パドル</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PFM</td>
+<td class="left">Proto-Flight Model</td>
+<td class="left">プロト フライト モデル(衛星の打ち上げ用の実機)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PI</td>
+<td class="left">Principal Investigator</td>
+<td class="left">主任研究者:RAによりJAXAと共同研究契約を結んだ研究者のこと｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PO.DAAC</td>
+<td class="left">Physical Oceanographic Distributed Active Archive Center</td>
+<td class="left">海洋物理関連のDAAC</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Pointing angle</td>
+<td class="left">Pointing angle</td>
+<td class="left">ポインティング角:センサが観測方向を変化させる角度</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">POLDER</td>
+<td class="left">Polarization and Directionality of the Earth&rsquo;s Reflectances</td>
+<td class="left">地表反射光観測装置(ADEOS及びADEOS-II搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PR</td>
+<td class="left">Precipitation Radar</td>
+<td class="left">降雨レーダ(TRMM搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PRISM</td>
+<td class="left">Panchromatic Remote-sensing Instrument for Stereo Mapping</td>
+<td class="left">パンクロマチック立体視センサ(ALOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Product</td>
+<td class="left">Product</td>
+<td class="left">プロダクト:処理済み衛星データ(提供品)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PRT</td>
+<td class="left">Perth Tracking Station</td>
+<td class="left">パース可搬局</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">PS</td>
+<td class="left">Polar Stereo</td>
+<td class="left">ポーラステレオ図法:地図投影法の一種｡投影面と反対側の地球表面上(極)を視点として投影する｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">QL</td>
+<td class="left">Quick Look</td>
+<td class="left">クイックルック画像:衛星データ受信時に作成される確認用の簡易処理画像</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">QuickSCAT</td>
+<td class="left">Quick Scatterometer Satellite</td>
+<td class="left">海洋上の様々な気象条件の下での風速､風向を観測するマイクロ波レーダーを搭載した米国ボール･エアロスペース社 の地球観測衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RA</td>
+<td class="left">Radar Altimeter</td>
+<td class="left">レーダ高度計 (ERS-1/2搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RA</td>
+<td class="left">Reserch Announcement</td>
+<td class="left">研究公募</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RADARSAT</td>
+<td class="left">Radar Satellite</td>
+<td class="left">カナダの合成開口レーダを搭載した衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Radiometoric correction</td>
+<td class="left">Radiometric correction</td>
+<td class="left">ラジオメトリック補正:センサの感度偏差や暗電流等の歪みを含んだ出力としてのディジタル値をセンサの仕様値である物理量に対して線形に割り当てられたディジタル値に変換すること</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RBV</td>
+<td class="left">Return Beam Vidicon camera</td>
+<td class="left">ランドサットの地球観測センサーの一つ｡3号まで搭載された｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RCS</td>
+<td class="left">Reaction Control Subsystem</td>
+<td class="left">ガスジェット系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Recurrent period</td>
+<td class="left">Recurrent period</td>
+<td class="left">回帰日数:同一パスに戻るまでにかかる日数</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Registration</td>
+<td class="left">Registration</td>
+<td class="left">レジストレーション:画像間の位置合わせ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Remotesensing</td>
+<td class="left">Remotesensing</td>
+<td class="left">リモートセンシング:直接的に対象物に触れることなく､対象物からの電磁波の反射､放射､散乱等を観測することにより対象物に関する情報を収集すること</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">REQ</td>
+<td class="left">Request(Operation Request File)</td>
+<td class="left">観測機器運用要求ファイル:各地上局の要求に基づいてMMOで作成される観測機器の運用要求｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Resampling</td>
+<td class="left">Resampling</td>
+<td class="left">リサンプリング:ディジタル画像処理の前処理段階で実施する正方格子点への変換のこと</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RESTEC</td>
+<td class="left">Remote Sensing Technology Center of Japan</td>
+<td class="left">(財)リモート･センシング技術センター(日本):日本国内のJAXA関係衛星データの配給機関｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">REV</td>
+<td class="left">REVolution</td>
+<td class="left">周回</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RGB</td>
+<td class="left">Red/Green/Blue</td>
+<td class="left">赤/緑/青(光の三原色)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RIS</td>
+<td class="left">Retroreflector in Space</td>
+<td class="left">地上･衛星間レーザー長光路吸収測定用リトロリフレクター(ADEOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RSGS</td>
+<td class="left">Remote Sensing Ground Station</td>
+<td class="left">リモートセンシング地上局(中国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RSI</td>
+<td class="left">RADARSAT International Inc.</td>
+<td class="left">RADARSATプロダクトの配布機関</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RSP</td>
+<td class="left">Reference System for Planning</td>
+<td class="left">計画立案座標系:衛星の軌道上の位置をパスと緯度引数で表した座標｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">RTC</td>
+<td class="left">Real Time Coverage</td>
+<td class="left">ADEOS/OCTSでのシーン定義の一種｡EOCで直接リアルタイム受信したデータの受信セグメント毎のデータ｡受信範囲全体で1シーンとする｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">S/C</td>
+<td class="left">Spacecraft</td>
+<td class="left">衛星本体</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">S/N</td>
+<td class="left">Signal to Noise ratio</td>
+<td class="left">信号対雑音比:入力信号中の有効な信号(S)と雑音(N)の比</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SANCST</td>
+<td class="left">Saudi Arabian National Center for Science and Technology</td>
+<td class="left">サウジアラビア国立科学技術センター(サウジアラビア)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SAR</td>
+<td class="left">Synthetic Aperture Radar</td>
+<td class="left">合成開口レーダ(JERS-1搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Saturation Ratio</td>
+<td class="left">Saturation Ratio</td>
+<td class="left">飽和率:全画素数中で､ある飽和レベルを越えた輝度値の画素数がしめる割合</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Scene order</td>
+<td class="left">Scene order</td>
+<td class="left">シーンオーダ:事前にカタログ等を検索し､必要なシーン及びプロダクトを一意に指定して注文要求を行う提供方法｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SDPF</td>
+<td class="left">Sensor Data Processing Facility</td>
+<td class="left">NASA/センサデータ処理施設</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SeaPAC</td>
+<td class="left">Sea Winds Processing and Analysis Center</td>
+<td class="left">Seawindsの関係機関</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SEASAT</td>
+<td class="left">Sea Satellite</td>
+<td class="left">海洋観測衛星の一般呼称</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SeaStar</td>
+<td class="left">SeaStar</td>
+<td class="left">米国の海洋観測衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SeaWiFS</td>
+<td class="left">Seaviewing Wide Field Sensor</td>
+<td class="left">海色広域走査計:SeaStar搭載の海洋観測センサ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SeaWinds</td>
+<td class="left">SeaWinds</td>
+<td class="left">海上風観測装置(ADEOS-II搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SEES</td>
+<td class="left">Space Environment &amp; Effects System</td>
+<td class="left">宇宙環境計測情報システム</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SI</td>
+<td class="left">Space Imaging, Inc.</td>
+<td class="left">Space Imaging社:米国の衛星データ配給会社</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SIE</td>
+<td class="left">Space Imaging EOSAT</td>
+<td class="left">IRSの運用取りまとめ会社</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SKINNY</td>
+<td class="left">SKINNY Format</td>
+<td class="left">画像データに簡単なアノテーション情報を付加しただけのシンプルな画像データ格納用フォーマット｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SM</td>
+<td class="left">Soil Moisture</td>
+<td class="left">土壌水分</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SMSS</td>
+<td class="left">Schedule Management SubSystem</td>
+<td class="left">スケジュール管理サブシステム(JAXA/EOC設備)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SN</td>
+<td class="left">Space Network</td>
+<td class="left">衛星間通信網</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SNT</td>
+<td class="left">Santiago Tracking Station</td>
+<td class="left">サンチアゴ可搬局</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SOM</td>
+<td class="left">Space Oblique Mercator</td>
+<td class="left">スペース･オブリーク･メルカトール図法:地図投影法の一種｡衛星軌道用の地図投影法で､投影の誤差が小さくなるように各衛星によって走査される領域に適用される</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Spatial Resolution</td>
+<td class="left">Spatial Resolution</td>
+<td class="left">地上分解能:識別可能な距離又は物体の大きさ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SPOT</td>
+<td class="left">Satellite Probatoire d&rsquo;Observation de la Terre</td>
+<td class="left">フランスの地球観測衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SPOT IMAGE</td>
+<td class="left">SPOT IMAGE</td>
+<td class="left">Spot Image社:SPOTデータの配給会社</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SR</td>
+<td class="left">Special Resampling</td>
+<td class="left">特殊リサンプリング法</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSA</td>
+<td class="left">S-band Single Access</td>
+<td class="left">Sバンド単源接続</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSC</td>
+<td class="left">Swedish Space Corporation</td>
+<td class="left">スウェーデン宇宙公社(スウェーデン)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSQ</td>
+<td class="left">Subscene Sequential</td>
+<td class="left">サブシーンデータ並び(CCTのデータフォーマットの一種)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SST</td>
+<td class="left">Sea Surface Temperature</td>
+<td class="left">海面温度</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SSW</td>
+<td class="left">Sea Surface Wind Speed</td>
+<td class="left">海上風速</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">STA</td>
+<td class="left">Science and Technology Agency</td>
+<td class="left">科学技術庁(2001年1月5日まで)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Standing order</td>
+<td class="left">Standing order</td>
+<td class="left">スタンディングオーダ:TRMMから新たに採用された提供方法であり､あらかじめ受け付けた要求(期間要求)に対し､継続的にプロダクトを作成しPI等のユーザに提供する方法｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Stereoscopic images</td>
+<td class="left">Stereoscopic images</td>
+<td class="left">ステレオ画像:対象地域を間隔をおいた2点から重なりをもって撮影した画像</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">STR</td>
+<td class="left">Structural</td>
+<td class="left">構造体</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">STT</td>
+<td class="left">Star Tracker</td>
+<td class="left">恒星センサ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Sub scene(LSM)</td>
+<td class="left">Sub Scene</td>
+<td class="left">サブシーン(Landsat/Spot/Mos):フルシーンを4分割したデータ</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Sub scene(TRMM)</td>
+<td class="left">Sub Scene</td>
+<td class="left">サブシーン(TRMM):10度の経度毎にフルシーンデータを分割したもの｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SUPARCO</td>
+<td class="left">Space and Upper Atmosphere Research Committee</td>
+<td class="left">宇宙高層大気研究委員会(パキスタン)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Swath width</td>
+<td class="left">Swath width</td>
+<td class="left">観測幅:センサが地表面を観測する幅</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SWE</td>
+<td class="left">Snow Water Equivalent</td>
+<td class="left">積雪量</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">SWIR</td>
+<td class="left">Shortwave Length Infrared Radiometer</td>
+<td class="left">OPS短波長赤外放射計(JERS-1搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TACC</td>
+<td class="left">Tracking and Control Center</td>
+<td class="left">筑波追跡管制センター(JAXA施設)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TACS</td>
+<td class="left">Tracking and Communication Station</td>
+<td class="left">勝浦､増田、沖縄宇宙通信所(JAXA施設)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Tar</td>
+<td class="left">Tape Archival and Retrieval format</td>
+<td class="left">複数のファイルを一つのファイルにまとめるアーカイブ形式の一つ｡UNIX系OSで広く普及している形式である｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TASN</td>
+<td class="left">Thailand ALOS data Sub-Node</td>
+<td class="left">タイALOSデータサブノード</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TB6.9GHz</td>
+<td class="left">Brightness Temperature</td>
+<td class="left">輝度温度</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TB36.5GHz</td>
+<td class="left">Brightness Temperature</td>
+<td class="left">輝度温度</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TB89.0GHz</td>
+<td class="left">Brightness Temperature</td>
+<td class="left">輝度温度</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TCS</td>
+<td class="left">Thermal Control Subsystem</td>
+<td class="left">熱制御系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TDRS</td>
+<td class="left">Tracking &amp; Data Relay Satellite</td>
+<td class="left">データ中継衛星(NASA)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TEDA</td>
+<td class="left">Technical Data Acquisition Equipment</td>
+<td class="left">技術データ取得装置(ADEOS,ADEOS-II搭載);衛星の飛行する宇宙環境を計測するための装置</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Terra</td>
+<td class="left">Earth Observing System AM1(EOS-AM1)</td>
+<td class="left">EOS計画の衛星</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Thermal infrared</td>
+<td class="left">Thermal infrared</td>
+<td class="left">熱赤外線:波長0.003～1mm間での電磁波のこと</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Tilt angle</td>
+<td class="left">Tilt angle</td>
+<td class="left">チルト角:センサの可動角度(傾き)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TKSC</td>
+<td class="left">Tsukuba Space Center</td>
+<td class="left">筑波宇宙センター(JAXA施設)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TLM</td>
+<td class="left">Telemetry data</td>
+<td class="left">テレメトリデータ:電波で送られてくる衛星やロケット本体及び内部機器に関する様々な情報のこと｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TM</td>
+<td class="left">Thematic Mapper</td>
+<td class="left">セマティック マッパ(LANDSAT-4/5搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TMI</td>
+<td class="left">TRMM Microwave Imager</td>
+<td class="left">TRMMマイクロ波観測装置(TRMM搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Tokyo Bessel</td>
+<td class="left">Tokyo Bessel</td>
+<td class="left">測地座標系の一種｡JAXA/EOCで処理されるデータに用いる｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TOMS</td>
+<td class="left">Total Ozone Mapping Spectrometer</td>
+<td class="left">オゾン全量分光計(ADEOS搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TRIC</td>
+<td class="left">Tokai university Research &amp; Information Center</td>
+<td class="left">東海大学情報技術センター</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TRMM</td>
+<td class="left">Tropical Rainfall Measuring Mission</td>
+<td class="left">熱帯降雨観測衛星(日/米)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TRMS</td>
+<td class="left">Tromsoe MOS Receiving Station</td>
+<td class="left">トロムセMOS受信局(ノルウェー)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">True color</td>
+<td class="left">True color</td>
+<td class="left">トゥルーカラー:画像のカラー合成の一種であり､肉眼視に近い発色となる｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TSDIS</td>
+<td class="left">TRMM Science Data and Information System</td>
+<td class="left">TRMM科学データ情報システム(NASA)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TSIC</td>
+<td class="left">Tokai university Space Information Center</td>
+<td class="left">東海大学宇宙情報センターの地上局コード(日本)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">TT&amp;C</td>
+<td class="left">Tracking Telemetry &amp; Command</td>
+<td class="left">人工衛星を追跡管制するために行われる､測位･距離､テレメトリ受信及びコマンド送信運用</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">USB</td>
+<td class="left">Unified S-Band</td>
+<td class="left">統一Sバンド</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">USGS</td>
+<td class="left">The United State Geological Survey</td>
+<td class="left">米国地質調査所(米国)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UT</td>
+<td class="left">Universal Time</td>
+<td class="left">世界標準時</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UTC</td>
+<td class="left">Coordinated universal time</td>
+<td class="left">協定世界時</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">UTM</td>
+<td class="left">Universal Transverse Mercator</td>
+<td class="left">ユニバーサル横メルカトール図法:地図投影法の一種｡円筒を子午線に接するように設定し､中心投影により地表面を円筒面に投影</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VC</td>
+<td class="left">Virtual channel</td>
+<td class="left">仮想チャンネル</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Vegetation index</td>
+<td class="left">Vegetation index</td>
+<td class="left">植生指標:リモートセンシングの多バンドのデータから求められる植生の有無･多少･活性度を示す指標</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VIRS</td>
+<td class="left">Visible Infrared Scanner</td>
+<td class="left">可視赤外観測装置(TRMM搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">Visible light</td>
+<td class="left">Visible light</td>
+<td class="left">可視光線:人間の目が感じることのできる波長の電磁波で､目に見える光のこと｡波長範囲は0.4～0.7μmで､波長が短くなるに従って､赤､橙､黄､緑､青､藍､紫の順に色がついて見える｡</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VMD</td>
+<td class="left">Virtual channel Multiplexer and Distributor</td>
+<td class="left">VC多重化分配装置</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VNIR</td>
+<td class="left">Visible and near infrared Radiometer</td>
+<td class="left">OPS可視近赤外放射計(JERS-1搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">VTIR</td>
+<td class="left">Visible and Thermal Infrared Radiometer</td>
+<td class="left">可視熱赤外放射計(MOS-1/1b搭載)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WFF</td>
+<td class="left">Wallops Flight Facility</td>
+<td class="left">ワロップス飛行施設(NASA/GSFC)</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WGS84</td>
+<td class="left">Wold Geodetic System 1984</td>
+<td class="left">世界測地系 1984:米国が構築･維持している世界測地系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WRS</td>
+<td class="left">World Reference System</td>
+<td class="left">世界参照座標系</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">WV</td>
+<td class="left">Water Vapor</td>
+<td class="left">水蒸気量</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">XS</td>
+<td class="left">Multi-Spectral Mode</td>
+<td class="left">HRVの観測モードの一つ (SPOT)</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: tian</p>
+<p class="date">Created: 2014-10-28 Tue 20:18</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,781 @@
+                              ___________
+
+                               RESTECGLS
+
+                                  tian
+                              ___________
+
+
+Table of Contents
+_________________
+
+
+
+
+ 4DDA             a       4 Dimentional Data Assimilation                                         
+ A/D                      Analog to Digital                                                       
+ A/D                      Ascending/Descending                                                    
+ AADN                     Americas ALOS Data Node                                                 
+ AAN                      Asian AWS Network                                                       
+ AAN                      Asian AMeDAS Network                                                    
+ ACRES                    Australian Centre for Remote Sensing                                    
+ ACRIM                    Active Cavity Radiometer Irradiance Monitor                             
+ ACS                      Attitude Control Subsystem                                              
+ Active sensor            Active sensor                                                           
+ ADCS                     Attitude Determination and Control Subsystem                            
+ ADDS                     ALOS Data Distribution System                                           
+ ADEN                     ALOS Data European Node                                                 
+ ADEOS                    Advanced Earth Observing Satellite                                      
+ ADEOS-II                 Advanced Earth Observing Satellite-II                                   
+ ADEOS-III                Advanced Earth Observing Satellite-III                                  
+ ADIS                     ALOS Data node Interface System                                         
+ ADN                      ALOS Data Node                                                          
+ ADS                      Advertisement Subsystem                                                 
+ ADS                      Angular Displacement Sensor                                             
+ Aerosol                  Aerosol                                                                 
+ AFC                      Automatic Frequency Control                                             
+ AGC                      Automatic Gain Control                                                  
+ AIM                      AMI Image                                                               
+ AIRS                     Atmospheric Infrared Sounder                                            
+ AIT                      Asian Institute of Technology                                           
+ Albedo                   Albedo                                                                  
+ ALOS                     Advanced Land Observing Satellite                                       
+ ALT                      Altimeter                                                               
+ AM                       Amplitude Modulation                                                    
+ AMEX                     Aeronautical Maritime Experimental Transponder                          
+ AMI                      Active Microwave Instrument                                             
+ AMR                      Airborne Microwave Radiometer                                           
+ AMS                      Attitude Measurement Sensor                                             
+ AMSR                     Advanced Microwave Scanning Radiometer                                  
+ AMSR-E                   Advanced Microwave Scanning Radiometer-EOS                              
+ AMSU                     Advanced Microwave Sounding Unit                                        
+ ANT                      Antenna                                                                 
+ AO                       Announcement of Opportunity                                             
+ AOCS                     Attitude and Orbit Control Subsystem                                    
+ AOS                      Acquisition of Signal                                                   
+ AP                       precipitation                                                           
+ APD                      Antenna Pointing Data                                                   
+ APN                      Asian Pacific Network                                                   
+ Aqua                     Earth Observing System PM1(EOS-PM1)                                     
+ ARC                      Active Radar Calibrator                                                 
+ ARGOS                    ARGOS System                                                            
+ ARTEMIS                  Advanced Relay and Technology Mission                                   
+ ASAR                     Advanced Synthetic Aperture Radar                                       
+ ASF                      Alaska SAR Facility                                                     
+ ASMS                     Alice Springs MOS Receiving Station                                     
+ ASTER                    Advanced Spaceborne Thermal Emission and Reflection radiometer          
+ ATM                      Asynchronous Transfer Mode                                              
+ ATSR/IR(ATI)             Along Track Scanning Radiometer/infrared                                
+ ATSR/M(ATM)              ATSR/Microwave Sounder ATSR                                             
+ Attitude                 Attitude                                                                
+ AUIG                     ALOS User Interface Gateway                                             
+ AUSLIG                   Ausralian Survaying & Land Information Group                            
+ AVHRR                    Advanced Very High Resolution Radiometer                                
+ AVIRIS                   Airborne Visible and Infrared Imaging Spectrometer                      
+ AVNIR                    Advanced Visible and Near-Infrared Radiometer                           
+ AVNIR-2                  Advances Visible and Near Infrared Radiometer type 2                    
+ AVNIR-II                 Advanced Visible and Near Infrared Radiometer II                        
+ AVR                      Automatic Voltage Regulator                                             
+ AWA                      AMI Wave                                                                
+ AWI                      AMI Wind                                                                
+ AWS                      Automated Weather Station                                               
+ Azimuth                  Azimuth                                                                 
+ B/H                      Base to Height ratio                                                    
+ B/S                      Byte per Second                                                         
+ BBS                      Bulletin Board System                                                   
+ BCD                      Binary Coded Decimal                                                    
+ BDS                      Browse data Distribution Subsystem                                      
+ BER                      Bit Error Rate                                                          
+ BER                      Bit Error Rate                                                          
+ BIf                      Bi-Phase                                                                
+ BIL                      Band Interleaved by Line                                                
+ Biomass                  Biomass                                                                 
+ BIP2                     Band Interleaved by 2 Pixels                                            
+ Bird's eye view image    Bird's eye view image                                                   
+ BKMS                     Bangkok MOS Receiving Station                                           
+ BL                       Bi-Linear                                                               
+ BPI                      Byte per Inch                                                           
+ bpi                      bit per inch                                                            
+ bps                      bit per second                                                          
+ BPSK                     Biphase Phase Shift Keying                                              
+ BS                       Broadcasting Satellite                                                  
+ BSQ                      Band Sequential                                                         
+ C/N                      Carrier to Noise Ratio                                                  
+ C/O                      Check Out                                                               
+ CADS                     Catalogue Data Distribution System                                      
+ CAL                      Calibration                                                             
+ CAP                      For Centre d'archivage et de prétraitement                              
+ CAPPI                    Constant Altitude Plan Position Indicator                               
+ CAS                      Chinese Academy of Science                                              
+ CASI                     Compact Airborne spectrographic Imager                                  
+ CATS                     Catalogue Subsystem                                                     
+ CC                       Console Control                                                         
+ CC                       Cubic Convolution                                                       
+ CCD                      Charge Coupled Device                                                   
+ CCRS                     Canadian Centre for Remote Sensing                                      
+ CCSDS                    Consultative Committee for Space Data System                            
+ CCT                      Computer Compatible Tape                                                
+ CD                       Compact Disk                                                            
+ CD-ROM                   Compact Disk-Read Only Memory                                           
+ CDDI                     Copper Distributed Data Interface                                       
+ CDF                      Common Data Format                                                      
+ CDR                      Critical Design Review                                                  
+ CEOS                     Committee on Earth Observation Satellites(CEOS)                         
+ CEOS-AHWGN               CEOS Adhoc Working Group on Network                                     
+ CEOS-IDN                 CEOS International Directory Network                                    
+ CEOS-IDN                 CEOS International Directory Network                                    
+ CEOS-WGCV                CEOS-Working Group on Calibration and Validation                        
+ CEOS-WGD/NS              CEOS Working Group on Data/Network Subgroup                             
+ CEOS-WGINS               CEOS Interim Working Group on International Network Services            
+ CEOS-WGISS               CEOS Working Group on Information Systems and Services                  
+ CERES                    Clouds and the Earth's Radiant Energy System                            
+ CHL                      Chlorphyll                                                              
+ Chlorophyll              Chlorophyll                                                             
+ CI                       Co Investigator                                                         
+ CINTEX                   Catalog Interoperability Experiment                                     
+ CIP                      Catalog Interoperability Protocol                                       
+ CLS                      Collecte Localization Satellites                                        
+ CLW                      Cloud Liquid Water                                                      
+ CNES                     Centre National d'Etudes Spatiales                                      
+ CNES                     Centre National d'Etudes Spatiales                                      
+ CNIE                     Commision National de Investigacines Espaciales Argentina               
+ COARE                    Coupled Ocean Atmosphere Reserch Experiment                             
+ Color composit           Color composit                                                          
+ COMB                     Combined product(TRMM)                                                  
+ COMETS                   Communications & Engineering Test Satellite                             
+ COMP                     Combined product(TRMM)                                                  
+ CPR                      Cloud Profiling Radar                                                   
+ CPU                      Central Processing Unit                                                 
+ CR                       Corner Reflector                                                        
+ CRL                      Communications Research Laboratory                                      
+ Cross Track              Cross Track                                                             
+ CRT                      Cathode Ray Tube                                                        
+ CSA                      Canadian Space Agency                                                   
+ CTM                      Chemical Transport Model                                                
+ CVCF                     Constant Voltage Constant Frequency                                     
+ CZCS                     Coastal Zone Color Scanner                                              
+ D-1                      ansi iD-1 format                                                        
+ D1                       Digital Data Cartridge                                                  
+ DAAC                     Distributed Active Archive Centers                                      
+ DAS                      Data Analysis System                                                    
+ DAT                      Digital Audio Tape                                                      
+ dB                       decibel                                                                 
+ DC                       Direct Current                                                          
+ DCE                      Data Cercuit-terminating Equipment                                      
+ DCP                      Data Collection Platform                                                
+ DCS                      Data Collection System                                                  
+ DCS                      Data Collection System                                                  
+ DCST                     Data Collection System Transponder                                      
+ DCT                      Discrate Cosine Tras formation                                          
+ DDL                      Data Descriptive Language                                               
+ DDMS                     Data Distribution and Management System                                 
+ DDS                      Data Distribution Subsystem                                             
+ DDX                      Digital Data eXchange                                                   
+ DEM                      Digital Elevation Model                                                 
+ DES                      Data Editing Subsystem                                                  
+ DFAS                     DMS Flight Application Software                                         
+ DGS                      Dataset Generation Subsystem                                            
+ DIAL                     Differential Absorption Lider                                           
+ DIE                      Data Interface Equipment                                                
+ DIF                      Data Interface Facility                                                 
+ DIF                      Directory Interchange Format                                            
+ DLT                      Digital Linear Tape                                                     
+ DM                       Deployment Monitor                                                      
+ DMSP                     Defence Meteorological Satellite Program                                
+ DOMSAT                   DOMestic communications SATellite                                       
+ DOS                      Disk Operation System                                                   
+ DPS                      Data Processing Subsystem                                               
+ DRC                      Data Relay satellite　Communication                                     
+ DRS                      Data Retrieval Subsystem                                                
+ DRTS                     Data Relay Test Satellite                                               
+ DSB                      Double Sideband                                                         
+ DSP                      Digital Signal Processor                                                
+ DSS                      Data Storage System                                                     
+ DSU                      Digital Service Unit                                                    
+ DT                       Direct Transmission subsystem                                           
+ DTE                      Data Terminal Equipment                                                 
+ DTL                      subsystem for Direct Transmission for Local users                       
+ DTM                      Digital Terrain Model                                                   
+ Earth Ellipsoid Model    Earth Ellipsoid Model                                                   
+ ECMWF                    Europian Center for Medium-Range Weather Forcast                        
+ ECS                      EOSDIS Core System                                                      
+ EDC                      Earth Resources Observation System(EROS) Data Center                    
+ EECF                     Earthnet ERS-1 Central Facility                                         
+ EEOC                     Earth Environment Observation Committee                                 
+ EL                       Elevation                                                               
+ ELMD                     Definitive orbital Element                                              
+ ELMF                     Elements File                                                           
+ ELMF1                    Elements File 1                                                         
+ ELMOS                    Electro-Magnetic field Observation Satellite                            
+ ELMP                     Predictive orbital Element                                              
+ EM                       Engineering Model                                                       
+ EMS                      Environmental Management System                                         
+ ENRICH                   Europian Network for Reserch In global CHange                           
+ ENSO                     El Nino/Southern Oscillation                                            
+ ENVISAT                  Environmental Satellite                                                 
+ EO-ICWG                  Earth Observation International Cordination Working Group               
+ EOC                      Earth Observation Center                                                
+ EOC-IS                   EOC Information System                                                  
+ EOF                      End of File Marker                                                      
+ EOIS                     Earth Observation data and Information System                           
+ EOPD                     Earth Observation Planning Department                                   
+ EORC                     Earth Observation Research Center                                       
+ EOS                      Earth Observation Satellite                                             
+ EOS-AM1                  Earth Observing System-AM1                                              
+ EOS-PM1                  Earth Observing System-PM1(Aqua)                                        
+ EOSAT                    Earth Observation Satellite Company                                     
+ EOSDIS                   EOS Data and Information System                                         
+ EOT                      End Of Tape                                                             
+ EPS                      Electoric Power Subsystem                                               
+ EQR                      parallel latitude/longitude projection                                  
+ Equatorial crossing      Equatorial crossing                                                     
+ ERBE                     Earth Radiation budget Experiment                                       
+ EROS                     Earth Resources Observation System                                      
+ ERS                      European Remote Sensing Satellite                                       
+ ERS-1                    European Remote Sensing Satellite-1                                     
+ ERSDAC                   Earth Remote Sensing Data Analysis Center                               
+ ESA                      European Space Agency                                                   
+ ESCAP                    United Nations Economic and Social Commission for Asia and  the Pacific 
+ ESRIN                    European Space Research Institute                                       
+ ESRO                     European Space Research Organization                                    
+ ESTEC                    European Space Technology Center                                        
+ ETM+                     Enhanced Thematic Mapper Plus                                           
+ ETS-V                    Engineering Test Satellite-V                                            
+ ETS-V/EMSS               Experimental Mobile Satellite System                                    
+ ETS-VI                   Engineering Test Satellite-VI                                           
+ EUS                      EOIS User interface Software                                            
+ EWS                      Engineering Work Station                                                
+ False color              False color                                                             
+ FAST-L7A                 FAST-L7A Format                                                         
+ FCMS                     Fucino MOS Receiving Station                                            
+ FD                       Floppy Disk                                                             
+ FDDI                     Fiber Distributed Data Interface                                        
+ FDM                      Frequency Division Multiplex                                            
+ FDP                      Fast Delivery Product                                                   
+ FET                      Field Effect Transistor                                                 
+ Fixed area sub scene     Fixed area sub scene                                                    
+ FM                       Flight Model                                                            
+ FM                       Frequency Modulation                                                    
+ Footprint                Footprint                                                               
+ FOV                      Field Of View                                                           
+ FSC                      Facility for Scientific Community                                       
+ FTAM                     File Transfer Access Method                                             
+ FTP                      File Transfer Protocol                                                  
+ Full scene               Full Scene                                                              
+ G-II                     Gulfstream-II                                                           
+ G/T                      Gain/Temperature                                                        
+ GA                       Geoscience Australia                                                    
+ GAC                      Global Area Coverage                                                    
+ GAIN                     GAME Data Archive and Information Network                               
+ GAME                     GEWEX-related Asian Monsoon Experiment                                  
+ GAME-T                   GAME-Tropics                                                            
+ GANAL                    Global Analysis Data Set                                                
+ GCM                      General Circulation Model                                               
+ GCOM                     Global Change Observation Mission                                       
+ GCP                      Ground Control Point                                                    
+ Geometric correction     Geometric correction                                                    
+ GeoTIFF                  GeoTIFF Format                                                          
+ GEWEX                    Global Energy and Water Cycle Experiment                                
+ GHRC                     Global Hydrology Resource Center                                        
+ GIF                      Graphic Interchange Format                                              
+ GIS                      Geographical Information System                                         
+ GISTDA                   Geo-Informatics and Space Technology Development Agency                 
+ GLI                      Global Imager                                                           
+ GLIS                     Global Lead Information System                                          
+ GMS                      Geostationary Meteorological Satellite                                  
+ GMT                      Greenwich Mean Time                                                     
+ GN                       Ground Network System                                                   
+ GOES                     Geostationary Operational Environmental Satellite                       
+ GOFC                     Global Observation of Forest Cover                                      
+ GOIN                     Global Observation Information Network                                  
+ GOSAT                    Greenhouse gas Observing SATellite                                      
+ GOSS                     Groupe des. Operateurs de Stations SPOT                                 
+ GPIB                     General Purpose Interface Bus                                           
+ GPS                      Global Positioning System                                               
+ GPSR                     GPS Receiver                                                            
+ GRN                      Global Research Network                                                 
+ Ground truth             Ground truth                                                            
+ GRS                      Ground Reference System                                                 
+ GRS80                    Geodetic Reference System 1980                                          
+ GSFC                     Goddard Space Flight Center                                             
+ GT                       Ground Truth                                                            
+ GTDMS                    Ground Truth Data Management Subsystem                                  
+ GTMS                     Gatineau MOS Receiving Station                                          
+ GUI                      Graphical User Interface                                                
+ GV                       Ground Validation                                                       
+ GW                       Gate Way                                                                
+ H-II                     H-II                                                                    
+ H-IIA                    H-IIA                                                                   
+ HDDR                     High-Density Digital Recorder                                           
+ HDDT                     High-Density Digital Tape                                               
+ HDF                      Hierarchcal Data Format                                                 
+ HEOC                     Hatoyama Earth Observation Center                                       
+ HK                       Housekeeping                                                            
+ HKTLM                    HouseKeeping Telemetry                                                  
+ HOM                      Hotine Oblique Mercator                                                 
+ HRPT                     High Resolution Picture Transmission                                    
+ HRV                      High Resolution Visible Imaging System                                  
+ HRVIR                    High-Resolution Visible and Infrared                                    
+ HSB                      Humidity Sounder for Brazil                                             
+ HSSR                     High rate Mission data Solid-State Recorder                             
+ HTML                     Hyper Text Markup Language                                              
+ HTTP                     Hyper Text Transfer Protocol                                            
+ IAI                      Inter-American Institute for Global Change Reserch                      
+ IAU                      International Astronomical Union                                        
+ IC                       Sea Ice Concentration                                                   
+ ID                       Identification                                                          
+ IDCP                     Image Data Compression Processor                                        
+ IDF                      Intermediate Distribution Frame                                         
+ IDN                      International Directory Network                                         
+ IF                       Intermediate Frequency                                                  
+ IFOV                     Instantaneous Field of View                                             
+ IFSAR                    Interferometric Synthetic Aperture Radar (=INSAR)                       
+ IGAC                     International Global Atmospheric Chemistry(Project)                     
+ IGBP                     International Geosphere-Biosphere Programme                             
+ IGOS                     International Global Observing Strategy                                 
+ ILAS                     Improved Limb Atmospheric Spectrometer                                  
+ ILAS-II                  Improved Limb Atmospheric Spectrometer-II                               
+ IMG                      Interferometric Monitor for Greenhouse Gases                            
+ IMS                      Information Management System                                           
+ Incidence angle          Incidence angle                                                         
+ INPE                     Instituto National de Pesquisas Espaciais                               
+ INSAR                    Interferometric Synthetic Aperture Radar (=IFSAR)                       
+ INT                      Integration Hard ware                                                   
+ INTELSAT                 International Telecommunications Satellite Organization                 
+ Interferometry           Interferometry                                                          
+ IOCS                     Inter-Orbit Communication Subsystem                                     
+ IP                       Internet Protocol                                                       
+ IPCC                     Intergovernmental Panel on Climate Change                               
+ IR                       Infrared                                                                
+ IR                       Infrared radiation                                                      
+ IRG                      Inter Record Gap                                                        
+ IRIG                     Inter Range Instrumentation Group Standard                              
+ IRS                      Information Retrieval Subsystem                                         
+ IRS                      Information Retrieval Subsystem                                         
+ IRS                      Indian Remote Sensing Satellite                                         
+ IRSA                     Institute of Remote Sensing Application                                 
+ ISDN                     Integrated Services Digital Network                                     
+ ISO                      International Organization for Standardization                          
+ ISP                      Imaging Schedule Plan                                                   
+ ISY                      International Space Year                                                
+ ITV                      Industrial Television                                                   
+ JAFIC                    Japan Fisheries Information Service Center                              
+ JAMSTEC                  Japan Agency for Marine-Earth Science and Technology                    
+ JAROS                    Japan Resources Observation System Organization                         
+ JAXA                     Japan Aerospace Exploration Agency                                      
+ JD                       Julian Day                                                              
+ JEA                      Japan Environment Agency                                                
+ JEM                      Japan Experimental Module                                               
+ JERS-1                   Japanese Earth Resources Satellite-1                                    
+ JIS                      Japan Industrial Standard                                               
+ JMA                      Japan Meteorological Agency                                             
+ JPEG                     Joint Photographic coding Experts Group                                 
+ JPL                      Jet Propulsion Laboratory                                               
+ JRC                      Joint Research Center                                                   
+ JST                      Japan Standard Time                                                     
+ JST                      Japan Science and Technology Agency                                     
+ JWA                      Japan Weather Association                                               
+ KAIST                    Korea Advanced Institute of Science and Technology                      
+ KRN                      Kiruna Tracking Station                                                 
+ KRNS                     Kiruna MOS Receiving Station                                            
+ KSA                      Ka-band Single Access                                                   
+ KTCS                     Katsuura Tracking and Communication　Station                            
+ LAC                      Local Area Coverage                                                     
+ LAN                      Local Area Network                                                      
+ LANDSAT                  Land Satellite                                                          
+ LAPAN                    Indonesian National Institute of Aeronautics and Space                  
+ LaRC                     NASA Langley Research Center                                            
+ LBIR                     Laser Beam Image Recorder                                               
+ LBIR/LBR                 Laser Beam Image Recorder                                               
+ LCC                      Lambert Conformal Conic projection                                      
+ LD                       Laser Disc                                                              
+ LGSOWG                   LANDSAT Ground Station Operators Working Group                          
+ LIS                      Lightning Imaging Sensor                                                
+ LISS                     Linear Imaging and Self Scanning Sensor                                 
+ LLM                      Light Load Mode                                                         
+ LLP                      Cylindrical Projection                                                  
+ LMDR                     Low bit rate Mission Data Recorder                                      
+ LMT                      Local Mean Time                                                         
+ LNA                      Low Noise Amplifier                                                     
+ LOS                      Loss of Signal                                                          
+ LP                       Line Printer                                                            
+ LR                       Laser Reflector                                                         
+ LSB                      Least Significant Bit                                                   
+ LSME                     LANDSAT/SPOT/MOS/ERS                                                    
+ LSSR                     Low rate Mission data Solid-State Recorder                              
+ LTWG                     LANDSAT Technical Working Group                                         
+ Maneuver                 Maneuver                                                                
+ Map Projection method    Map projection method                                                   
+ MCC                      Mission Control Center                                                  
+ MCCF                     Mission Control Center Frontend                                         
+ MCS                      Media Conversion Subsystem                                              
+ MD                       Mini Disk                                                               
+ MDHS                     Mission Data Handling System                                            
+ MDR                      Mission Data Recorder                                                   
+ MDSS                     Master Data Storage Subsystem                                           
+ MER                      Mercator cylindrical projection                                         
+ MESSR                    Multispectral Electronic Self-Scanning Radiometer                       
+ METEOSAT                 Meteorology Satellite                                                   
+ METEOSAT                 Meteorology Satellite                                                   
+ METI                     Ministry of Economy Trade and Industry                                  
+ MEXT                     Ministry of Education, Culture, Sports, Science and Technology          
+ MHS                      Message Handling System                                                 
+ Micro wave               Micro wave                                                              
+ MIFS                     Mission Information Server                                              
+ MITI                     Ministry of International Trade and Industry                            
+ MITI                     Ministry of International Trade and Industry                            
+ MJD                      Modified Julian Date                                                    
+ MMO                      Mission Management Organization                                         
+ MMO                      Mission Management and Operation System                                 
+ MMOFE                    Mission Management Organization Front End                               
+ MMS                      Multimission Modular Spacecraft                                         
+ MO                       Magnetic Optical disc                                                   
+ MOC                      Mission Operation Center                                                
+ MODIS                    Moderate-Resolution Imaging Spectrometer                                
+ MODIS                    Moderate Resolution Imaging Spectroradiometer                           
+ MOE                      Ministry of the Environment                                             
+ MOS                      Marine Observation Satellite                                            
+ MOS-1/1b                 Marine Observation Satellite-1/1b                                       
+ MOS-1/1b                 Marine Observation Satellite-1/1b                                       
+ MOU                      Memorandum of Understanding                                             
+ MPMS                     Maspalomas MOS Receiving Station                                        
+ MPMS                     Maspalomas MOS Receiving Station                                        
+ MRI                      Meteorological Research Institute                                       
+ MSB                      Most Significant Bit                                                    
+ MSFC                     Marshall Space Fright Center                                            
+ MSK                      Minimum Shift Keying                                                    
+ MSP                      Maspalomas Tracking Station                                             
+ MSR                      Microwave Scanning Radiometer                                           
+ MSR                      Microwave Scanning Radiometer                                           
+ MSS                      Multispectoral Scanner                                                  
+ MSS                      Mass Storage Subsystem                                                  
+ MSS                      Multispectral scanner                                                   
+ MTBF                     Mean Time Between Failures                                              
+ MTCS                     Masuda Tracking and Communication　Station                              
+ MTF                      Modulation Transfer Functiion                                           
+ MTIR                     Middle　and Thermal Infrared                                            
+ MTTR                     Mean Time to Repair                                                     
+ NASA                     National Aeronautics and Space Administration                           
+ NASA                     National Aeronautics and Space Administration                           
+ NASDA                    National Space Development Agency of Japan                              
+ NASDA                    National Space Development Agency of Japan                              
+ Natural color            Natural color                                                           
+ NBTR                     Narrow Band Tape Recorder                                               
+ NCD                      Nominal Catalogue Data                                                  
+ NCS                      Network Control Subsystem                                               
+ NCSA                     National Center for Supercomputing Applications                         
+ NCSA                     National Center for Supercomputing Applications                         
+ NCU                      Network Control Unit                                                    
+ NESDIS                   National Enviromental Satellite,Data,and Information Sevice             
+ NESDIS                   National Environmental Satellite Data and Information Service           
+ NEΔT                     Noise Equivalent Differential Temperature                               
+ NFS                      Network File System                                                     
+ NGN                      NASA/NOAA Ground Network                                                
+ NIES                     National Institute for Environmental Studies                            
+ NIS                      Network Information Services                                            
+ NMS                      Network Management Subsystem                                            
+ NMS                      Network Management Subsystem                                            
+ NN                       Nearest Neighber                                                        
+ NN                       Nearest Neighbor                                                        
+ NOAA                     National Oceanic and Atmospheric Administration                         
+ NOAA                     National Oceanic and Atmospheric Administration                         
+ NRCS                     Normalized Radar Cross Section                                          
+ NRCT                     National Research Council of Thailand                                   
+ NRSA                     National Remote Sensing Agency                                          
+ NRSA                     National Remote Sensing Agency                                          
+ NRSCC                    National Remote Sencing Center of China                                 
+ NRSCC                    National Remote Sensing Center of China                                 
+ NRT                      Near Real-Time Data                                                     
+ NRZ                      Non Return to Zero                                                      
+ NSCAT                    NASA Scatterometer                                                      
+ NSCAT                    NASA Scatterometer                                                      
+ NSI                      NASA Science Internet                                                   
+ NSIDC                    National Snow and Ice Data Center                                       
+ NSSDC                    National Space Science Data Center                                      
+ NSSDC/WDC                National Space Science Data Center/World Data Center                    
+ OADN                     Oceania ALOS Data Node                                                  
+ OAS                      Orbit Adjust Subsystem                                                  
+ OBC                      On Board Computer                                                       
+ Obit inclination         Orbit inclination                                                       
+ OCC                      Operations Control Center                                               
+ OCTS                     Ocean Color and Temperature Scanner                                     
+ OCTS                     Ocean Color and Temperature Scanner                                     
+ OD                       Optical Disk                                                            
+ ODR                      Optical Data Recorder                                                   
+ ODUS                     Ozone Dynamics Ultrariolet Spectrometer                                 
+ Off nadir angle          Off nadir angle                                                         
+ OIS                      Operation Interface Specification                                       
+ OLIS                     On Line Information System                                              
+ OLR                      Outgoing Longwave Radiation                                             
+ OLS                      Operational Linescan System                                             
+ OMG                      Object Management Group                                                 
+ OPLAN                    Operational Plan File                                                   
+ OPS                      Optical Sensor                                                          
+ OPS                      Optical Sensor                                                          
+ Orbit Viewer             Orbit Viewer                                                            
+ OREQ                     Observation Requests handling System                                    
+ ORS                      Observation Requests Subsystem                                          
+ OS                       Operating System                                                        
+ OSI                      Open Systems Interconnection                                            
+ OSW                      OPS-Shortwave infrared band                                             
+ OTCS                     Okinawa Tracking and Communication　Station                             
+ OTF                      Optical Transfer Function                                               
+ OVN                      OPS-Visible near infrared band                                          
+ P.S.                     Polor Stereo                                                            
+ P/PA                     Panchromatic mode                                                       
+ PALSAR                   Phased Array type L-band Synthetic Aperture Radar                       
+ PAMS                     Prince Albert MOS Station                                               
+ PAN                      Panchromatic Sensor                                                     
+ PARTNERS                 Pan-pacific Regional Telecommunications Network Experiment  and Reserch 
+ Passive Sensor           Passive sensor                                                          
+ Path/Row                 Path/Row                                                                
+ PBM                      Pass Briefing Message                                                   
+ PBX                      Private Branch eXchange                                                 
+ PC                       Program Control                                                         
+ PC                       Personal Computer                                                       
+ PC                       Project Coordinator                                                     
+ PCD                      Precise Catalogue Data                                                  
+ PCDW                     Precise Catalogue Data Weekly                                           
+ PCM                      Pulse Code Modulation                                                   
+ PD                       Primary Distributor                                                     
+ PDL                      Solar Paddle                                                            
+ PDR                      Preliminary Design Review                                               
+ PEPS                     SPOT Early Assessment Program                                           
+ PFM                      Proto-Flight Model                                                      
+ PFM                      Proto-Flight Model                                                      
+ PGS                      Product Generation Subsystem                                            
+ PI                       Principal Investigator                                                  
+ PI                       Principal Investigator                                                  
+ PIE                      Polar Ice Extent                                                        
+ PLL                      Phase Locked Loop                                                       
+ PM                       Proto-type Model                                                        
+ PM                       Project Manager                                                         
+ PM                       Phase Modulation                                                        
+ PN                       Pseudo-Noise                                                            
+ PO.DAAC                  Physical Oceanographic Distributed Active Archive Center                
+ Pointing angle           Pointing angle                                                          
+ POLDER                   Polarization and Directionality of the Earth`s Reflectances             
+ POLDER                   Polarization and Directionality of the Earth's Reflectances             
+ PPED                     Post Pass Ephemeris Data                                                
+ PR                       Precipitation Rader                                                     
+ PR                       Precipitation Radar                                                     
+ PRF                      Pulse Repetition Frequency                                              
+ PRISM                    Panchromatic Remote-sensing Instrument for Stereo Mapping               
+ Product                  Product                                                                 
+ PRT                      Perth Tracking Station                                                  
+ PS                       Polar Stereo                                                            
+ PSK                      Phase Shift Keying                                                      
+ PTF                      Phase transfer Function                                                 
+ QC                       Quality Control                                                         
+ QL                       Quick Look                                                              
+ QL                       Quick Look                                                              
+ QLDS                     Quick Look data Distribution Subsystem                                  
+ QPSK                     Quadrature Phase Shift Keying                                           
+ QQC                      Quality Quantity Continuity                                             
+ QuickSCAT                Quick Scatterometer Satellite                                           
+ R&RR                     Range & Range Rate                                                      
+ RA                       Radar Altimeter                                                         
+ RA                       Research Announcement                                                   
+ RA                       Radar Altimeter                                                         
+ RA                       Reserch Announcement                                                    
+ RADARSAT                 Radar Satellite                                                         
+ RADARSAT                 Radar Satellite                                                         
+ Radiometoric correction  Radiometric correction                                                  
+ RADSCAT                  Radiometer/Scatterometer(S-193)                                         
+ RBV                      Return Beam Vidicon camera                                              
+ RBV                      Return Beam Vidicon camera                                              
+ RCS                      Radar Cross Section                                                     
+ RCS                      Reaction Control Subsystem                                              
+ RDB                      Relational Data Base                                                    
+ Recurrent period         Recurrent period                                                        
+ Registration             Registration                                                            
+ Remotesensing            Remotesensing                                                           
+ REQ                      Request(Operation Request File)                                         
+ REQ                      Request(Operation Request File)                                         
+ Resampling               Resampling                                                              
+ RESTEC                   Remote Sensing Technology Center of Japan                               
+ RESTEC                   Remote Sensing Technology Center of Japan                               
+ Rev                      Revolution                                                              
+ REV                      REVolution                                                              
+ RF                       Radio Frequency                                                         
+ RGB                      Red/Green/Blue                                                          
+ RIS                      Retroreflector in Space                                                 
+ RIS                      Retroreflector in Space                                                 
+ RSGS                     Remote Sensing Ground Station                                           
+ RSGS                     Remote Sensing Ground Station                                           
+ RSI                      RADARSAT International Inc.                                             
+ RSP                      Reference System for Planning                                           
+ RSP                      Reference System for Planning                                           
+ RTC                      Real Time Coverage                                                      
+ S-Band                   S-Band Frequency                                                        
+ S/C                      Spacecraft                                                              
+ S/N                      Signal to Noise ratio                                                   
+ S/N , SNR                Signal to Noise Ratio                                                   
+ SAFISY                   Space Agency Forum on ISY                                               
+ SANCST                   Saudi Arabian National Center for Science and Technology                
+ SANCST                   Saudi Arabian National Center for Science and Technology                
+ SAR                      Synthetic Aperture Radar                                                
+ SAR                      Synthetic Aperture Radar                                                
+ Saturation Ratio         Saturation Ratio                                                        
+ SCAT                     Microwave Scatterometer                                                 
+ SCATT                    Scatterometer                                                           
+ Scene order              Scene order                                                             
+ SCO                      Spacecraft Control Organization                                         
+ SDPF                     Sensor Data Processing Facility                                         
+ SeaPAC                   Sea Winds Processing and Analysis Center                                
+ SEASAT                   Sea Satellite                                                           
+ SEASAT                   Sea Satellite                                                           
+ SeaStar                  SeaStar                                                                 
+ SeaWiFS                  Seaviewing Wide Field Sensor                                            
+ SeaWiFS                  Seaviewing Wide Field Sensor                                            
+ SeaWinds                 Sea Winds                                                               
+ SeaWinds                 SeaWinds                                                                
+ SEES                     Space Environment & Effects System                                      
+ SHMS                     Shouwa station MOS Receiving Station                                    
+ SI                       Space Imaging, Inc.                                                     
+ SIE                      Space Imaging EOSAT                                                     
+ SINFONIA                 Satellite Information Network based on Individual Archiving             
+ SIR                      Shuttle Imaging Radar                                                   
+ SIR-C/X-SAR              Shuttle Imaging Radar C Band/X Band Synthetic Aperture Rader            
+ SKINNY                   SKINNY Format                                                           
+ SLAR                     Side Looking Airborne Radar                                             
+ SM                       Soil Moisture                                                           
+ SMILES                   Sub-Millemeter wave Limb Emission Sounder                               
+ SMM                      Solar Maximum Mission                                                   
+ SMS                      Schedule Management System                                              
+ SMSS                     Schedule Management Subsystem                                           
+ SMSS                     Schedule Management SubSystem                                           
+ SMTP                     Simple Mail Transfer Protocol                                           
+ SN                       Signal to Noise Ratio                                                   
+ SN                       Space Network                                                           
+ SNMP                     Simple Network Management Protocol                                      
+ SNT                      Santiago Tracking Station                                               
+ SOCP                     Spacecraft Orbital Checkout Procedure                                   
+ SOM                      Space Oblique Mercator                                                  
+ SOM                      Space Oblique Mercator                                                  
+ SOOH                     Spacecraft Orbital Operations Handbook                                  
+ SOP                      Spacecraft Operation Procedure                                          
+ Spatial Resolution       Spatial Resolution                                                      
+ SPOT                     Satellite Probatoire d'Observation de la Terre                          
+ SPOT                     Satellite Probatoire d'Observation de la Terre                          
+ SPOT IMAGE               SPOT IMAGE                                                              
+ SQL                      Stractured Qyery Language                                               
+ SR                       Special Resampling                                                      
+ SR                       Special Resampling                                                      
+ SRPS                     SPOT Receiving Plan Scheduler                                           
+ SRR                      System Requirement Review                                               
+ SSA                      S-band Single Access                                                    
+ SSB                      Single Side band                                                        
+ SSC                      Swedish Space Corporation                                               
+ SSM/I                    Special Sensor Microwave/Imager                                         
+ SSM/T                    Special Sensor Microwave/Temperature Sounder                            
+ SSQ                      Subscene Sequential                                                     
+ SSQ                      Subscene Sequential                                                     
+ SST                      Sea Surface Temperature                                                 
+ SST                      Sea Surface Temperature                                                 
+ SSTCC                    State Science and Technology Commission of China                        
+ SSW                      Sea Surface Wind Speed                                                  
+ STA                      Science and Technology Agency                                           
+ STA                      Science and Technology Agency                                           
+ Standing order           Standing order                                                          
+ Stereoscopic images      Stereoscopic images                                                     
+ STR                      Structural                                                              
+ STT                      Star Tracker                                                            
+ Sub scene(LSM)           Sub Scene                                                               
+ Sub scene(TRMM)          Sub Scene                                                               
+ SUPARCO                  Space and Upper Atmosphere Research Committee                           
+ SUPARCO                  Space and Upper Atmosphere Research Committee                           
+ Swath width              Swath width                                                             
+ SWE                      Snow Water Equivalent                                                   
+ SWIR                     Short Wavelength Infrared Region                                        
+ SWIR                     Short Wave Infrared Radiometer                                          
+ SWIR                     Shortwave Length Infrared Radiometer                                    
+ TACC                     Tracking and Control Center                                             
+ TACC                     Tracking and Control Center                                             
+ TACS                     Tracking and Control Station                                            
+ TACS                     Tracking and Communication Station                                      
+ Tar                      Tape Archival and Retrieval format                                      
+ TASN                     Thailand ALOS data Sub-Node                                             
+ TB36.5GHz                Brightness Temperature                                                  
+ TB6.9GHz                 Brightness Temperature                                                  
+ TB89.0GHz                Brightness Temperature                                                  
+ TBD                      To Be Determined                                                        
+ TBS                      To Be Specified(Supplied)                                               
+ TC&R                     Telemetry Command & Ranging                                             
+ TCP                      Transmission Control Protocol                                           
+ TCP/IP                   Transmission Control Protocol/Internet Protocol                         
+ TCS                      Thermal Control Subsystem                                               
+ TDM                      Time Division Multiplexing                                              
+ TDMA/DSI                 Time Division Multiple Access/Digital Speech Interpolation              
+ TDRS                     Tracking & Data Relay Satellite                                         
+ TDRS                     Tracking & Data Relay Satellite                                         
+ TDRSS                    Tracking & Data Relay Satellite System                                  
+ TEDA                     Technical Data Acquisition Equipment                                    
+ Terra                    Earth Observing System AM1(EOS-AM1)                                     
+ TERSE                    Tunable Etalon Remote Sounder for the Environment                       
+ TG-DIAL                  Trace Gas Differential absorption Lidar                                 
+ Thermal infrared         Thermal infrared                                                        
+ TIFF                     Tagged-Image File Format                                                
+ Tilt angle               Tilt angle                                                              
+ TISN                     Todai International Science Network                                     
+ TKSC                     Telemetry                                                               
+ TKSC                     Tsukuba Space Center                                                    
+ TLM                      Thematic Mapper                                                         
+ TLM                      Telemetry data                                                          
+ TM                       TRMM Microwave Imager                                                   
+ TM                       Thematic Mapper                                                         
+ TMI                      Thailand MOS Station                                                    
+ TMI                      TRMM Microwave Imager                                                   
+ TMS                      Tropical Ocean and Global Atmosphere                                    
+ TOGA                     Total zone Mapping Spectrometer                                         
+ Tokyo Bessel             Tokyo Bessel                                                            
+ TOMS                     Tokai university Research & Information Center                          
+ TOMS                     Total Ozone Mapping Spectrometer                                        
+ TRIC                     Tropical Rainfall Measuring Mission                                     
+ TRIC                     Tokai university Research & Information Center                          
+ TRMM                     Tromsoe MOS Receiving Station                                           
+ TRMM                     Tropical Rainfall Measuring Mission                                     
+ TRMS                     Tokai university Space Information Center                               
+ TRMS                     Tromsoe MOS Receiving Station                                           
+ True color               True color                                                              
+ TSDIS                    TRMM Science Data and Information System                                
+ TSIC                     Tracking, Telemetry & Command Plan                                      
+ TSIC                     Tokai university Space Information Center                               
+ TT&C                     Tracking Telemetry & Command                                            
+ TTL                      Transistor-Transistor Logic                                             
+ TWT                      Traveling Wave Tube                                                     
+ TYKKI                    Taihei-You sougou Kansoku Initiative                                    
+ UARS                     Upper Atmospheric Research Satellite                                    
+ UHF                      Ultra-High Frequency                                                    
+ UIT                      User Interface Terminal                                                 
+ UQPSK                    Unbalanced quadrature phase shift keying                                
+ USB                      Unified S-Band                                                          
+ USGS                     The United State Geological Survey                                      
+ UT                       Universal Transverse Mercator                                           
+ UT                       Universal Time                                                          
+ UTC                      Coordinated universal time                                              
+ UTM                      Universal Transverse Mercator                                           
+ V/H                      Velocity to Height ratio                                                
+ VC                       Virtual channel                                                         
+ VCO                      Voltage Control Oscillator                                              
+ Vegetation index         Vegetation index                                                        
+ VHF                      Very-High Frequency                                                     
+ VIRS                     Visible Infrared Scanner                                                
+ Visible light            Visible light                                                           
+ VMD                      Virtual channel Multiplexer and Distributor                             
+ VNIR                     Visible and Near Infrared Radiometer                                    
+ VSAR                     Variable off-nadir angle Synthetic Aperture Rader                       
+ VSWR                     Voltage Standing Wave Ratio                                             
+ VTIR                     Visible and Thermal Infrared Radiometer                                 
+ WAN                      Wide Area Network                                                       
+ WBTR                     Wide-band Video Tape Recorder                                           
+ WCRP                     World Climate Research Programme                                        
+ WFF                      Wallops Flight Facility                                                 
+ WGS84                    Wold Geodetic System 1984                                               
+ WO                       Work Order                                                              
+ WPS                      Wallops                                                                 
+ WRS                      World Reference System                                                  
+ WS                       Work Station                                                            
+ WV                       Water Vapor                                                             
+ WWW                      World Wide Web                                                          
+ XS                       Multi Spectral Mode                                                     
