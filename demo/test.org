@@ -1,0 +1,495 @@
+** A/D: Analog to Digital
+** AAN: Asian AWS Network
+** AAN: Asian AMeDAS Network
+** ACRES: Australian Centre for Remote Sensing
+** ACRIM: Active Cavity Radiometer Irradiance Monitor
+** ACS: Attitude Control Subsystem
+** ADCS: Attitude Determination and Control Subsystem
+** ADEOS: Advanced Earth Observing Satellite
+** ADEOS-II: Advanced Earth Observing Satellite-II
+** ADEOS-III: Advanced Earth Observing Satellite-III
+** AFC: Automatic Frequency Control
+** AGC: Automatic Gain Control
+** AIM: AMI image
+** AIT: Asian Institute of Technology
+** ALOS: Advanced Land Observing Satellite
+** ALT: Altimeter
+** AM: Amplitude Modulation
+** AMEX: Aeronautical Maritime Experimental Transponder
+** AMI: Active Microwave instrument
+** AMR: Airborne Microwave Radiometer
+** AMS: Attitude Measurement Sensor
+** AMSR: Advanced Microwave Scanning Radiometer
+** ANT: Antenna
+** AO: Announcement of Opportunity
+** AOCS: Attitude and Orbit Control Subsystem
+** AOS: Acquisition of Signal
+** APD: Antenna Pointing Data
+** APN: Asian Pacific Network
+** ARC: Active Radar Calibrator
+** ARGOS: ARGOS System
+** ASAR: Advanced Synthetic Aperture Radar
+** ASF: Alaska SAR Facility
+** ASMS: Alice Springs MOS Receiving Station
+** ASTER: Advanced Spaceborne Thermal Emission and Reflection radiometer
+** ATM: Asynchronous Transfer Mode
+** ATSR/IR(ATI): Along Track Scanning Radiometer/infrared
+** ATSR/M(ATM): ATSR/Microwave Sounder ATSR
+** AVHRR: Advanced Very High Resolution Radiometer
+** AVIRIS: Airborne Visible and Infrared Imaging Spectrometer
+** AVNIR: Advanced Visible and Near Infrared Radiometer
+** AVNIR-II: Advanced Visible and Near Infrared Radiometer II
+** AVR: Automatic Voltage Regulator
+** AWA: AMI wave
+** AWI: AMI wind
+** AWS: Automated Weather Station
+** B/H: Base to Height ratio
+** B/S: Byte per Second
+** BBS: Bulletin Board System
+** BCD: Binary Coded Decimal
+** BDS: Browse data Distribution Subsystem
+** BER: Bit Error Rate
+** BIL: Band Interleaved by Line
+** BIP2: Band Interleaved by 2 Pixels
+** BIf: Bi-Phase
+** BKMS: Bangkok MOS Receiving Station
+** BPI: Byte per Inch
+** bpi: bit per inch
+** bps: bit per second
+** BPSK: Biphase Phase Shift Keying
+** BS: Broadcasting Satellite
+** BSQ: Band Sequential
+** C/N: Carrier to Noise Ratio
+** CADS: Catalogue Data Distribution System
+** CAL: Calibration
+** CAPPI: Constant Altitude Plan Position Indicator
+** CAS: Chinese Academy of Science
+** CASI: Compact Airborne spectrographic Imager
+** CATS: Catalogue Subsystem
+** CC: Console Control
+** CC: Cubic Convolution
+** CCD: Charge Coupled Device
+** CCRS: Canada Centre for Remote Sensing
+** CCSDS: Consultative Committee for Space Data System
+** CCT: Computer Compatible Tape
+** CD: Compact Disk
+** CD-ROM: Compact Disk-Read Only Memory
+** CDDI: Copper Distributed Data Interface
+** CDF: Common Data Format
+** CDR: Critical Design Review
+** CEOS: Committee on Earth Observation Satellites
+** CEOS-AHWGN: CEOS Adhoc Working Group on Network
+** CEOS-IDN: CEOS International Directory Network
+** CEOS-WGD/NS: CEOS Working Group on Data/Network Subgroup
+** CEOS-WGINS: CEOS Interim Working Group on International Network Services
+** CEOS-WGISS: CEOS Interim Working Group on Information Systems and Services
+** CERES: Clouds and the Earth's Radiant Energy System
+** CHL: Chlorphyll
+** CI: Co Investigator
+** CINTEX: Catalog Interoperability Experiment
+** CNES: Centre National d'Etudes Spatiales
+** CNIE: Commission National de Investigacines Espaciales Argentina
+** COARE: Coupled Ocean Atmosphere Reserch Experiment
+** COMETS: Communications & Engineering Test Satellite
+Cloud Profiling Radar
+** CPR: Central Processing Unit
+** CPU: Corner Reflector
+** CR: Communications Research Laboratory
+** CRL: Cathode Ray Tube
+** CRT: Canadian Space Agency
+** CSA: Chemical Transport Model
+** CTM: Constant Voltage Constant Frequency
+** CVCF: Coastal Zone Color Scanner
+** CZCS: Base to Height ratio
+** D-1: ansi iD-1 format
+** DAS: Data Analysis System
+** dB: decibel
+** DC: Direct Current
+** DCE: Data Cercuit-terminating Equipment
+** DCP: Data Collection Platform
+** DCS: Data Collection System
+** DCST: Data Collection System Transponder
+** DCT: Discrate Cosine Tras formation
+** DDL: Data Descriptive Language
+** DDMS: Data Distribution and Management System
+** DDS: on line Data Distribution Subsystem
+** DDX: Digital Data eXchange
+** DEM: Digital Elevation Model
+** DGS: Dataset Generation Subsystem
+** DIAL: Differential Absorption Lider
+** DIE: Data Interface Equipment
+** DIF: Data Interface Facility
+** DIF: Directory Interchange Format
+** DMSP: Defence Meteorological Satellite Program
+** DOMSAT: DOMestic communications SATellite
+** DOS: Disk Operation System
+** DRTS: Data Relay Test Satellite Program
+** DSB: Double Sideband
+** DSP: Digital Signal Processor
+** DSU: Digital Service Unit
+** DT: Direct Transmission subsystem
+** DTE: Data Terminal Equipment
+** DTL: subsystem for Direct Transmission for Local users
+** DTM: Digital Terrain Model
+** ECMWF: Europian Center for Medium-Range Weather Forcast
+** EDC: EROS Data Center
+** EECF: Earthnet ERS-1 Central Facility
+** EEOC: Earth Environment Observation Committee
+** ELMF: Elements File
+** ELMF1: Elements File 1
+** ELMOS: Electro-Magnetic field Observation Satellite
+** EM: Engineering Model
+** ENRICH: Europian Network for Reserch In global CHange
+** ENSO: El Nino/Southern Oscillation
+** ENVISAT: Enviromental Satellite
+** EO-ICWG: Earth Observation International Cordination Working Group
+** EOC: Earth Observation Center
+** EOC-IS: EOC Information System
+** EOF: End of File Marker
+** EOIS: Earth Observation data and Information System
+** EOPD: Earth Observation Planning Department
+** EORC: Earth Observation Research Center
+** EOS: Earth Observation Satellite
+** EOSAT: Earth Observation Satellite Company
+** EOSDIS: EOS Data and Information System
+** EOT: End Of Tape
+** ERBE: Earth Radiation budget Experiment
+** EROS: Earth Resources Observation System
+** ERS-1: European Remote Sensing Satellite-1
+** ERSDAC: Earth Remote Sensing Data Analysis Center
+** ESA: European Space Agency
+** ESCAP: United Nations Economic and Social Commission for Asia and  the Pacific
+** ESRO: European Space Research Organization
+** ETS-V: Engineering Test Satellite-V
+** ETS-V/EMSS: Experimental Mobil Satellite System
+** ETS-VI: Engeneering Test Satellite-VI
+** EUS: EOIS User interface Software
+** EWS: Engineering Work Station
+** FCMS: Fucino MOS Receiving Station
+** FD: Floppy Disk
+** FDDI: Fiber Distributed Data Interface
+** FDM: Frequency Division Multiplex
+** FDP: Fast Delivery Product
+** FET: Field Effect Transistor
+** FM: Flight Model
+** FM: Frequency Modulation
+** FOV: Field Of View
+** FSC: Facility for Scientific Community
+** FTAM: File Transfer Access Method
+** FTP: File Transfer Protocol
+** G/T: Gain/Temperature
+** G-II: Gulfstream-II
+** GAC: Global Area Coverage
+** GAIN: GAME Data Archive and Information Network
+** GAME: GEWEX-related Asian Monsoon Experiment
+** GAME-T: GAME-Tropics
+** GANAL: Global Analysis Data Set
+** GCM: General Circulation Model
+** GCP: Ground Control Point
+** GEWEX: Global Energy and Water Cycle Experiment
+** GIF: Graphic Interchange Format
+** GIS: Geographical Information System
+** GLI: Global Imager
+** GLIS: Global Lead Information System
+** GMS: Geostationary Meteorological Satellite
+** GMT: Greenwich Mean Time
+** GOES: Geostationary Operational Environmental Satellite
+** GOIN: Global Observation Information Network
+** GOSS: Groupe des. Operateurs de Stations SPOT
+** GPIB: General Purpose Interface Bus
+** GPS: Global Positioning System
+** GRN: Global Research Network
+** GRS: Ground Reference System
+** GSFC: Goddard Space Flight Center
+** GT: Ground Truth
+** GTDMS: Ground Truth Data Management Subsystem
+** GTMS: Gatineau MOS Receiving Station
+** GUI: Graphical User Interface
+** GV: Ground validation
+** GW: Gate Way
+** HDDR: High-Density Digital Recordor
+** HDDT/HDT: High Density Digital Tape
+** HDF: Hierarchic Data Format
+** HEOC: Hatoyama Earth Observation Center
+** HK: Housekeeping
+** HOM: Hotine Oblique Mercator
+** HRPT: High Resolution Picture Transmission
+** HRV: High Resolution Visible
+** HTML: Hyper Text Markup Language
+** HTTP: Hyper Text Transfer Protocol
+** IAI: Inter-American Institute for Global Change Reserch
+** ID: Identification
+** IDF: Intermediate Distribution Frame
+** IDN: International Directory Network
+** IF: Intermediate Frequency
+** IFOV: Instantaneous Field of View
+** IFSAR: Interferometric Synthetic Aperture Radar (=INSAR)
+** IGAC: International Global Atmospheric Chemistry(Project)
+** IGBP: International Geosphere-Biosphere Programme
+** ILAS: Improved Limb Atmospheric Spectrometer
+** ILAS-II: Improved Limb Atmospheric Spectrometer-II
+** IMG: Interferometric Monitor for Greenhouse Gases
+** IMS: Information Management System
+** INPE: Instituto National de Pesquisas Espaciais
+** INSAR: Interferometric Synthetic Aperture Radar (=IFSAR)
+** INTELSAT: International Telecommunications Satellite Organization
+** IOCS: Inter-Orbit Communication Subsystem
+** IP: Internet Protocol
+** IPCC: Intergovernmental Panel on Climate Change
+** IR: Infrared
+** IRG: Inter Record Gap
+** IRIG: Inter Range Instrumentation Group Standard
+** IRS: Information Retrieval Subsystem
+** IRSA: Institute of Remote Sensing Application
+** ISDN: Integrated Services Digital Network
+** ISO: International Organization for Standardization
+** ISP: Imaging Schedule Plan
+** ISY: International Space Year
+** ITV: Industrial Television
+** JAFIC: Japan Fisheries Information Center
+** JAROS: Japan Resources Observation System Organization
+** JD: Julian Day
+** JEA: Japan Environment Agency
+** JEM: Japan Experimental Module
+** JIS: Japan Industrial Standard
+** JPEG: Joint Photographic coding Experts Group
+** JPL: Jet Propulsion Laboratory
+** JST: Japan Standard Time
+** JWA: Japan Weather Association
+** KRNS: Kiruna MOS Receiving Station
+** LAC: Local Area Coverage
+** LAN: Local Area Network
+** LANDSAT: Land Satellite
+** LAPAN: Indonesian National Institute of Aeronautics and Space
+** LBIR: Laser Beam Image Recorder
+** LBIR/LBR: Laser Beam Image Recorder
+** LCC: Lambert Conformal Conic
+** LD: Laser Disc
+** LGSOWG: LANDSAT Ground Station Operators Working Group
+** LIS: Lightning Imaging Sensor
+** LMDR: Low bit rate Mission Data Recorder
+** LMT: Local Mean Time
+** LNA: Low Noise Amplifier
+** LOS: Loss of Signal
+** LP: Line Printer
+** LSB: Least Significant Bit
+** LTWG: LANDSAT Technical Working Group
+** MCC: Mission Control Center
+** MCCF: Mission Control Center Frontend
+** MCS: Media Conversion Subsystem
+** MD: Mini Disk
+** MDR: Mission Data Recorder
+** MDSS: Master Data Storage Subsystem
+** MESSR: Multispectral Electronic Self Scanning Radiometer
+** METEOSAT: Meteorology Satellite
+** MHS: Message Handling System
+** MITI: Ministry of International Trade and Industry
+** MJD: Modified Julian Date
+** MMO: Mission Management Organization
+** MMOFE: Mission Management Organization Front End
+** MMS: Multimission Modular Spacecraft
+** MO: Magnetic Optical disc
+** MODIS: Moderate-Resolution Imaging Spectrometer
+** MOS: Marine Observation Satellite
+** MOS-1/1b: Marine Observation Satellite-1/1b
+** MOU: Memorandum of Understanding
+** MPMS: Maspalomas MOS Receiving Station
+** MRI: Meteorological Research Institute
+** MSB: Most Significant Bit
+** MSK: Minimum Shift Keying
+** MSR: Microwave Scanning Radiometer
+** MSS: Multispectoral Scanner
+** MSS: Mass Storage Subsystem
+** MTBF: Mean Time Between Failures
+** MTF: Modulation Transfer Functiion
+** MTTR: Mean Time to Repair
+** NASA: National Aeronautics and Space Administration
+** NASDA: National Space Development Agency of Japan
+** NBTR: Narrow Band Tape Recorder
+** NCD: Nominal Catalogue Data
+** NCS: Network Control Subsystem
+** NCSA: National Center for Supercomputing Applications
+** NCU: Network Control Unit
+** NESDIS: National Enviromental Satellite,Data,and Information Sevice
+** NFS: Network File System
+** NIS: Network Information Services
+** NMS: Network Management Subsystem
+** NN: Nearest Neighber
+** NOAA: National Oceanic and Atmospheric Administration
+** NRCS: Normalized Radar Cross Section
+** NRCT: National Research Council of Thailand
+** NRSA: National Remote Sensing Agency
+** NRSCC: National Remote Sencing Center of China
+** NRZ: Non Return to Zero
+** NSCAT: NASA Scatterometer
+** NSI: NASA Science Internet
+** NSSDC: National Space Science Data Center
+** NSSDC/WDC: National Space Science Data Center/World Data Center
+** OAS: Orbit Adjust Subsystem
+** OBC: On Board Computer
+** OCC: Operations Control Center
+** OCTS: Ocean Color and Temperature Scanner
+** OD: Optical Disk
+** ODR: Optical Data Recorder
+** ODUS: Ozone Dynamics Ultrariolet Spectrometer
+** OIS: Operation Interface Specification
+** OLIS: On Line Information System
+** OLR: Outgoing Longwave Radiation
+** OLS: Operational Linescan System
+** OMG: Object Management Group
+** OPLAN: Operational Plan File
+** OPS: Optical Sensor
+** OS: Operating System
+** OSI: Open Systems Interconnection
+** OTF: Optical Transfer Function
+** P.S.: Polor Stereo
+** P/PA: Panchromatic mode
+** PAMS: Prince Albert MOS Station
+** PARTNERS: Pan-pacific Regional Telecommunications Network Experiment  and Reserch
+** PBM: Pass Briefing Message
+** PBX: Private Branch eXchange
+** PC: Program Control
+** PC: Personal Computer
+** PC: Project Coordinator
+** PCD: Precise Catalogue Data
+** PCDW: Precise Catalogue Data Weekly
+** PCM: Pulse Code Modulation
+** PDR: Preliminary Design Review
+** PEPS: SPOT Early Assessment Program
+** PFM: Proto-Flight Model
+** PGS: Product Generation Subsystem
+** PI: Principal Investigator
+** PIE: Polar Ice Extent
+** PLL: Phase Locked Loop
+** PM: Proto-type Model
+** PM: Project Manager
+** PM: Phase Modulation
+** PN: Pseudo-Noise
+** POLDER: Polarization and Directionality of the Earth`s Reflectances
+** PPED: Post Pass Ephemeris Data
+** PR: Precipitation Rader
+** PRF: Pulse Repetition Frequency
+** PSK: Phase Shift Keying
+** PTF: Phase transfer Function
+** QC: Quality Control
+** QIC: Quick Look
+** QL: Quick Look data Distribution Subsystem
+** QLDS: Quadrature Phase Shift Keying
+** QPSK: Quality Quantity Continuity
+** QQC: Orbit Adjust Subsystem
+** R&RR: Range & Range Rate
+** RA: Radar Altimeter
+** RA: Research Announcement
+** RADARSAT: Radar Satellite
+** RADSCAT: Radiometer/Scatterometer(S-193)
+** RBV: Return Beam Vidicon camera
+** RCS: Radar Cross Section
+** RDB: Relational Data Base
+** REQ: Request(Operation Request File)
+** RESTEC: Remote Sensing Technology Center of Japan
+** Rev: Revolution
+** RF: Radio Frequency
+** RIS: Retroreflector in Space
+** RSGS: Remote Sensing Ground Station
+** RSP: Reference System for Planning
+** S/N , SNR: Signal to Noise Ratio
+** S-Band: S-Band Frequency
+** SAFISY: Space Agency Forum on ISY
+** SANCST: Saudi Arabian National Center for Science and Technology
+** SAR: Synthetic Aperture Radar
+** SCAT: Microwave Scatterometer
+** SCATT: Scatterometer
+** SCO: Spacecraft Control Organization
+** SEASAT: Sea Satellite
+** SEASTAR: Seaviewing Wide Field Sensor
+** SeaWiFS: Sea Winds
+** SeaWinds: Acquisition Schedule
+** SHAQ: Shouwa station MOS Receiving Station
+** SHMS: Satellite Information Network based on Individual Archiving
+** SINFONIA: Shuttle Imaging Radar
+** SIR: Shuttle Imaging Radar C Band/X Band Synthetic Aperture Rader
+** SIR-C/X-SAR: Side Looking Airborne Radar
+** SLAR: Sub-Millemeter wave Limb Emission Sounder
+** SMILES: Solar Maximum Mission
+** SMM: Schedule Management System
+** SMS: Schedule Management Subsystem
+** SMSS: Simple Mail Transfer Protocol
+** SMTP: Signal to Noise Ratio
+** SN: Simple Network Management Protocol
+** SNMP: Spacecraft Orbital Checkout Procedure
+** SOCP: Space Oblique Mercator
+** SOM: Spacecraft Orbital Operations Handbook
+** SOOH: Spacecraft Operation Procedure
+** SOP: Satellite Probatoire d'Observation de la Terre
+** SPOT: Stractured Qyery Language
+** SQL: Special Resampling
+** SR: SPOT Receiving Plan Scheduler
+** SRPS: System Requirement Review
+** SRR: Single Side band
+** SSB: Special Sensor Microwave/Imager
+** SSM/I: Special Sensor Microwave/Temperature Sounder
+** SSM/T: Subscene Sequential
+** SSQ: Sea Surface Temperature
+** SST: State Science and Technology Commission of China
+** SSTCC: Science and Technology Agency
+** STA: Space and Upper Atmosphere Research Committee
+** SUPARCO: Short Wavelength Infrared Region
+** SWIR: Short Wave Infrared Radiometer
+** SWIR: Range & Range Rate
+** TACC: Tracking and Control Center
+** TACS: Tracking and Control Station
+** TBD: To Be Determined
+** TBS: To Be Specified(Supplied)
+** TC&R: Telemetry Command & Ranging
+** TCP: Transmission Control Protocol
+** TCP/IP: Transmission Control Protocol/Internet Protocol
+** TDM: Time Division Multiplexing
+** TDMA/DSI: Time Division Multiple Access/Digital Speech Interpolation
+** TDRS: Tracking & Data Relay Satellite
+** TDRSS: Tracking & Data Relay Satellite System
+** TEDA: Technical Data Acquisition Equipment
+** TERSE: Tunable Etalon Remote Sounder for the Environment
+** TG-DIAL: Trace Gas Differential absorption Lidar
+** TIFF: Tagged-Image File Format
+** TISN: Todai International Science Network
+** TKMS: Tukuba Space Center
+** TKSC: Telemetry
+** TLM: Thematic Mapper
+** TM: TRMM Microwave Imager
+** TMI: Thailand MOS Station
+** TMS: Tropical Ocean and Global Atmosphere
+** TOGA: Total zone Mapping Spectrometer
+** TOMS: Tokai university Research & Information Center
+** TRIC: Tropical Rainfall Measuring Mission
+** TRMM: Tromsoe MOS Receiving Station
+** TRMS: Tokai university Space Information Center
+** TSIC: Tracking, Telemetry & Command Plan
+** TTCPLAN: Transistor-Transistor Logic
+** TTL: Traveling Wave Tube
+** TWT: Taihei-You sougou Kansoku Initiative
+** TYKKI: Upper Atmospheric Research Satellite
+** UARS: Ultra-High Frequency
+** UHF: User Interface Terminal
+** UIT: Unbalanced quadrature phase shift keying
+** UQPSK: Unifide S-Band
+** USB: Universal Time
+** UT: Universal Transverse Mercator
+** UTM: Tracking and Control Center
+** V/H: Velocity to Height ratio
+** VCO: Voltage Control Oscillator
+** VHF: Very-High Frequency
+** VIRS: Visible Infrared Scanner
+** VNIR: Visible and Near Infrared Radiometer
+** VSAR: Variable off-nadir angle Synthetic Aperture Rader
+** VSWR: Voltage Standing Wave Ratio
+** VTIR: Visible and Thermal Infrared Radiometer
+** WAN: Wide Area Network
+** WBTR: Wide-band Video Tape Recorder
+** WCRP: World Climate Research Programme
+** WO: Work Order
+** WPS: Wallops
+** WRS: World Reference System
+** WS: Work Station
+** WWW: World Wide Web
+** XS: Multi Spectral Mode
+** 4DDA: 4 Dimentional Data Assimilation
