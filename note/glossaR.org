@@ -42,7 +42,7 @@ Abstract：
 #+NAME: fig:glossarWorkflow 
 #+HEADER: :cache yes :tangle yes :exports both
 #+HEADER: :results output graphics
-#+BEGIN_SRC dot :file ./glossaRWorkflow.pdf  
+#+BEGIN_SRC dot :file ./glossaRWorkflow.svg  
   digraph { 
           fontname="Times"; 
           fontsize = 12; 
@@ -66,16 +66,19 @@ Abstract：
           bibfile[label = "Literatures.bib"]
           main [label = "main.tex"]
           //2. set path 
+
           {gs, gis, rs, gt, vol} -> study -> {gls, bib}
+          gls -> "Emacs \n abbreviation" -> "Google \n input"
           gls -> {nomencl, acro, symbol} -> glsfile -> main
+
           bib -> {"Papers", "Books", "Software", "Data"} -> bibfile -> main
           //3. set rank 
           {rank = same; gs, gis, rs, gt} 
   }
 #+END_SRC
 
-#+RESULTS[1330571588deed0579ae290f671f3b890abf2140]: fig:glossarWorkflow
-[[file:./glossaRWorkflow.pdf]]
+#+RESULTS[9367d4c6647643fb92fddf29562c7f40bdef7e3d]: fig:glossarWorkflow
+[[file:./glossaRWorkflow.svg]]
 * fig:work with R to extract glossaries
 #+NAME: fig:orgAndR 
 #+HEADER: :cache yes :tangle yes :exports both
